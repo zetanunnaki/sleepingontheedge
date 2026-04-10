@@ -5,7 +5,7 @@ import { ArrowLeft } from "lucide-react";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "SleepStackHQ is an independent publication helping people sleep better through honest reviews and science-backed guides.",
+    "SleepStackHQ is an independent publication helping people make better sleep decisions through research-backed guides and aggregated buyer reviews.",
 };
 
 export default function AboutPage() {
@@ -31,36 +31,59 @@ export default function AboutPage() {
           prose-code:text-amber-300 prose-code:before:content-none prose-code:after:content-none"
       >
         <p>
-          SleepStackHQ exists for one reason: most sleep advice on the internet
-          is written by people who don&apos;t test what they recommend. We do.
+          SleepStackHQ exists because most sleep advice on the internet is
+          either thinly disguised marketing or recycled headline science.
+          We&apos;re trying to do something simpler: read the research,
+          synthesize the buyer feedback, and put both in one place — so you
+          can make better decisions about your sleep without having to do all
+          the digging yourself.
         </p>
-        <h2>Our editorial standards</h2>
+        <h2>What we do</h2>
         <ul>
           <li>
-            <strong>We buy our own gear.</strong> No PR loans. No free samples
-            we don&apos;t disclose.
+            <strong>Aggregate research.</strong> We summarize peer-reviewed
+            sleep studies, clinical guidelines, and reputable secondary
+            sources, then translate them into plain English.
           </li>
           <li>
-            <strong>We test for at least 30 nights</strong> before publishing a
-            full review.
+            <strong>Aggregate reviews.</strong> Our product picks reflect
+            patterns we see across thousands of verified buyer reviews — not
+            personal endorsements.
           </li>
           <li>
-            <strong>We update.</strong> When a product changes, we say so —
-            with a date stamp.
+            <strong>Build free tools.</strong> Calculators, glossaries, and
+            references that anyone can use without signing up.
+          </li>
+        </ul>
+        <h2>What we don&apos;t do</h2>
+        <ul>
+          <li>
+            <strong>We don&apos;t give medical advice.</strong> Nothing on
+            this site is a substitute for a conversation with a qualified
+            healthcare provider.
+          </li>
+          <li>
+            <strong>We don&apos;t run a clinical lab.</strong> We curate and
+            interpret existing research — we don&apos;t run our own studies.
+          </li>
+          <li>
+            <strong>We don&apos;t take paid placements.</strong> Brands cannot
+            buy their way onto our shortlists.
           </li>
         </ul>
         <h2>How we make money</h2>
         <p>
-          SleepStackHQ is a member of the Amazon Associates and Walmart
-          Associates programs. When you buy something through our links, we
-          earn a small commission at no extra cost to you. This is the only
-          way we get paid — we don&apos;t take sponsored posts, paid
-          placement, or &quot;rankings&quot; from manufacturers.
+          SleepStackHQ is a participant in the Amazon Associates and Walmart
+          Associates programs. When you buy something through one of our
+          affiliate links, we earn a small commission at no extra cost to
+          you. This is the only way we get paid. Affiliate revenue does not
+          influence which products we feature.
         </p>
         <h2>Get in touch</h2>
         <p>
-          Have feedback, a correction, or a product you&apos;d like us to
-          test? Email us at <code>hello@sleepstackhq.com</code>.
+          Have feedback, a correction, or a topic you&apos;d like us to
+          cover? Email us at <code>hello@sleepstackhq.com</code>. We read
+          everything, even when we can&apos;t reply to all of it.
         </p>
       </div>
     </div>

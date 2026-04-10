@@ -26,6 +26,7 @@ const COLUMNS: Array<{ heading: string; links: Array<{ label: string; href: stri
     links: [
       { label: "About", href: "/about" },
       { label: "Methodology", href: "/methodology" },
+      { label: "Disclaimer", href: "/disclaimer" },
       { label: "Privacy Policy", href: "/privacy-policy" },
       { label: "RSS", href: "/rss.xml" },
     ],

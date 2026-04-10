@@ -96,6 +96,7 @@ export default function HtmlSitemapPage() {
               { href: "/glossary", label: "Glossary" },
               { href: "/methodology", label: "Methodology" },
               { href: "/about", label: "About" },
+              { href: "/disclaimer", label: "Disclaimer" },
               { href: "/privacy-policy", label: "Privacy Policy" },
             ]}
           />
