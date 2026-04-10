@@ -93,7 +93,6 @@ export function Footer() {
         </div>
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-white/10 pt-6 text-xs text-slate-500 sm:flex-row sm:items-center">
           <span>&copy; {year} SleepStackHQ. All rights reserved.</span>
-          <span>Built static. Hosted free. No tracking.</span>
         </div>
       </div>
     </footer>
