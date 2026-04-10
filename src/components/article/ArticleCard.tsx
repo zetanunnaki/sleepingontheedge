@@ -47,13 +47,17 @@ export function ArticleCard({ item }: ArticleCardProps) {
         <p className="mt-3 line-clamp-2 text-sm text-slate-400">
           {item.frontmatter.description}
         </p>
-        <div className="mt-5 flex items-center gap-2 text-xs text-slate-500">
-          <Calendar size={12} />
-          {new Date(item.frontmatter.date).toLocaleDateString("en-US", {
-            year: "numeric",
-            month: "short",
-            day: "numeric",
-          })}
+        <div className="mt-5 flex items-center gap-3 text-xs text-slate-500">
+          <span className="flex items-center gap-1.5">
+            <Calendar size={12} />
+            {new Date(item.frontmatter.date).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "short",
+              day: "numeric",
+            })}
+          </span>
+          <span className="text-slate-600">·</span>
+          <span>{item.readingTime} min read</span>
         </div>
       </div>
     </Link>

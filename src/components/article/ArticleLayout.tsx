@@ -46,11 +46,18 @@ export function ArticleLayout({
       <Breadcrumbs items={crumbs} />
 
       <header className="mt-8">
-        {eyebrow && (
-          <span className="text-[10px] font-black uppercase tracking-[0.2em] text-amber-400">
-            {eyebrow}
-          </span>
-        )}
+        <div className="flex flex-wrap items-center gap-3">
+          {eyebrow && (
+            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-amber-400">
+              {eyebrow}
+            </span>
+          )}
+          {updated && (
+            <span className="rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2.5 py-1 text-[10px] font-black uppercase tracking-[0.15em] text-emerald-300">
+              Recently updated
+            </span>
+          )}
+        </div>
         <h1 className="mt-4 font-serif text-4xl leading-[1.05] text-white sm:text-5xl md:text-6xl">
           {frontmatter.title}
         </h1>

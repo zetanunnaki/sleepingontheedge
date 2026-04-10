@@ -94,3 +94,21 @@ body {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* Print-friendly article styles */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  nav, footer, .fixed,
+  [aria-label="Reading progress"],
+  [aria-label="Scroll to top"] {
+    display: none !important;
+  }
+  article { max-width: 100% !important; padding: 0 !important; }
+  a { color: black !important; text-decoration: underline !important; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #666; }
+  h1, h2, h3 { color: black !important; page-break-after: avoid; }
+  img { max-width: 100% !important; }
+}

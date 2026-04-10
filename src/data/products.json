@@ -168,5 +168,73 @@
       "Premium pricing",
       "Limited frame style availability"
     ]
+  },
+  "bearaby-cotton-napper": {
+    "name": "Bearaby Cotton Napper",
+    "brand": "Bearaby",
+    "price": "$249.00",
+    "image": "/images/products/bearaby-cotton-napper.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID11?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID11?irgwc=1",
+    "pros": [
+      "Organic cotton — no beads, no plastic fill",
+      "Chunky-knit design is breathable and machine washable",
+      "Evenly distributed weight without shifting"
+    ],
+    "cons": [
+      "Premium pricing for the weight class",
+      "Limited color options"
+    ]
+  },
+  "luna-weighted-blanket": {
+    "name": "Luna Adult Weighted Blanket",
+    "brand": "Luna",
+    "price": "$69.99",
+    "image": "/images/products/luna-weighted-blanket.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID12?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID12?irgwc=1",
+    "pros": [
+      "Glass bead fill with cotton shell",
+      "Available in 5–25 lbs across multiple sizes",
+      "Strong value at the price point"
+    ],
+    "cons": [
+      "Can run warm in summer — no cooling variant",
+      "Beads can shift slightly over time"
+    ]
+  },
+  "coop-eden-pillow": {
+    "name": "Coop Home Goods Eden Pillow",
+    "brand": "Coop Home Goods",
+    "price": "$79.99",
+    "image": "/images/products/coop-eden-pillow.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID13?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID13?irgwc=1",
+    "pros": [
+      "Adjustable fill — add or remove to match your loft preference",
+      "Gel-infused memory foam for cooling",
+      "CertiPUR-US certified foam, OEKO-TEX shell"
+    ],
+    "cons": [
+      "Off-gassing smell for first 24–48 hours",
+      "Adjustable design requires trial and error"
+    ]
+  },
+  "beckham-hotel-collection-pillow": {
+    "name": "Beckham Hotel Collection Gel Pillow",
+    "brand": "Beckham Hotel Collection",
+    "price": "$55.99",
+    "image": "/images/products/beckham-hotel-pillow.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID14?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID14?irgwc=1",
+    "pros": [
+      "One of the highest-rated pillows on Amazon overall",
+      "Gel fiber fill is hypoallergenic and machine washable",
+      "Excellent value — often under $30 per pillow in a 2-pack"
+    ],
+    "cons": [
+      "Not adjustable — fixed loft may not suit all sleep positions",
+      "Some buyers find it too soft for side sleeping"
+    ]
   }
 }
