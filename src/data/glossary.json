@@ -1,0 +1,54 @@
+[
+  {
+    "term": "Adenosine",
+    "definition": "A neurotransmitter that builds up in your brain throughout the day, creating sleep pressure. Caffeine works by blocking adenosine receptors, which is why it makes you feel less tired without actually clearing the chemical buildup."
+  },
+  {
+    "term": "Circadian Rhythm",
+    "definition": "Your body's roughly 24-hour internal clock, governed by the suprachiasmatic nucleus in the hypothalamus. It controls hormone release, body temperature, and the sleep-wake cycle. The two strongest cues that set it are bright morning light and darkness at night."
+  },
+  {
+    "term": "Cortisol Awakening Response",
+    "definition": "A natural spike in cortisol within 30–45 minutes of waking. A healthy CAR is a sign of a robust circadian system. Chronically elevated CAR is associated with stress and insomnia."
+  },
+  {
+    "term": "Deep Sleep (Slow-Wave Sleep)",
+    "definition": "Stage 3 non-REM sleep, characterized by delta brain waves. This is when most physical recovery, growth hormone release, and immune function happens. Most adults need 13–23% of their total sleep in deep sleep."
+  },
+  {
+    "term": "Glymphatic System",
+    "definition": "The brain's overnight 'wash cycle.' During deep sleep, cerebrospinal fluid flushes metabolic waste — including beta-amyloid plaques associated with Alzheimer's — out of brain tissue. Skipping deep sleep skips this wash cycle."
+  },
+  {
+    "term": "Melatonin",
+    "definition": "A hormone released by the pineal gland in response to darkness. It signals the body that it's time to sleep but does not directly cause sleep. Most over-the-counter doses (3–10mg) are 10–30x the physiological amount."
+  },
+  {
+    "term": "REM Sleep",
+    "definition": "Rapid Eye Movement sleep — the stage where most vivid dreaming occurs. Critical for memory consolidation, emotional regulation, and creative problem-solving. Cycles get longer toward morning, which is why early-morning wake-ups disproportionately steal REM."
+  },
+  {
+    "term": "Sleep Architecture",
+    "definition": "The structural pattern of your sleep — how you cycle through light, deep, and REM stages over the night. A healthy adult cycles through all stages roughly every 90 minutes."
+  },
+  {
+    "term": "Sleep Debt",
+    "definition": "The cumulative gap between the sleep you need and the sleep you get. Unlike financial debt, sleep debt cannot be fully repaid by sleeping in on weekends — chronic deficits cause lasting cognitive and metabolic effects."
+  },
+  {
+    "term": "Sleep Inertia",
+    "definition": "The grogginess and impaired performance that hits when you wake from a deep sleep stage. Can last 30+ minutes and is the reason why long naps sometimes feel worse than no nap at all."
+  },
+  {
+    "term": "Sleep Latency",
+    "definition": "The amount of time it takes you to fall asleep after lying down. Healthy: 10–20 minutes. Under 5 minutes usually indicates sleep deprivation. Over 30 minutes routinely indicates insomnia or hyperarousal."
+  },
+  {
+    "term": "Sleep Pressure",
+    "definition": "The biological drive to sleep, primarily mediated by adenosine accumulation. The longer you've been awake, the higher your sleep pressure. It's one of the two main systems (alongside circadian rhythm) that controls when you sleep."
+  },
+  {
+    "term": "Zeitgeber",
+    "definition": "German for 'time giver' — any external cue that synchronizes your circadian rhythm. The strongest is light, but meal timing, exercise, and social interaction also act as zeitgebers."
+  }
+]

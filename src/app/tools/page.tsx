@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Calculator, ArrowRight, Wrench } from "lucide-react";
+import { Calculator, ArrowRight, Wrench, Coffee } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Tools",
@@ -15,7 +15,13 @@ const TOOLS = [
     title: "Sleep Cycle Calculator",
     description:
       "Find the bedtime that lets you wake at the end of a 90-minute cycle — not in the middle of one.",
-    available: true,
+  },
+  {
+    href: "/tools/caffeine-cutoff-calculator",
+    icon: Coffee,
+    title: "Caffeine Cutoff Calculator",
+    description:
+      "Caffeine has a 5-hour half-life. Find the latest you can have a coffee without wrecking your deep sleep.",
   },
 ];
 
