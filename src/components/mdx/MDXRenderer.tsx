@@ -1,6 +1,5 @@
 import { MDXRemote } from "next-mdx-remote/rsc";
 import rehypeSlug from "rehype-slug";
-import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import { mdxComponents } from "./mdx-components";
 
 interface MDXRendererProps {
@@ -14,16 +13,7 @@ export function MDXRenderer({ source }: MDXRendererProps) {
       components={mdxComponents}
       options={{
         mdxOptions: {
-          rehypePlugins: [
-            rehypeSlug,
-            [
-              rehypeAutolinkHeadings,
-              {
-                behavior: "wrap",
-                properties: { className: ["heading-anchor"] },
-              },
-            ],
-          ],
+          rehypePlugins: [rehypeSlug],
         },
       }}
     />
