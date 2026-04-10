@@ -5,6 +5,7 @@ import type { ContentItem } from "@/lib/content";
 import { Breadcrumbs, type Crumb } from "./Breadcrumbs";
 import { TableOfContents } from "./TableOfContents";
 import { AuthorBio } from "./AuthorBio";
+import { TagChips } from "./TagChips";
 import { getAuthor } from "@/lib/authors";
 
 interface ArticleLayoutProps {
@@ -60,6 +61,11 @@ export function ArticleLayout({
             <Clock size={12} /> {item.readingTime} min read
           </span>
         </div>
+        {frontmatter.tags && frontmatter.tags.length > 0 && (
+          <div className="mt-6">
+            <TagChips tags={frontmatter.tags} size="sm" showIcon />
+          </div>
+        )}
       </header>
 
       {frontmatter.featuredImage && (

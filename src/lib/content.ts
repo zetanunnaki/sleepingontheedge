@@ -12,6 +12,7 @@ export interface Frontmatter {
   date: string;
   featuredImage?: string;
   productIds?: string[];
+  tags?: string[];
 }
 
 export interface TocHeading {
@@ -132,4 +133,42 @@ export function getAllContentAcrossTypes(): ContentItem[] {
         new Date(b.frontmatter.date).getTime() -
         new Date(a.frontmatter.date).getTime(),
     );
+}
+
+export function tagSlug(tag: string): string {
+  return slugify(tag);
+}
+
+export interface TagSummary {
+  slug: string;
+  name: string;
+  count: number;
+}
+
+export function getAllTags(): TagSummary[] {
+  const counts = new Map<string, { name: string; count: number }>();
+  for (const item of getAllContentAcrossTypes()) {
+    for (const tag of item.frontmatter.tags ?? []) {
+      const slug = tagSlug(tag);
+      const entry = counts.get(slug);
+      if (entry) {
+        entry.count += 1;
+      } else {
+        counts.set(slug, { name: tag, count: 1 });
+      }
+    }
+  }
+  return Array.from(counts.entries())
+    .map(([slug, { name, count }]) => ({ slug, name, count }))
+    .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+}
+
+export function getContentByTag(slug: string): ContentItem[] {
+  return getAllContentAcrossTypes().filter((item) =>
+    (item.frontmatter.tags ?? []).some((t) => tagSlug(t) === slug),
+  );
+}
+
+export function getTagBySlug(slug: string): TagSummary | null {
+  return getAllTags().find((t) => t.slug === slug) ?? null;
 }

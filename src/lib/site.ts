@@ -8,6 +8,7 @@ export const siteConfig = {
     { label: "Stacks", href: "/best" },
     { label: "Lab Reports", href: "/reviews" },
     { label: "Protocols", href: "/guides" },
+    { label: "Tools", href: "/tools" },
   ],
   categories: [
     {
