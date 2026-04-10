@@ -2,12 +2,42 @@ import Link from "next/link";
 import { Moon } from "lucide-react";
 import { siteConfig } from "@/lib/site";
 
+const COLUMNS: Array<{ heading: string; links: Array<{ label: string; href: string }> }> = [
+  {
+    heading: "Discover",
+    links: [
+      { label: "Stacks", href: "/best" },
+      { label: "Lab Reports", href: "/reviews" },
+      { label: "Protocols", href: "/guides" },
+      { label: "Brands", href: "/brands" },
+      { label: "Tags", href: "/tags" },
+    ],
+  },
+  {
+    heading: "Tools",
+    links: [
+      { label: "Sleep Cycle Calculator", href: "/tools/sleep-cycle-calculator" },
+      { label: "Caffeine Cutoff Calculator", href: "/tools/caffeine-cutoff-calculator" },
+      { label: "Glossary", href: "/glossary" },
+    ],
+  },
+  {
+    heading: "About",
+    links: [
+      { label: "About", href: "/about" },
+      { label: "Methodology", href: "/methodology" },
+      { label: "Privacy Policy", href: "/privacy-policy" },
+      { label: "RSS", href: "/rss.xml" },
+    ],
+  },
+];
+
 export function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer className="relative mt-32 border-t border-white/10">
       <div className="mx-auto max-w-6xl px-6 py-16 md:px-10">
-        <div className="grid gap-12 md:grid-cols-4">
+        <div className="grid gap-12 md:grid-cols-5">
           <div className="md:col-span-2">
             <Link
               href="/"
@@ -23,54 +53,41 @@ export function Footer() {
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-slate-400">
               {siteConfig.description}
             </p>
-            <p className="mt-5 text-xs text-slate-500">
+            <p className="mt-5 max-w-sm text-xs text-slate-500">
               As an Amazon Associate and Walmart Associate, SleepStackHQ earns
-              from qualifying purchases.
+              from qualifying purchases. Read our full disclosure on the{" "}
+              <Link
+                href="/privacy-policy"
+                className="text-slate-400 underline-offset-2 hover:text-white hover:underline"
+              >
+                privacy page
+              </Link>
+              .
             </p>
           </div>
-          <div>
-            <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
-              Explore
-            </p>
-            <ul className="mt-4 space-y-3 text-sm text-slate-400">
-              {siteConfig.nav.map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    className="transition-colors hover:text-white"
-                  >
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
-              Legal
-            </p>
-            <ul className="mt-4 space-y-3 text-sm text-slate-400">
-              <li>
-                <Link
-                  href="/about"
-                  className="transition-colors hover:text-white"
-                >
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/privacy-policy"
-                  className="transition-colors hover:text-white"
-                >
-                  Privacy Policy
-                </Link>
-              </li>
-            </ul>
-          </div>
+          {COLUMNS.map((col) => (
+            <div key={col.heading}>
+              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
+                {col.heading}
+              </p>
+              <ul className="mt-4 space-y-3 text-sm text-slate-400">
+                {col.links.map((link) => (
+                  <li key={link.href}>
+                    <Link
+                      href={link.href}
+                      className="transition-colors hover:text-white"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
-        <div className="mt-12 border-t border-white/10 pt-6 text-xs text-slate-500">
-          &copy; {year} SleepStackHQ. All rights reserved.
+        <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-white/10 pt-6 text-xs text-slate-500 sm:flex-row sm:items-center">
+          <span>&copy; {year} SleepStackHQ. All rights reserved.</span>
+          <span>Built static. Hosted free. No tracking.</span>
         </div>
       </div>
     </footer>

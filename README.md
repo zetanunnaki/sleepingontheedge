@@ -1,36 +1,121 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SleepStackHQ
 
-## Getting Started
+> Stack the science of better sleep.
 
-First, run the development server:
+An SEO-optimized, fully static affiliate marketing site in the sleep optimization niche. Built on a strict **No-DB** architecture: every article and product lives as a file in the repo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Stack
+
+- **Framework:** Next.js 16 (App Router) — `output: 'export'` for fully static HTML
+- **Styling:** Tailwind CSS v4 + `@tailwindcss/typography`
+- **Content:** MDX via `next-mdx-remote/rsc` + `gray-matter` frontmatter
+- **Icons:** lucide-react
+- **Type:** TypeScript, strict
+- **Deploy:** GitHub Pages (workflow in `.github/workflows/deploy.yml`)
+
+## Architecture
+
+```
+src/
+├── app/                   # Next.js App Router routes
+├── components/
+│   ├── article/           # ArticleLayout, Breadcrumbs, TOC, AuthorBio, RelatedArticles, …
+│   ├── layout/            # Header, Footer
+│   ├── mdx/               # AffiliateDisclaimer, DualBuyButton, ProductCard,
+│   │                      # ComparisonTable, Callout, Stat, FAQ, ProductMention
+│   ├── seo/               # JsonLd helpers, OG image template
+│   └── tools/             # Sleep cycle + caffeine calculators (client components)
+├── content/
+│   ├── roundups/          # /best/[slug]
+│   ├── reviews/           # /reviews/[slug]
+│   └── guides/            # /guides/[slug]
+├── data/
+│   ├── products.json      # Single source of truth for affiliate links
+│   └── glossary.json      # Sleep glossary terms
+└── lib/
+    ├── content.ts         # MDX loader, reading time, TOC extraction, tag index
+    ├── products.ts        # Product + brand helpers
+    ├── authors.ts         # Author registry
+    └── site.ts            # Site config (URL, nav, categories)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Adding content
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### A new article
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Create an MDX file in the matching folder:
+   - Roundups → `src/content/roundups/your-slug.mdx`
+   - Reviews → `src/content/reviews/your-slug.mdx`
+   - Guides → `src/content/guides/your-slug.mdx`
+2. Use this frontmatter:
 
-## Learn More
+```yaml
+---
+title: "The 7 Best Weighted Blankets for Deep Sleep"
+seoTitle: "Best Weighted Blankets in 2026 | SleepStackHQ"
+description: "Short, punchy meta description (150 chars)."
+author: "Sleep Team"
+date: "2026-04-10"
+featuredImage: "/images/covers/weighted-blankets.jpg"
+productIds: ["product-id-1", "product-id-2"]
+tags: ["Anxiety", "Deep Sleep"]
+---
+```
 
-To learn more about Next.js, take a look at the following resources:
+3. Use any MDX component inside the body:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```mdx
+<AffiliateDisclaimer />
+<ProductCard productId="hatch-restore-2" badge="Top Pick" />
+<ComparisonTable productIds={["a", "b", "c"]} />
+<DualBuyButton productId="hatch-restore-2" />
+<Callout kind="science">A factual claim with a source.</Callout>
+<Stat items={[{ value: "22%", label: "Reduction in sleep latency" }]} />
+<FAQ items={[{ q: "Question?", a: "Answer." }]} />
+<ProductMention productId="loftie-clock">the Loftie</ProductMention>
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### A new product
 
-## Deploy on Vercel
+Add an entry to `src/data/products.json`:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```json
+"product-id": {
+  "name": "Product Name",
+  "brand": "Brand Name",
+  "price": "$199.99",
+  "image": "/images/products/product-id.jpg",
+  "amazonLink": "https://amazon.com/dp/ID?tag=sleepstackhq-20",
+  "walmartLink": "https://walmart.com/ip/ID?irgwc=1",
+  "pros": ["…"],
+  "cons": ["…"]
+}
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Brand pages at `/brands/[slug]` are auto-generated from the `brand` field.
+
+## Local development
+
+```bash
+npm install
+npm run dev          # http://localhost:3000
+npm run build        # static export to ./out
+```
+
+## Deployment
+
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds with `GITHUB_PAGES=true` (sets the `/sleepstackhq` basePath) and publishes `out/` to GitHub Pages.
+
+## SEO
+
+Auto-generated at build time:
+
+- `sitemap.xml` — every static page, article, tag, author, brand
+- `rss.xml` — most recent articles across all content types
+- `robots.txt`
+- Per-page Open Graph images via `opengraph-image.tsx`
+- JSON-LD: `Organization`, `Article`, `Review`, `ItemList`, `BreadcrumbList`, `FAQPage`, `DefinedTermSet`
+
+## License
+
+All rights reserved.
