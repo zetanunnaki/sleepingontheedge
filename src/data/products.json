@@ -304,5 +304,39 @@
       "Premium pricing",
       "Heavy — difficult to reposition once placed"
     ]
+  },
+  "nicetown-blackout-curtains": {
+    "name": "NICETOWN Blackout Curtains",
+    "brand": "NICETOWN",
+    "price": "$29.95",
+    "image": "/images/products/nicetown-blackout-curtains.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID19?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID19?irgwc=1",
+    "pros": [
+      "Triple-weave fabric blocks 85–99% of light",
+      "Thermal insulating — reduces heat and noise",
+      "Massive color and size selection"
+    ],
+    "cons": [
+      "Not 100% blackout at the edges without overlap",
+      "Wrinkles easily out of the package"
+    ]
+  },
+  "bgment-blackout-curtains": {
+    "name": "BGment Blackout Curtains",
+    "brand": "BGment",
+    "price": "$16.99",
+    "image": "/images/products/bgment-blackout-curtains.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID20?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID20?irgwc=1",
+    "pros": [
+      "Ultra-budget — often under $20 for a pair",
+      "Rod-pocket and grommet-top options",
+      "Decent light blocking for the price"
+    ],
+    "cons": [
+      "Thinner fabric than premium options",
+      "Light leakage at sides and top without proper overlap"
+    ]
   }
 }
