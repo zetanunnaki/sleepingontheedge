@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { SleepCycleCalculator } from "@/components/tools/SleepCycleCalculator";
+import { JsonLd, softwareAppSchema } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "Sleep Cycle Calculator",
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
 export default function SleepCycleCalculatorPage() {
   return (
     <div className="container relative z-10 mx-auto max-w-3xl px-6 py-16 md:py-24">
+      <JsonLd data={softwareAppSchema({ name: "Sleep Cycle Calculator", description: "Find the optimal bedtime for your wake-up time — based on 90-minute REM cycles.", url: "/tools/sleep-cycle-calculator" })} />
       <Link
         href="/tools"
         className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.2em] text-indigo-400 transition-colors hover:text-white"

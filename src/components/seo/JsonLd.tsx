@@ -38,6 +38,32 @@ export function personSchema(input: {
   };
 }
 
+export function softwareAppSchema(input: {
+  name: string;
+  description: string;
+  url: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: input.name,
+    description: input.description,
+    url: `${siteConfig.url}${input.url}`,
+    applicationCategory: "HealthApplication",
+    operatingSystem: "Any",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    provider: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+    },
+  };
+}
+
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",

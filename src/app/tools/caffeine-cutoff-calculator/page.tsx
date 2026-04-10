@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { CaffeineCalculator } from "@/components/tools/CaffeineCalculator";
+import { JsonLd, softwareAppSchema } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "Caffeine Cutoff Calculator",
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
 export default function CaffeineCutoffPage() {
   return (
     <div className="container relative z-10 mx-auto max-w-3xl px-6 py-16 md:py-24">
+      <JsonLd data={softwareAppSchema({ name: "Caffeine Cutoff Calculator", description: "Find the latest you can drink coffee without wrecking your sleep.", url: "/tools/caffeine-cutoff-calculator" })} />
       <Link
         href="/tools"
         className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.2em] text-indigo-400 transition-colors hover:text-white"
