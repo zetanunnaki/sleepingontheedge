@@ -7,6 +7,8 @@ import { TableOfContents } from "./TableOfContents";
 import { AuthorBio } from "./AuthorBio";
 import { TagChips } from "./TagChips";
 import { CoverFallback } from "./CoverFallback";
+import { ReadingProgress } from "./ReadingProgress";
+import { ShareButtons } from "./ShareButtons";
 import { getAuthor } from "@/lib/authors";
 
 interface ArticleLayoutProps {
@@ -39,6 +41,7 @@ export function ArticleLayout({
 
   return (
     <article className="relative z-10 mx-auto max-w-3xl px-5 py-12 sm:px-6 md:py-24">
+      <ReadingProgress />
       <Breadcrumbs items={crumbs} />
 
       <header className="mt-8">
@@ -106,6 +109,8 @@ export function ArticleLayout({
       >
         {children}
       </div>
+
+      <ShareButtons title={frontmatter.title} url={item.url} />
 
       {author && <AuthorBio author={author} />}
     </article>
