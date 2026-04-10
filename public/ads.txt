@@ -1,0 +1,4 @@
+# SleepStackHQ ads.txt
+# Add publisher records below as you join networks.
+# Format: <domain>, <publisher_id>, <relationship>, <certification_authority_id>
+# Example: google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0

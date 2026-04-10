@@ -5,6 +5,7 @@ import { ArrowLeft, CheckCircle2 } from "lucide-react";
 import { getAuthor, getAllAuthorSlugs } from "@/lib/authors";
 import { getAllContentAcrossTypes } from "@/lib/content";
 import { ArticleCard } from "@/components/article/ArticleCard";
+import { JsonLd, personSchema } from "@/components/seo/JsonLd";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -37,6 +38,7 @@ export default async function AuthorPage({ params }: PageProps) {
 
   return (
     <div className="container relative z-10 mx-auto px-6 py-16 md:py-24">
+      <JsonLd data={personSchema(author)} />
       <Link
         href="/"
         className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.2em] text-indigo-400 transition-colors hover:text-white"

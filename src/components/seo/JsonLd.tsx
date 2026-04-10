@@ -15,6 +15,29 @@ export function JsonLd({ data }: JsonLdProps) {
   );
 }
 
+export function personSchema(input: {
+  name: string;
+  slug: string;
+  role: string;
+  bio: string;
+  credentials: string[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: input.name,
+    jobTitle: input.role,
+    description: input.bio,
+    url: `${siteConfig.url}/authors/${input.slug}`,
+    worksFor: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+    },
+    knowsAbout: input.credentials,
+  };
+}
+
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",

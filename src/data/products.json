@@ -7,13 +7,13 @@
     "amazonLink": "https://amazon.com/dp/YOUR_ID?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID?irgwc=1",
     "pros": [
-      "Customizable sleep routines",
-      "Excellent sound quality",
-      "Sunrise alarm wake-up"
+      "Programmable wind-down routines",
+      "Gradual sunrise wake-up",
+      "Wide library of sounds and meditations"
     ],
     "cons": [
-      "Requires subscription for full features",
-      "Premium price point"
+      "Premium content sits behind a subscription",
+      "App required for setup"
     ]
   },
   "yogasleep-dohm": {
@@ -24,12 +24,12 @@
     "amazonLink": "https://amazon.com/dp/YOUR_ID2?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID2?irgwc=1",
     "pros": [
-      "Real fan-based white noise",
+      "Real fan-based white noise with natural texture",
       "Tunable pitch and tone",
-      "Made in USA, durable build"
+      "Durable build, made in USA"
     ],
     "cons": [
-      "No sound options beyond fan",
+      "Single sound only — no nature or ambient options",
       "No timer or alarm"
     ]
   },
@@ -42,7 +42,7 @@
     "walmartLink": "https://walmart.com/ip/YOUR_ID3?irgwc=1",
     "pros": [
       "Two-phase gentle alarm",
-      "Phone-free bedroom design",
+      "Designed to keep your phone out of the bedroom",
       "Curated content library"
     ],
     "cons": [
@@ -58,12 +58,12 @@
     "amazonLink": "https://amazon.com/dp/YOUR_ID4?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID4?irgwc=1",
     "pros": [
-      "All seven bioavailable forms of magnesium",
-      "Glycinate + threonate combo for sleep + cognition",
+      "Combines seven bioavailable forms in one capsule",
+      "Includes glycinate and threonate",
       "Third-party tested for purity"
     ],
     "cons": [
-      "Higher price than single-form magnesium",
+      "Higher price than single-form options",
       "Subscription-pushed checkout"
     ]
   },
@@ -75,13 +75,13 @@
     "amazonLink": "https://amazon.com/dp/YOUR_ID5?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID5?irgwc=1",
     "pros": [
-      "Total blackout via adjustable eye cups",
-      "Zero pressure on eyelids — REM-safe",
-      "Modular, machine washable"
+      "Adjustable eye cups for total blackout",
+      "Zero pressure on eyelids",
+      "Modular and machine washable"
     ],
     "cons": [
       "Bulkier than flat masks",
-      "Strap can loosen over months"
+      "Strap can loosen over months of heavy use"
     ]
   },
   "chilipad-cube": {
@@ -92,13 +92,81 @@
     "amazonLink": "https://amazon.com/dp/YOUR_ID6?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID6?irgwc=1",
     "pros": [
-      "Cools mattress surface to 55°F",
+      "Actively cools the mattress surface",
       "Dual-zone option for couples",
-      "Drops core temp on contact"
+      "Significant temperature range (~55–110°F)"
     ],
     "cons": [
-      "Audible pump noise",
-      "Tubing requires careful routing"
+      "Pump produces audible noise at higher levels",
+      "Tubing routing requires planning"
+    ]
+  },
+  "oura-ring-gen-3": {
+    "name": "Oura Ring Gen 3",
+    "brand": "Oura",
+    "price": "$299.00",
+    "image": "/images/products/oura-ring-gen-3.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID7?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID7?irgwc=1",
+    "pros": [
+      "Validated against polysomnography in published studies",
+      "Sleep stage breakdown and HRV trends",
+      "Discreet ring form factor, multi-day battery"
+    ],
+    "cons": [
+      "Requires a monthly subscription for full insights",
+      "No screen — must check the app"
+    ]
+  },
+  "whoop-4": {
+    "name": "Whoop 4.0",
+    "brand": "Whoop",
+    "price": "$239.00 / year",
+    "image": "/images/products/whoop-4.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID8?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID8?irgwc=1",
+    "pros": [
+      "Detailed sleep, recovery, and strain analytics",
+      "Comfortable strap, no screen distractions",
+      "Battery clip allows charging without removal"
+    ],
+    "cons": [
+      "Subscription-only — no buy-once option",
+      "Membership cost adds up over years"
+    ]
+  },
+  "swanwick-blue-blockers": {
+    "name": "Swannies Blue Light Blocking Glasses",
+    "brand": "Swanwick Sleep",
+    "price": "$79.00",
+    "image": "/images/products/swanwick-blue-blockers.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID9?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID9?irgwc=1",
+    "pros": [
+      "Filters short-wavelength blue and green light",
+      "Comfortable for extended evening wear",
+      "Frame styles for different face shapes"
+    ],
+    "cons": [
+      "Strong amber tint takes adjustment",
+      "Higher price than basic blue-light glasses"
+    ]
+  },
+  "ra-optics-twilight": {
+    "name": "Ra Optics Twilight Lens",
+    "brand": "Ra Optics",
+    "price": "$120.00",
+    "image": "/images/products/ra-optics-twilight.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID10?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID10?irgwc=1",
+    "pros": [
+      "Lab-validated lens spectrum data published",
+      "Lightweight, premium frame quality",
+      "Wraparound design reduces ambient leakage"
+    ],
+    "cons": [
+      "Premium pricing",
+      "Limited frame style availability"
     ]
   }
 }
