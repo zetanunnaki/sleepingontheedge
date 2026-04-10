@@ -5,7 +5,6 @@ import { canonical } from "@/lib/site";
 import { ArticleLayout } from "@/components/article/ArticleLayout";
 import { RelatedArticles } from "@/components/article/RelatedArticles";
 import { MDXRenderer } from "@/components/mdx/MDXRenderer";
-import { AffiliateDisclaimer } from "@/components/mdx/AffiliateDisclaimer";
 import { JsonLd, reviewSchema } from "@/components/seo/JsonLd";
 
 interface PageProps {
@@ -49,7 +48,6 @@ export default async function ReviewPage({ params }: PageProps) {
           { label: item.frontmatter.title, href: item.url },
         ]}
       >
-        <AffiliateDisclaimer />
         <MDXRenderer source={item.body} />
         <RelatedArticles current={item} />
       </ArticleLayout>

@@ -56,14 +56,17 @@ export function Footer() {
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-slate-400">
               {siteConfig.description}
             </p>
-            <p className="mt-5 max-w-sm text-xs text-slate-500">
-              As an Amazon Associate and Walmart Associate, SleepStackHQ earns
-              from qualifying purchases. Read our full disclosure on the{" "}
+            <p className="mt-5 max-w-sm text-xs leading-relaxed text-slate-500">
+              SleepStackHQ is reader-supported. Some links on this site are
+              affiliate links — if you click and buy, we may earn a small
+              commission at no extra cost to you. Our editorial picks are based
+              on aggregated customer reviews and published research, not paid
+              placement. Read our full{" "}
               <Link
-                href="/privacy-policy"
+                href="/disclaimer"
                 className="text-slate-400 underline-offset-2 hover:text-white hover:underline"
               >
-                privacy page
+                disclaimer
               </Link>
               .
             </p>
