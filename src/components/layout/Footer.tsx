@@ -17,6 +17,7 @@ const COLUMNS: Array<{ heading: string; links: Array<{ label: string; href: stri
   {
     heading: "Tools",
     links: [
+      { label: "All Resources", href: "/resources" },
       { label: "Sleep Cycle Calculator", href: "/tools/sleep-cycle-calculator" },
       { label: "Caffeine Cutoff Calculator", href: "/tools/caffeine-cutoff-calculator" },
       { label: "Glossary", href: "/glossary" },

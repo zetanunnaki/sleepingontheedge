@@ -48,6 +48,24 @@ const COMPARISONS: ComparisonCard[] = [
       "Swannies are the popular, comfortable all-rounder. Ra Optics publishes lab-verified lens data and has a premium wraparound frame. Choose comfort or verified specs.",
     href: "/best/best-blue-light-blocking-glasses",
   },
+  {
+    slug: "bearaby-vs-luna",
+    productA: "bearaby-cotton-napper",
+    productB: "luna-weighted-blanket",
+    question: "Bearaby Cotton Napper vs. Luna Weighted Blanket",
+    answer:
+      "Bearaby is the premium, beadless, breathable pick at ~$250. Luna is the value champion at ~$70 with glass bead fill. Choose breathability or budget.",
+    href: "/best/best-weighted-blankets",
+  },
+  {
+    slug: "coop-vs-beckham",
+    productA: "coop-eden-pillow",
+    productB: "beckham-hotel-collection-pillow",
+    question: "Coop Eden vs. Beckham Hotel Collection Pillow",
+    answer:
+      "Coop is adjustable — add or remove fill for your exact loft. Beckham is fixed but costs 1/3 the price with 200K+ reviews. Choose customization or value.",
+    href: "/best/best-pillows-for-sleep",
+  },
 ];
 
 function ProductThumb({

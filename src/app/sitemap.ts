@@ -17,6 +17,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/tools", priority: 0.8 },
     { path: "/tools/sleep-cycle-calculator", priority: 0.8 },
     { path: "/tools/caffeine-cutoff-calculator", priority: 0.8 },
+    { path: "/resources", priority: 0.8 },
     { path: "/compare", priority: 0.7 },
     { path: "/tags", priority: 0.6 },
     { path: "/brands", priority: 0.6 },
