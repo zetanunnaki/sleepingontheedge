@@ -8,9 +8,15 @@ interface AuthorBioProps {
 
 export function AuthorBio({ author }: AuthorBioProps) {
   return (
-    <aside className="not-prose mt-16 overflow-hidden rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 p-8">
+    <aside
+      aria-labelledby="author-bio-name"
+      className="not-prose mt-16 overflow-hidden rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 p-6 sm:p-8"
+    >
       <div className="flex items-start gap-5">
-        <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-indigo-600/20 text-xl font-serif font-bold text-indigo-300 shadow-[0_0_30px_rgba(79,70,229,0.3)]">
+        <div
+          aria-hidden
+          className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-indigo-600/20 text-xl font-serif font-bold text-indigo-300 shadow-[0_0_30px_rgba(79,70,229,0.3)]"
+        >
           {author.name
             .split(" ")
             .map((p) => p[0])
@@ -21,7 +27,7 @@ export function AuthorBio({ author }: AuthorBioProps) {
           <p className="text-[10px] font-black uppercase tracking-[0.2em] text-amber-400">
             {author.role}
           </p>
-          <h3 className="mt-1 font-serif text-2xl text-white">{author.name}</h3>
+          <h3 id="author-bio-name" className="mt-1 font-serif text-2xl text-white">{author.name}</h3>
           <p className="mt-3 text-sm leading-relaxed text-slate-400">
             {author.bio}
           </p>

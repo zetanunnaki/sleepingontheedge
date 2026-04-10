@@ -9,11 +9,15 @@ import { JsonLd, organizationSchema } from "@/components/seo/JsonLd";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: "swap",
+  preload: true,
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: "swap",
+  preload: false,
 });
 
 const instrumentSerif = Instrument_Serif({
@@ -21,6 +25,8 @@ const instrumentSerif = Instrument_Serif({
   subsets: ["latin"],
   weight: "400",
   style: ["normal", "italic"],
+  display: "swap",
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -30,6 +36,40 @@ export const metadata: Metadata = {
   },
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
+  applicationName: siteConfig.name,
+  authors: [{ name: "SleepStackHQ Editorial" }],
+  keywords: [
+    "sleep optimization",
+    "sleep science",
+    "sleep tracker reviews",
+    "magnesium for sleep",
+    "circadian rhythm",
+    "blue light blocking",
+    "sleep guides",
+  ],
+  openGraph: {
+    type: "website",
+    siteName: siteConfig.name,
+    title: `${siteConfig.name} — ${siteConfig.tagline}`,
+    description: siteConfig.description,
+    url: siteConfig.url,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${siteConfig.name} — ${siteConfig.tagline}`,
+    description: siteConfig.description,
+  },
+  alternates: {
+    types: {
+      "application/rss+xml": `${siteConfig.url}/rss.xml`,
+    },
+  },
+};
+
+export const viewport = {
+  themeColor: "#020617",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({

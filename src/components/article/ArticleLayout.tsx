@@ -38,7 +38,7 @@ export function ArticleLayout({
   const author = frontmatter.author ? getAuthor(frontmatter.author) : null;
 
   return (
-    <article className="relative z-10 mx-auto max-w-3xl px-6 py-16 md:py-24">
+    <article className="relative z-10 mx-auto max-w-3xl px-5 py-12 sm:px-6 md:py-24">
       <Breadcrumbs items={crumbs} />
 
       <header className="mt-8">
@@ -47,7 +47,7 @@ export function ArticleLayout({
             {eyebrow}
           </span>
         )}
-        <h1 className="mt-4 font-serif text-5xl leading-[1.05] text-white sm:text-6xl">
+        <h1 className="mt-4 font-serif text-4xl leading-[1.05] text-white sm:text-5xl md:text-6xl">
           {frontmatter.title}
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-slate-400">
