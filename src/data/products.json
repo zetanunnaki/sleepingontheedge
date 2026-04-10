@@ -49,5 +49,56 @@
       "App required for setup",
       "No sunrise light"
     ]
+  },
+  "magnesium-breakthrough": {
+    "name": "Magnesium Breakthrough",
+    "brand": "BiOptimizers",
+    "price": "$40.00",
+    "image": "/images/products/magnesium-breakthrough.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID4?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID4?irgwc=1",
+    "pros": [
+      "All seven bioavailable forms of magnesium",
+      "Glycinate + threonate combo for sleep + cognition",
+      "Third-party tested for purity"
+    ],
+    "cons": [
+      "Higher price than single-form magnesium",
+      "Subscription-pushed checkout"
+    ]
+  },
+  "manta-sleep-mask": {
+    "name": "Manta Sleep Mask",
+    "brand": "Manta Sleep",
+    "price": "$35.00",
+    "image": "/images/products/manta-sleep-mask.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID5?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID5?irgwc=1",
+    "pros": [
+      "Total blackout via adjustable eye cups",
+      "Zero pressure on eyelids — REM-safe",
+      "Modular, machine washable"
+    ],
+    "cons": [
+      "Bulkier than flat masks",
+      "Strap can loosen over months"
+    ]
+  },
+  "chilipad-cube": {
+    "name": "ChiliPad Cube",
+    "brand": "Sleepme",
+    "price": "$499.00",
+    "image": "/images/products/chilipad-cube.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID6?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID6?irgwc=1",
+    "pros": [
+      "Cools mattress surface to 55°F",
+      "Dual-zone option for couples",
+      "Drops core temp on contact"
+    ],
+    "cons": [
+      "Audible pump noise",
+      "Tubing requires careful routing"
+    ]
   }
 }

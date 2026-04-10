@@ -1,21 +1,19 @@
 import Image from "next/image";
-import Link from "next/link";
-import { Calendar, ArrowLeft } from "lucide-react";
+import { Calendar } from "lucide-react";
 import type { ContentItem } from "@/lib/content";
+import { Breadcrumbs, type Crumb } from "./Breadcrumbs";
 
 interface ArticleLayoutProps {
   item: ContentItem;
   children: React.ReactNode;
-  backHref?: string;
-  backLabel?: string;
+  crumbs: Crumb[];
   eyebrow?: string;
 }
 
 export function ArticleLayout({
   item,
   children,
-  backHref = "/",
-  backLabel = "Home",
+  crumbs,
   eyebrow,
 }: ArticleLayoutProps) {
   const { frontmatter } = item;
@@ -27,12 +25,7 @@ export function ArticleLayout({
 
   return (
     <article className="relative z-10 mx-auto max-w-3xl px-6 py-16 md:py-24">
-      <Link
-        href={backHref}
-        className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.2em] text-indigo-400 transition-colors hover:text-white"
-      >
-        <ArrowLeft size={14} /> {backLabel}
-      </Link>
+      <Breadcrumbs items={crumbs} />
 
       <header className="mt-8">
         {eyebrow && (

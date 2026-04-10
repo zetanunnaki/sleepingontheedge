@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { MDXRemote } from "next-mdx-remote/rsc";
 import { getAllSlugs, getContentItem } from "@/lib/content";
 import { ArticleLayout } from "@/components/article/ArticleLayout";
+import { RelatedArticles } from "@/components/article/RelatedArticles";
 import { mdxComponents } from "@/components/mdx/mdx-components";
 import { AffiliateDisclaimer } from "@/components/mdx/AffiliateDisclaimer";
 import { JsonLd, articleSchema, itemListSchema } from "@/components/seo/JsonLd";
@@ -36,9 +37,18 @@ export default async function RoundupPage({ params }: PageProps) {
     <>
       <JsonLd data={articleSchema(item)} />
       <JsonLd data={itemListSchema(item)} />
-      <ArticleLayout item={item} backHref="/" backLabel="All roundups">
+      <ArticleLayout
+        item={item}
+        eyebrow="Stack"
+        crumbs={[
+          { label: "Home", href: "/" },
+          { label: "Stacks", href: "/best" },
+          { label: item.frontmatter.title, href: item.url },
+        ]}
+      >
         <AffiliateDisclaimer />
         <MDXRemote source={item.body} components={mdxComponents} />
+        <RelatedArticles current={item} />
       </ArticleLayout>
     </>
   );
