@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { siteConfig } from "@/lib/site";
+import { JsonLd, organizationSchema } from "@/components/seo/JsonLd";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,6 +43,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} h-full antialiased`}
     >
       <body className="relative flex min-h-full flex-col bg-[#020617] font-sans text-slate-50 selection:bg-indigo-500/30">
+        <JsonLd data={organizationSchema()} />
         {/* Background Aura orbs */}
         <div
           aria-hidden

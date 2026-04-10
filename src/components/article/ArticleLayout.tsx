@@ -1,7 +1,11 @@
 import Image from "next/image";
-import { Calendar } from "lucide-react";
+import Link from "next/link";
+import { Calendar, Clock } from "lucide-react";
 import type { ContentItem } from "@/lib/content";
 import { Breadcrumbs, type Crumb } from "./Breadcrumbs";
+import { TableOfContents } from "./TableOfContents";
+import { AuthorBio } from "./AuthorBio";
+import { getAuthor } from "@/lib/authors";
 
 interface ArticleLayoutProps {
   item: ContentItem;
@@ -22,6 +26,7 @@ export function ArticleLayout({
     month: "long",
     day: "numeric",
   });
+  const author = frontmatter.author ? getAuthor(frontmatter.author) : null;
 
   return (
     <article className="relative z-10 mx-auto max-w-3xl px-6 py-16 md:py-24">
@@ -39,10 +44,20 @@ export function ArticleLayout({
         <p className="mt-6 text-lg leading-relaxed text-slate-400">
           {frontmatter.description}
         </p>
-        <div className="mt-6 flex items-center gap-5 text-xs uppercase tracking-[0.15em] text-slate-500">
-          {frontmatter.author && <span>By {frontmatter.author}</span>}
+        <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs uppercase tracking-[0.15em] text-slate-500">
+          {author && (
+            <Link
+              href={`/authors/${author.slug}`}
+              className="transition-colors hover:text-white"
+            >
+              By {author.name}
+            </Link>
+          )}
           <span className="flex items-center gap-1.5">
             <Calendar size={12} /> {date}
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Clock size={12} /> {item.readingTime} min read
           </span>
         </div>
       </header>
@@ -60,11 +75,13 @@ export function ArticleLayout({
         </div>
       )}
 
+      <TableOfContents items={item.toc} />
+
       <div
         className="prose prose-invert prose-lg mt-12 max-w-none
           prose-headings:font-serif prose-headings:font-normal prose-headings:text-white
-          prose-h2:mt-14 prose-h2:text-4xl
-          prose-h3:text-2xl
+          prose-h2:mt-14 prose-h2:text-4xl prose-h2:scroll-mt-24
+          prose-h3:text-2xl prose-h3:scroll-mt-24
           prose-p:text-slate-300 prose-p:leading-relaxed
           prose-strong:text-white
           prose-a:text-indigo-400 prose-a:no-underline hover:prose-a:text-indigo-300 hover:prose-a:underline
@@ -73,6 +90,8 @@ export function ArticleLayout({
       >
         {children}
       </div>
+
+      {author && <AuthorBio author={author} />}
     </article>
   );
 }

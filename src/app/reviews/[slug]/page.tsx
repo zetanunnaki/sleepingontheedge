@@ -1,10 +1,9 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { MDXRemote } from "next-mdx-remote/rsc";
 import { getAllSlugs, getContentItem } from "@/lib/content";
 import { ArticleLayout } from "@/components/article/ArticleLayout";
 import { RelatedArticles } from "@/components/article/RelatedArticles";
-import { mdxComponents } from "@/components/mdx/mdx-components";
+import { MDXRenderer } from "@/components/mdx/MDXRenderer";
 import { AffiliateDisclaimer } from "@/components/mdx/AffiliateDisclaimer";
 import { JsonLd, reviewSchema } from "@/components/seo/JsonLd";
 
@@ -49,7 +48,7 @@ export default async function ReviewPage({ params }: PageProps) {
         ]}
       >
         <AffiliateDisclaimer />
-        <MDXRemote source={item.body} components={mdxComponents} />
+        <MDXRenderer source={item.body} />
         <RelatedArticles current={item} />
       </ArticleLayout>
     </>

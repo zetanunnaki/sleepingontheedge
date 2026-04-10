@@ -14,12 +14,58 @@ export interface Frontmatter {
   productIds?: string[];
 }
 
+export interface TocHeading {
+  depth: 2 | 3;
+  text: string;
+  id: string;
+}
+
 export interface ContentItem {
   slug: string;
   type: ContentType;
   url: string;
   frontmatter: Frontmatter;
   body: string;
+  readingTime: number;
+  toc: TocHeading[];
+}
+
+function slugify(input: string): string {
+  return input
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+}
+
+function extractToc(body: string): TocHeading[] {
+  const lines = body.split(/\r?\n/);
+  const headings: TocHeading[] = [];
+  let inFence = false;
+  for (const line of lines) {
+    if (line.startsWith("```")) {
+      inFence = !inFence;
+      continue;
+    }
+    if (inFence) continue;
+    const match = /^(#{2,3})\s+(.+?)\s*$/.exec(line);
+    if (match) {
+      const depth = match[1].length === 2 ? 2 : 3;
+      const text = match[2].replace(/[*_`]/g, "").trim();
+      headings.push({ depth: depth as 2 | 3, text, id: slugify(text) });
+    }
+  }
+  return headings;
+}
+
+function computeReadingTime(body: string): number {
+  const text = body
+    .replace(/```[\s\S]*?```/g, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/[#*_`>~\-]/g, " ");
+  const words = text.split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.round(words / 220));
 }
 
 const CONTENT_ROOT = path.join(process.cwd(), "src", "content");
@@ -61,6 +107,8 @@ export function getContentItem(
     url: `${URL_PREFIX[type]}/${slug}`,
     frontmatter: data as Frontmatter,
     body: content,
+    readingTime: computeReadingTime(content),
+    toc: extractToc(content),
   };
 }
 

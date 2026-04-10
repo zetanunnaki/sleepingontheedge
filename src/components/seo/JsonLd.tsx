@@ -15,6 +15,17 @@ export function JsonLd({ data }: JsonLdProps) {
   );
 }
 
+export function organizationSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: siteConfig.name,
+    url: siteConfig.url,
+    description: siteConfig.description,
+    logo: `${siteConfig.url}/icon.png`,
+  };
+}
+
 export function articleSchema(item: ContentItem) {
   const url = `${siteConfig.url}${item.url}`;
   return {
