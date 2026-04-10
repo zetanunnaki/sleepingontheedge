@@ -36,6 +36,14 @@ export const siteConfig = {
       href: "/tags/light-hygiene",
     },
   ],
+  socials: {
+    twitter: "https://x.com/sleepstackhq",
+    instagram: "https://instagram.com/sleepstackhq",
+    pinterest: "https://pinterest.com/sleepstackhq",
+    youtube: "https://youtube.com/@sleepstackhq",
+    tiktok: "https://tiktok.com/@sleepstackhq",
+    facebook: "https://facebook.com/sleepstackhq",
+  },
 };
 
 export type SiteConfig = typeof siteConfig;
