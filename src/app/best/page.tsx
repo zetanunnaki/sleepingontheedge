@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { ListingPage } from "@/components/article/ListingPage";
 import { getAllContent } from "@/lib/content";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Stacks",
   description:
     "Vetted gear roundups for every layer of your sleep optimization stack — supplements, hardware, and environment.",
+  alternates: { canonical: canonical("/best") },
 };
 
 export default function StacksIndexPage() {

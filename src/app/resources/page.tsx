@@ -12,11 +12,13 @@ import {
   FileText,
 } from "lucide-react";
 import { getAllContent } from "@/lib/content";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Resources",
   description:
     "Every tool, guide, glossary term, and reference on SleepStackHQ — organized by what you're trying to accomplish.",
+  alternates: { canonical: canonical("/resources") },
 };
 
 interface ResourceCardProps {

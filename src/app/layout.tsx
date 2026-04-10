@@ -62,6 +62,7 @@ export const metadata: Metadata = {
     description: siteConfig.description,
   },
   alternates: {
+    canonical: siteConfig.url,
     types: {
       "application/rss+xml": `${siteConfig.url}/rss.xml`,
     },

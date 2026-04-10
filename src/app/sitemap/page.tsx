@@ -4,11 +4,13 @@ import { ArrowLeft } from "lucide-react";
 import { getAllContent, getAllTags } from "@/lib/content";
 import { getAllAuthors } from "@/lib/authors";
 import { getAllBrands } from "@/lib/products";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Sitemap",
   description:
     "Every page on SleepStackHQ — articles, tools, brands, tags, and references.",
+  alternates: { canonical: canonical("/sitemap") },
 };
 
 interface SectionProps {

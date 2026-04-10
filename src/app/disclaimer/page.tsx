@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Disclaimer",
   description:
     "SleepStackHQ provides general educational information about sleep and is not a substitute for medical advice. Read our full disclaimer.",
+  alternates: { canonical: canonical("/disclaimer") },
 };
 
 export default function DisclaimerPage() {

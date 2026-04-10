@@ -3,11 +3,13 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { CaffeineCalculator } from "@/components/tools/CaffeineCalculator";
 import { JsonLd, softwareAppSchema } from "@/components/seo/JsonLd";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Caffeine Cutoff Calculator",
   description:
     "Find the latest you can drink coffee without wrecking your sleep. Based on a 5-hour caffeine half-life and your bedtime.",
+  alternates: { canonical: canonical("/tools/caffeine-cutoff-calculator") },
 };
 
 export default function CaffeineCutoffPage() {

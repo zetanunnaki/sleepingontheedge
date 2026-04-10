@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Calculator, ArrowRight, Wrench, Coffee, Compass } from "lucide-react";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Tools",
   description:
     "Free, science-backed sleep tools — calculate cycles, time your last coffee, and optimize your wind-down.",
+  alternates: { canonical: canonical("/tools") },
 };
 
 const TOOLS = [

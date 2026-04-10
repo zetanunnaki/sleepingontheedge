@@ -9,11 +9,13 @@ import {
   ShieldOff,
   ScrollText,
 } from "lucide-react";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Methodology",
   description:
     "How SleepStackHQ researches sleep products and writes science-informed protocols. Our sources, our process, and what we don't claim.",
+  alternates: { canonical: canonical("/methodology") },
 };
 
 const PILLARS = [

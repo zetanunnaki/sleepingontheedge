@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { getAllBrands, getBrandBySlug } from "@/lib/products";
 import { ProductCard } from "@/components/mdx/ProductCard";
+import { canonical } from "@/lib/site";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -22,6 +23,7 @@ export async function generateMetadata({
   return {
     title: brand.name,
     description: `Every ${brand.name} sleep product tested and reviewed on SleepStackHQ.`,
+    alternates: { canonical: canonical("/brands/" + slug) },
   };
 }
 

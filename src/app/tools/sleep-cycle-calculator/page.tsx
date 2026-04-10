@@ -3,11 +3,13 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { SleepCycleCalculator } from "@/components/tools/SleepCycleCalculator";
 import { JsonLd, softwareAppSchema } from "@/components/seo/JsonLd";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Sleep Cycle Calculator",
   description:
     "Find the optimal bedtime for your wake-up time — based on 90-minute REM cycles. Free, no signup.",
+  alternates: { canonical: canonical("/tools/sleep-cycle-calculator") },
 };
 
 export default function SleepCycleCalculatorPage() {

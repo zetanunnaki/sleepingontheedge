@@ -3,11 +3,13 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { SleepQuiz } from "@/components/tools/SleepQuiz";
 import { JsonLd, softwareAppSchema } from "@/components/seo/JsonLd";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Sleep Stack Quiz",
   description:
     "Answer four quick questions and get a personalized starting point — articles, tools, and habits matched to your specific sleep problem.",
+  alternates: { canonical: canonical("/tools/sleep-stack-quiz") },
 };
 
 export default function SleepStackQuizPage() {

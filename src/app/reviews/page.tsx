@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { ListingPage } from "@/components/article/ListingPage";
 import { getAllContent } from "@/lib/content";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Lab Reports",
   description:
-    "In-depth, hands-on product reviews. Every report is based on at least 30 nights of real testing.",
+    "Aggregated product reviews based on thousands of verified buyer reports and published specs — no paid placement.",
+  alternates: { canonical: canonical("/reviews") },
 };
 
 export default function LabReportsIndexPage() {

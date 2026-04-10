@@ -4,11 +4,13 @@ import Image from "next/image";
 import { ArrowRight, ArrowLeft, Zap } from "lucide-react";
 import { getProduct } from "@/lib/products";
 import { CoverFallback } from "@/components/article/CoverFallback";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Compare Products",
   description:
     "Head-to-head comparisons of the top sleep products — based on aggregated reviews, specs, and who each one is actually built for.",
+  alternates: { canonical: canonical("/compare") },
 };
 
 interface ComparisonCard {

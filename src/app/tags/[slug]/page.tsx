@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { ListingPage } from "@/components/article/ListingPage";
 import { getAllTags, getContentByTag, getTagBySlug } from "@/lib/content";
+import { canonical } from "@/lib/site";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -18,8 +19,9 @@ export async function generateMetadata({
   const tag = getTagBySlug(slug);
   if (!tag) return {};
   return {
-    title: `#${tag.name}`,
-    description: `All SleepStackHQ articles tagged ${tag.name}.`,
+    title: `${tag.name} — Sleep Articles & Research`,
+    description: `Browse ${tag.count} research-backed articles about ${tag.name.toLowerCase()} on SleepStackHQ — stacks, lab reports, and protocols curated from published studies and verified reviews.`,
+    alternates: { canonical: canonical(`/tags/${slug}`) },
   };
 }
 

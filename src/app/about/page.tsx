@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
   description:
     "SleepStackHQ is an independent publication helping people make better sleep decisions through research-backed guides and aggregated buyer reviews.",
+  alternates: { canonical: canonical("/about") },
 };
 
 export default function AboutPage() {

@@ -3,10 +3,12 @@ import Link from "next/link";
 import { ArrowLeft, Search } from "lucide-react";
 import { ArticleCard } from "@/components/article/ArticleCard";
 import { getAllContentAcrossTypes } from "@/lib/content";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Search",
   description: "Browse every article on SleepStackHQ in one place.",
+  alternates: { canonical: canonical("/search") },
 };
 
 export default function SearchPage() {

@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllSlugs, getContentItem } from "@/lib/content";
+import { canonical } from "@/lib/site";
 import { ArticleLayout } from "@/components/article/ArticleLayout";
 import { RelatedArticles } from "@/components/article/RelatedArticles";
 import { MDXRenderer } from "@/components/mdx/MDXRenderer";
@@ -24,6 +25,7 @@ export async function generateMetadata({
   return {
     title: item.frontmatter.seoTitle ?? item.frontmatter.title,
     description: item.frontmatter.description,
+    alternates: { canonical: canonical(item.url) },
   };
 }
 

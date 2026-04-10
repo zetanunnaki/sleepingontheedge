@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
     "How SleepStackHQ collects, uses, and protects your information, plus our affiliate disclosures.",
+  alternates: { canonical: canonical("/privacy-policy") },
 };
 
 export default function PrivacyPage() {

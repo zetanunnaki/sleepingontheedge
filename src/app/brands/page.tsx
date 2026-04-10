@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Building2 } from "lucide-react";
 import { getAllBrands } from "@/lib/products";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Brands",
   description:
     "Every sleep brand we've tested and recommended on SleepStackHQ.",
+  alternates: { canonical: canonical("/brands") },
 };
 
 export default function BrandsIndexPage() {

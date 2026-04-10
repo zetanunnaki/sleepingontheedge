@@ -2,10 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Tag } from "lucide-react";
 import { getAllTags } from "@/lib/content";
+import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Tags",
-  description: "Browse SleepStackHQ articles by topic.",
+  description:
+    "Browse every article on SleepStackHQ by topic — from circadian science and supplements to sleep tech and environment optimization.",
+  alternates: { canonical: canonical("/tags") },
 };
 
 export default function TagsIndexPage() {

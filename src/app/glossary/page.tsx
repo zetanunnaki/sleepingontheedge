@@ -3,7 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, BookOpen } from "lucide-react";
 import glossaryData from "@/data/glossary.json";
 import { JsonLd } from "@/components/seo/JsonLd";
-import { siteConfig } from "@/lib/site";
+import { siteConfig, canonical } from "@/lib/site";
 
 interface GlossaryEntry {
   term: string;
@@ -14,6 +14,7 @@ export const metadata: Metadata = {
   title: "Sleep Glossary",
   description:
     "Plain-English definitions of the sleep science terms you'll see across SleepStackHQ — from adenosine to zeitgebers.",
+  alternates: { canonical: canonical("/glossary") },
 };
 
 function slugify(s: string) {

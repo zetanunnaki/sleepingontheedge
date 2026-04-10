@@ -39,3 +39,7 @@ export const siteConfig = {
 };
 
 export type SiteConfig = typeof siteConfig;
+
+export function canonical(path: string) {
+  return `${siteConfig.url}${path}`;
+}

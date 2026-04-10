@@ -6,6 +6,7 @@ import { getAuthor, getAllAuthorSlugs } from "@/lib/authors";
 import { getAllContentAcrossTypes } from "@/lib/content";
 import { ArticleCard } from "@/components/article/ArticleCard";
 import { JsonLd, personSchema } from "@/components/seo/JsonLd";
+import { canonical } from "@/lib/site";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -23,7 +24,8 @@ export async function generateMetadata({
   if (!author) return {};
   return {
     title: author.name,
-    description: author.bio,
+    description: `Articles and credentials for ${author.name} on SleepStackHQ.`,
+    alternates: { canonical: canonical("/authors/" + slug) },
   };
 }
 
