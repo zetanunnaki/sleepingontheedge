@@ -12,11 +12,11 @@ const authorsData: Record<string, Author> = {
     slug: "sleep-team",
     name: "Sleep Team",
     role: "Editorial",
-    bio: "The SleepStackHQ editorial team is a small group of writers and researchers who synthesize peer-reviewed sleep science and aggregate buyer feedback into plain-English guides. We don't run clinical trials and we don't sell anything ourselves.",
+    bio: "The SleepStackHQ editorial team curates sleep-related content by gathering information from published studies, clinical guidelines, and verified buyer reviews — then puts it in plain English so you can make better decisions about your sleep.",
     credentials: [
-      "Research-driven, source-cited content",
+      "Source-cited content",
       "No paid placement, no sponsored rankings",
-      "Editorial review by a medical advisor before publishing health-related content",
+      "Health content reviewed by a medical advisor",
     ],
   },
   "dr-elena-vance": {

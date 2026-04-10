@@ -35,20 +35,20 @@ export default function AboutPage() {
         <p>
           SleepStackHQ exists because most sleep advice on the internet is
           either thinly disguised marketing or recycled headline science.
-          We&apos;re trying to do something simpler: read the research,
-          synthesize the buyer feedback, and put both in one place — so you
-          can make better decisions about your sleep without having to do all
-          the digging yourself.
+          We&apos;re trying to do something simpler: gather information from
+          published studies and real buyer feedback, put it in one place,
+          and present it in plain English — so you can make better decisions
+          about your sleep without doing all the digging yourself.
         </p>
         <h2>What we do</h2>
         <ul>
           <li>
-            <strong>Aggregate research.</strong> We summarize peer-reviewed
-            sleep studies, clinical guidelines, and reputable secondary
-            sources, then translate them into plain English.
+            <strong>Gather and summarize.</strong> We collect information from
+            peer-reviewed sleep studies, clinical guidelines, and reputable
+            sources, then present it in plain English.
           </li>
           <li>
-            <strong>Aggregate reviews.</strong> Our product picks reflect
+            <strong>Collect buyer feedback.</strong> Our product picks reflect
             patterns we see across thousands of verified buyer reviews — not
             personal endorsements.
           </li>
@@ -65,8 +65,8 @@ export default function AboutPage() {
             healthcare provider.
           </li>
           <li>
-            <strong>We don&apos;t run a clinical lab.</strong> We curate and
-            interpret existing research — we don&apos;t run our own studies.
+            <strong>We don&apos;t do original research.</strong> We gather
+            and present existing information — we don&apos;t run our own studies.
           </li>
           <li>
             <strong>We don&apos;t take paid placements.</strong> Brands cannot

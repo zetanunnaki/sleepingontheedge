@@ -21,12 +21,12 @@ export const metadata: Metadata = {
 const PILLARS = [
   {
     icon: Library,
-    title: "We aggregate published research",
+    title: "We cite published sources",
     body: "Every health-related claim on this site is sourced from peer-reviewed studies, clinical guidelines, or organizations like the National Sleep Foundation and the AASM. Where evidence is mixed, we say so plainly.",
   },
   {
     icon: Users,
-    title: "We synthesize verified buyer reviews",
+    title: "We gather verified buyer feedback",
     body: "Our product picks reflect aggregated feedback from thousands of verified buyers across Amazon, Walmart, manufacturer sites, and independent communities — not personal endorsements.",
   },
   {
@@ -65,13 +65,13 @@ export default function MethodologyPage() {
           Editorial Standards
         </span>
         <h1 className="mt-4 font-serif text-5xl leading-[1.05] text-white sm:text-7xl">
-          How we <span className="italic text-indigo-300">research.</span>
+          How we <span className="italic text-indigo-300">work.</span>
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-slate-400">
           SleepStackHQ exists to help you make better decisions about your
-          sleep. We do that by aggregating peer-reviewed research and
-          large-scale buyer feedback into one place — and by being honest
-          about what we don&apos;t know.
+          sleep. We gather information from published studies and buyer
+          feedback, put it in one place, and present it honestly — including
+          what we don&apos;t know.
         </p>
       </header>
 
@@ -96,7 +96,7 @@ export default function MethodologyPage() {
 
       <section className="mt-16 rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 p-8">
         <h2 className="font-serif text-3xl text-white">
-          Our research{" "}
+          Our source{" "}
           <span className="italic text-indigo-300">stack.</span>
         </h2>
         <div className="prose prose-invert prose-lg mt-4 max-w-none prose-headings:font-serif prose-p:text-slate-300">
