@@ -1,0 +1,53 @@
+{
+  "hatch-restore-2": {
+    "name": "Hatch Restore 2",
+    "brand": "Hatch",
+    "price": "$199.99",
+    "image": "/images/products/hatch-restore-2.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID?irgwc=1",
+    "pros": [
+      "Customizable sleep routines",
+      "Excellent sound quality",
+      "Sunrise alarm wake-up"
+    ],
+    "cons": [
+      "Requires subscription for full features",
+      "Premium price point"
+    ]
+  },
+  "yogasleep-dohm": {
+    "name": "Yogasleep Dohm Classic",
+    "brand": "Yogasleep",
+    "price": "$49.99",
+    "image": "/images/products/yogasleep-dohm.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID2?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID2?irgwc=1",
+    "pros": [
+      "Real fan-based white noise",
+      "Tunable pitch and tone",
+      "Made in USA, durable build"
+    ],
+    "cons": [
+      "No sound options beyond fan",
+      "No timer or alarm"
+    ]
+  },
+  "loftie-clock": {
+    "name": "Loftie Clock",
+    "brand": "Loftie",
+    "price": "$165.00",
+    "image": "/images/products/loftie-clock.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID3?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID3?irgwc=1",
+    "pros": [
+      "Two-phase gentle alarm",
+      "Phone-free bedroom design",
+      "Curated content library"
+    ],
+    "cons": [
+      "App required for setup",
+      "No sunrise light"
+    ]
+  }
+}
