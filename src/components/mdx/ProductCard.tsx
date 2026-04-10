@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Check, X, Award } from "lucide-react";
 import { getProduct } from "@/lib/products";
 import { DualBuyButton } from "./DualBuyButton";
+import { CoverFallback } from "@/components/article/CoverFallback";
 
 interface ProductCardProps {
   productId: string;
@@ -27,13 +28,17 @@ export function ProductCard({ productId, badge }: ProductCardProps) {
       )}
       <div className="grid gap-8 p-8 md:grid-cols-[220px_1fr]">
         <div className="relative aspect-square w-full overflow-hidden rounded-2xl border border-white/10 bg-slate-900">
-          <Image
-            src={product.image}
-            alt={product.name}
-            fill
-            sizes="(min-width: 768px) 220px, 100vw"
-            className="object-cover"
-          />
+          {product.image ? (
+            <Image
+              src={product.image}
+              alt={product.name}
+              fill
+              sizes="(min-width: 768px) 220px, 100vw"
+              className="object-cover"
+            />
+          ) : (
+            <CoverFallback seed={productId} label={product.brand} />
+          )}
         </div>
         <div className="flex flex-col">
           <p className="text-[10px] font-black uppercase tracking-[0.2em] text-amber-400">

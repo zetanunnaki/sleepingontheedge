@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getProducts } from "@/lib/products";
+import { CoverFallback } from "@/components/article/CoverFallback";
 
 interface ComparisonTableProps {
   productIds: string[];
@@ -37,13 +38,17 @@ export function ComparisonTable({ productIds }: ComparisonTableProps) {
               <td className="px-5 py-5">
                 <div className="flex items-center gap-3">
                   <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-lg border border-white/10 bg-slate-900">
-                    <Image
-                      src={p.image}
-                      alt={p.name}
-                      fill
-                      sizes="48px"
-                      className="object-cover"
-                    />
+                    {p.image ? (
+                      <Image
+                        src={p.image}
+                        alt={p.name}
+                        fill
+                        sizes="48px"
+                        className="object-cover"
+                      />
+                    ) : (
+                      <CoverFallback seed={p.id} />
+                    )}
                   </div>
                   <span className="font-serif text-lg text-white">
                     {p.name}

@@ -12,24 +12,28 @@ export const siteConfig = {
   ],
   categories: [
     {
-      slug: "mattresses",
-      title: "Mattresses",
-      description: "Foam, hybrid, and cooling picks tested for every sleeper.",
-    },
-    {
-      slug: "pillows",
-      title: "Pillows",
-      description: "Neck-friendly options for side, back, and stomach sleepers.",
-    },
-    {
-      slug: "sound-machines",
-      title: "Sound & Light",
-      description: "Smart alarms, white noise, and circadian lighting.",
+      slug: "sleep-tech",
+      title: "Sleep Tech",
+      description: "Smart alarms, sound machines, and the bedside hardware worth its outlet.",
+      href: "/tags/sleep-tech",
     },
     {
       slug: "supplements",
       title: "Supplements",
-      description: "Magnesium, melatonin, and the science behind them.",
+      description: "Magnesium, melatonin, and the chemistry of falling asleep.",
+      href: "/tags/supplements",
+    },
+    {
+      slug: "environment",
+      title: "Environment",
+      description: "Light, sound, and temperature — the cheap optimizations that beat any gadget.",
+      href: "/tags/environment",
+    },
+    {
+      slug: "light-hygiene",
+      title: "Light Hygiene",
+      description: "Blue blockers, sunrise alarms, and reclaiming your circadian rhythm.",
+      href: "/tags/light-hygiene",
     },
   ],
 };

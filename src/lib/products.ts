@@ -1,3 +1,5 @@
+import fs from "node:fs";
+import path from "node:path";
 import productsData from "@/data/products.json";
 
 export interface Product {
@@ -11,7 +13,25 @@ export interface Product {
   cons: string[];
 }
 
-const products = productsData as Record<string, Product>;
+const PUBLIC_ROOT = path.join(process.cwd(), "public");
+
+function publicAssetExists(relPath: string): boolean {
+  if (!relPath) return false;
+  const normalized = relPath.startsWith("/") ? relPath.slice(1) : relPath;
+  try {
+    return fs.existsSync(path.join(PUBLIC_ROOT, normalized));
+  } catch {
+    return false;
+  }
+}
+
+const rawProducts = productsData as Record<string, Product>;
+const products: Record<string, Product> = Object.fromEntries(
+  Object.entries(rawProducts).map(([id, p]) => [
+    id,
+    publicAssetExists(p.image) ? p : { ...p, image: "" },
+  ]),
+);
 
 export function getProduct(id: string): Product | null {
   return products[id] ?? null;

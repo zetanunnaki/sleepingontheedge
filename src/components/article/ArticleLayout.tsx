@@ -6,6 +6,7 @@ import { Breadcrumbs, type Crumb } from "./Breadcrumbs";
 import { TableOfContents } from "./TableOfContents";
 import { AuthorBio } from "./AuthorBio";
 import { TagChips } from "./TagChips";
+import { CoverFallback } from "./CoverFallback";
 import { getAuthor } from "@/lib/authors";
 
 interface ArticleLayoutProps {
@@ -68,8 +69,8 @@ export function ArticleLayout({
         )}
       </header>
 
-      {frontmatter.featuredImage && (
-        <div className="relative mt-10 aspect-[16/9] w-full overflow-hidden rounded-[28px] border border-white/10 bg-slate-900">
+      <div className="relative mt-10 aspect-[16/9] w-full overflow-hidden rounded-[28px] border border-white/10 bg-slate-900">
+        {frontmatter.featuredImage ? (
           <Image
             src={frontmatter.featuredImage}
             alt={frontmatter.title}
@@ -78,8 +79,10 @@ export function ArticleLayout({
             className="object-cover"
             priority
           />
-        </div>
-      )}
+        ) : (
+          <CoverFallback seed={item.url} label={eyebrow ?? "SleepStackHQ"} />
+        )}
+      </div>
 
       <TableOfContents items={item.toc} />
 

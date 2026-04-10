@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { getAllContentAcrossTypes } from "@/lib/content";
 import { ArticleCard } from "@/components/article/ArticleCard";
+import { siteConfig } from "@/lib/site";
 
 export default function HomePage() {
   const recent = getAllContentAcrossTypes().slice(0, 6);
@@ -111,6 +112,38 @@ export default function HomePage() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* CATEGORIES */}
+      <section className="container relative z-10 mx-auto px-6 pb-32">
+        <div className="mb-10">
+          <span className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">
+            The Layers
+          </span>
+          <h2 className="mt-3 font-serif text-4xl md:text-5xl">
+            Build it{" "}
+            <span className="italic text-indigo-300">layer by layer.</span>
+          </h2>
+        </div>
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {siteConfig.categories.map((cat) => (
+            <Link
+              key={cat.slug}
+              href={cat.href}
+              className="group flex flex-col rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 p-7 transition-all hover:border-indigo-500/40 hover:shadow-2xl hover:shadow-indigo-500/10"
+            >
+              <p className="font-serif text-2xl text-white group-hover:text-indigo-300">
+                {cat.title}
+              </p>
+              <p className="mt-3 flex-1 text-sm leading-relaxed text-slate-400">
+                {cat.description}
+              </p>
+              <span className="mt-5 inline-flex items-center gap-1 text-xs font-bold uppercase tracking-[0.15em] text-indigo-400">
+                Explore <ArrowRight size={12} />
+              </span>
+            </Link>
+          ))}
         </div>
       </section>
 

@@ -70,6 +70,13 @@ function computeReadingTime(body: string): number {
 }
 
 const CONTENT_ROOT = path.join(process.cwd(), "src", "content");
+const PUBLIC_ROOT = path.join(process.cwd(), "public");
+
+function publicAssetExists(relPath: string | undefined): boolean {
+  if (!relPath) return false;
+  const normalized = relPath.startsWith("/") ? relPath.slice(1) : relPath;
+  return fs.existsSync(path.join(PUBLIC_ROOT, normalized));
+}
 
 const URL_PREFIX: Record<ContentType, string> = {
   roundups: "/best",
@@ -102,11 +109,17 @@ export function getContentItem(
   if (!filePath) return null;
   const raw = fs.readFileSync(filePath, "utf8");
   const { data, content } = matter(raw);
+  const frontmatter = data as Frontmatter;
+  // Drop image references for files that don't actually exist on disk
+  // so the UI can fall back to a branded placeholder.
+  if (!publicAssetExists(frontmatter.featuredImage)) {
+    frontmatter.featuredImage = undefined;
+  }
   return {
     slug,
     type,
     url: `${URL_PREFIX[type]}/${slug}`,
-    frontmatter: data as Frontmatter,
+    frontmatter,
     body: content,
     readingTime: computeReadingTime(content),
     toc: extractToc(content),

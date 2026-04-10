@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/glossary", priority: 0.7 },
     { path: "/methodology", priority: 0.7 },
     { path: "/about", priority: 0.5 },
+    { path: "/sitemap", priority: 0.3 },
     { path: "/privacy-policy", priority: 0.3 },
   ].map(({ path, priority }) => ({
     url: `${siteConfig.url}${path}`,
