@@ -9,6 +9,7 @@ import { TagChips } from "./TagChips";
 import { CoverFallback } from "./CoverFallback";
 import { ReadingProgress } from "./ReadingProgress";
 import { ShareButtons } from "./ShareButtons";
+import { ScrollToTop } from "./ScrollToTop";
 import { getAuthor } from "@/lib/authors";
 
 interface ArticleLayoutProps {
@@ -113,6 +114,7 @@ export function ArticleLayout({
       <ShareButtons title={frontmatter.title} url={item.url} />
 
       {author && <AuthorBio author={author} />}
+      <ScrollToTop />
     </article>
   );
 }

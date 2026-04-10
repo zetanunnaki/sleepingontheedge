@@ -41,7 +41,8 @@ export function MobileMenu() {
           role="dialog"
           aria-modal="true"
           aria-label="Site navigation"
-          className="fixed inset-0 z-[100] flex flex-col bg-slate-950/95 backdrop-blur-md"
+          className="fixed inset-0 z-[100] flex flex-col bg-slate-950/95 backdrop-blur-md animate-in fade-in duration-200"
+          style={{ animation: "fadeSlideIn 0.2s ease-out" }}
         >
           <div className="flex items-center justify-between px-6 py-8">
             <span className="font-serif text-xl font-bold text-white">

@@ -77,3 +77,20 @@ body {
     -webkit-tap-highlight-color: rgba(79, 70, 229, 0.2);
   }
 }
+
+/* Mobile menu + modal animations */
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

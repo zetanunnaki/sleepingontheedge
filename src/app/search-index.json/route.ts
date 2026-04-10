@@ -18,6 +18,7 @@ export function GET() {
     typeLabel: TYPE_LABEL[item.type],
     tags: item.frontmatter.tags ?? [],
     date: item.frontmatter.date,
+    readingTime: item.readingTime,
   }));
 
   return new Response(JSON.stringify(index), {

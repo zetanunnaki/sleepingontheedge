@@ -12,6 +12,7 @@ interface IndexEntry {
   typeLabel: string;
   tags: string[];
   date: string;
+  readingTime: number;
 }
 
 export function SearchDialog() {
@@ -172,9 +173,14 @@ export function SearchDialog() {
                             {r.title}
                           </span>
                         </div>
-                        <p className="line-clamp-1 text-sm text-slate-400">
-                          {r.description}
-                        </p>
+                        <div className="flex items-center gap-3">
+                          <p className="line-clamp-1 flex-1 text-sm text-slate-400">
+                            {r.description}
+                          </p>
+                          <span className="shrink-0 text-[10px] uppercase tracking-[0.15em] text-slate-600">
+                            {r.readingTime} min
+                          </span>
+                        </div>
                       </Link>
                     </li>
                   ))}
