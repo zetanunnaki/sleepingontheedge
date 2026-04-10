@@ -236,5 +236,73 @@
       "Not adjustable — fixed loft may not suit all sleep positions",
       "Some buyers find it too soft for side sleeping"
     ]
+  },
+  "loop-quiet-earplugs": {
+    "name": "Loop Quiet Earplugs",
+    "brand": "Loop",
+    "price": "$22.95",
+    "image": "/images/products/loop-quiet-earplugs.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID15?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID15?irgwc=1",
+    "pros": [
+      "Comfortable silicone design for side sleepers",
+      "26 dB noise reduction — blocks snoring and traffic",
+      "Reusable, multiple ear tip sizes included"
+    ],
+    "cons": [
+      "Won't block very loud noise (construction, heavy snoring)",
+      "Some users find the fit takes trial and error"
+    ]
+  },
+  "macks-slim-fit-foam": {
+    "name": "Mack's Slim Fit Soft Foam Earplugs",
+    "brand": "Mack's",
+    "price": "$12.99",
+    "image": "/images/products/macks-slim-fit.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID16?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID16?irgwc=1",
+    "pros": [
+      "29 dB NRR — among the highest for foam earplugs",
+      "Slim profile designed for smaller ear canals",
+      "Extremely affordable — pennies per pair"
+    ],
+    "cons": [
+      "Disposable — not reusable long-term",
+      "Foam can feel warm in the ear canal"
+    ]
+  },
+  "sleep-number-dualtemp": {
+    "name": "Sleep Number DualTemp Layer",
+    "brand": "Sleep Number",
+    "price": "$299.00",
+    "image": "/images/products/sleep-number-dualtemp.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID17?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID17?irgwc=1",
+    "pros": [
+      "Active heating and cooling built into the topper",
+      "Fits most mattresses without disrupting feel",
+      "Quiet operation compared to pump-based systems"
+    ],
+    "cons": [
+      "Higher price point than passive toppers",
+      "Less cooling range than dedicated systems like ChiliPad"
+    ]
+  },
+  "saatva-latex-topper": {
+    "name": "Saatva Latex Mattress Topper",
+    "brand": "Saatva",
+    "price": "$395.00",
+    "image": "/images/products/saatva-latex-topper.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID18?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID18?irgwc=1",
+    "pros": [
+      "Natural Talalay latex — breathable and responsive",
+      "Organic cotton cover with inherent cooling",
+      "3-inch profile meaningfully changes mattress feel"
+    ],
+    "cons": [
+      "Premium pricing",
+      "Heavy — difficult to reposition once placed"
+    ]
   }
 }
