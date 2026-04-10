@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import "./globals.css";
+import Script from "next/script";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { siteConfig } from "@/lib/site";
 import { JsonLd, organizationSchema } from "@/components/seo/JsonLd";
+import { TopAd, BottomAd } from "@/components/ads/AdContainer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -100,11 +102,20 @@ export default function RootLayout({
         </a>
         <div className="relative z-10 flex min-h-full flex-1 flex-col">
           <Header />
+          <TopAd />
           <main id="main-content" className="flex-1">
             {children}
           </main>
+          <BottomAd />
           <Footer />
         </div>
+        {/* Google AdSense — replace ca-pub-XXXXXXXXXXXXXXXX with your publisher ID */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
       </body>
     </html>
   );
