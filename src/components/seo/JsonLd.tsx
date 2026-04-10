@@ -57,7 +57,7 @@ export function articleSchema(item: ContentItem) {
     headline: item.frontmatter.title,
     description: item.frontmatter.description,
     datePublished: item.frontmatter.date,
-    dateModified: item.frontmatter.date,
+    dateModified: item.frontmatter.updated ?? item.frontmatter.date,
     author: {
       "@type": "Organization",
       name: item.frontmatter.author ?? "SleepStackHQ Editorial",

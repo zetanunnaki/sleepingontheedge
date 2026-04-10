@@ -19,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/tools/caffeine-cutoff-calculator", priority: 0.8 },
     { path: "/tags", priority: 0.6 },
     { path: "/brands", priority: 0.6 },
+    { path: "/search", priority: 0.4 },
     { path: "/glossary", priority: 0.7 },
     { path: "/methodology", priority: 0.7 },
     { path: "/about", priority: 0.5 },

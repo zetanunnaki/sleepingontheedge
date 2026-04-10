@@ -10,6 +10,7 @@ export interface Frontmatter {
   description: string;
   author?: string;
   date: string;
+  updated?: string;
   featuredImage?: string;
   productIds?: string[];
   tags?: string[];

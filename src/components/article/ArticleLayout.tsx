@@ -28,6 +28,13 @@ export function ArticleLayout({
     month: "long",
     day: "numeric",
   });
+  const updated = frontmatter.updated
+    ? new Date(frontmatter.updated).toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      })
+    : null;
   const author = frontmatter.author ? getAuthor(frontmatter.author) : null;
 
   return (
@@ -56,7 +63,7 @@ export function ArticleLayout({
             </Link>
           )}
           <span className="flex items-center gap-1.5">
-            <Calendar size={12} /> {date}
+            <Calendar size={12} /> {updated ? `Updated ${updated}` : date}
           </span>
           <span className="flex items-center gap-1.5">
             <Clock size={12} /> {item.readingTime} min read
