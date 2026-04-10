@@ -1,4 +1,5 @@
 import { ArticleCard } from "./ArticleCard";
+import { FeaturedHero } from "./FeaturedHero";
 import type { ContentItem } from "@/lib/content";
 
 interface ListingPageProps {
@@ -7,6 +8,7 @@ interface ListingPageProps {
   description: string;
   items: ContentItem[];
   emptyMessage?: string;
+  featuredEyebrow?: string;
 }
 
 export function ListingPage({
@@ -15,7 +17,12 @@ export function ListingPage({
   description,
   items,
   emptyMessage = "Nothing published here yet — check back soon.",
+  featuredEyebrow,
 }: ListingPageProps) {
+  const [featured, ...rest] = items;
+  const showFeatured = items.length >= 2 && featuredEyebrow !== undefined;
+  const grid = showFeatured ? rest : items;
+
   return (
     <div className="container relative z-10 mx-auto px-6 py-16 md:py-24">
       <header className="mx-auto max-w-3xl text-center">
@@ -32,11 +39,18 @@ export function ListingPage({
         {items.length === 0 ? (
           <p className="text-center text-sm text-slate-500">{emptyMessage}</p>
         ) : (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {items.map((item) => (
-              <ArticleCard key={item.url} item={item} />
-            ))}
-          </div>
+          <>
+            {showFeatured && featured && (
+              <div className="mb-10">
+                <FeaturedHero item={featured} eyebrow={featuredEyebrow} />
+              </div>
+            )}
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {grid.map((item) => (
+                <ArticleCard key={item.url} item={item} />
+              ))}
+            </div>
+          </>
         )}
       </div>
     </div>

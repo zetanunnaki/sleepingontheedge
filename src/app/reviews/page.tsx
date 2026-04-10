@@ -18,8 +18,9 @@ export default function LabReportsIndexPage() {
           Lab <span className="italic text-indigo-300">reports.</span>
         </>
       }
-      description="In-depth, hands-on product reviews. Every report is based on at least 30 nights of real testing — no PR loans, no paid placement."
+      description="Aggregated product reviews based on thousands of verified buyer reports and published specs — no paid placement."
       items={items}
+      featuredEyebrow="Lab Report"
     />
   );
 }

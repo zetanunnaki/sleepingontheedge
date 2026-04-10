@@ -20,6 +20,7 @@ export default function StacksIndexPage() {
       }
       description="Vetted gear roundups for every layer of your sleep optimization stack — supplements, hardware, and environment."
       items={items}
+      featuredEyebrow="Stack"
     />
   );
 }

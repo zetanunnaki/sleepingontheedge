@@ -20,6 +20,7 @@ export default function ProtocolsIndexPage() {
       }
       description="Science-backed, step-by-step protocols for fixing your sleep — from circadian resets to wind-down routines."
       items={items}
+      featuredEyebrow="Protocol"
     />
   );
 }

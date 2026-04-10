@@ -52,9 +52,17 @@ export default function RootLayout({
           <div className="absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-indigo-600/10 blur-[120px]" />
           <div className="absolute bottom-[10%] right-[-5%] h-[400px] w-[400px] rounded-full bg-amber-500/5 blur-[100px]" />
         </div>
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-full focus:bg-indigo-600 focus:px-4 focus:py-2 focus:text-sm focus:font-bold focus:text-white focus:shadow-xl"
+        >
+          Skip to content
+        </a>
         <div className="relative z-10 flex min-h-full flex-1 flex-col">
           <Header />
-          <main className="flex-1">{children}</main>
+          <main id="main-content" className="flex-1">
+            {children}
+          </main>
           <Footer />
         </div>
       </body>

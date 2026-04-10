@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Calculator, ArrowRight, Wrench, Coffee } from "lucide-react";
+import { Calculator, ArrowRight, Wrench, Coffee, Compass } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Tools",
@@ -9,6 +9,13 @@ export const metadata: Metadata = {
 };
 
 const TOOLS = [
+  {
+    href: "/tools/sleep-stack-quiz",
+    icon: Compass,
+    title: "Sleep Stack Quiz",
+    description:
+      "Answer four questions, get a personalized starting point — articles and tools matched to your specific problem.",
+  },
   {
     href: "/tools/sleep-cycle-calculator",
     icon: Calculator,

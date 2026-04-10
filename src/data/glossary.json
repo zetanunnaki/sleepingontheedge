@@ -4,28 +4,80 @@
     "definition": "A neurotransmitter that builds up in your brain throughout the day, creating sleep pressure. Caffeine works by blocking adenosine receptors, which is why it makes you feel less tired without actually clearing the chemical buildup."
   },
   {
+    "term": "Apnea-Hypopnea Index (AHI)",
+    "definition": "The number of apnea (full breathing pauses) and hypopnea (partial breathing reductions) events per hour of sleep. AHI is the primary metric used to diagnose and grade obstructive sleep apnea — under 5 is considered normal in adults."
+  },
+  {
+    "term": "Blue Light",
+    "definition": "Short-wavelength visible light (roughly 400–500nm) most strongly emitted by the sun, screens, and LED lighting. It's the wavelength your retina uses most to set the circadian clock — useful in the morning, disruptive in the evening."
+  },
+  {
+    "term": "Cataplexy",
+    "definition": "A sudden, brief loss of muscle tone often triggered by strong emotion. It's a hallmark symptom of type 1 narcolepsy and a clinical red flag — anyone experiencing it should see a sleep specialist."
+  },
+  {
     "term": "Circadian Rhythm",
     "definition": "Your body's roughly 24-hour internal clock, governed by the suprachiasmatic nucleus in the hypothalamus. It controls hormone release, body temperature, and the sleep-wake cycle. The two strongest cues that set it are bright morning light and darkness at night."
   },
   {
-    "term": "Cortisol Awakening Response",
+    "term": "Cortisol Awakening Response (CAR)",
     "definition": "A natural spike in cortisol within 30–45 minutes of waking. A healthy CAR is a sign of a robust circadian system. Chronically elevated CAR is associated with stress and insomnia."
   },
   {
+    "term": "CBT-I",
+    "definition": "Cognitive Behavioral Therapy for Insomnia — a structured, short-term, non-drug treatment that sleep medicine considers the first-line intervention for chronic insomnia. CBT-I addresses the thoughts, behaviors, and habits that perpetuate sleep problems."
+  },
+  {
     "term": "Deep Sleep (Slow-Wave Sleep)",
-    "definition": "Stage 3 non-REM sleep, characterized by delta brain waves. This is when most physical recovery, growth hormone release, and immune function happens. Most adults need 13–23% of their total sleep in deep sleep."
+    "definition": "Stage 3 non-REM sleep, characterized by delta brain waves. This is when most physical recovery, growth hormone release, and immune function happen. Most adults need 13–23% of their total sleep in deep sleep."
+  },
+  {
+    "term": "Delayed Sleep Phase Disorder",
+    "definition": "A circadian rhythm disorder in which a person's sleep-wake schedule is shifted significantly later than the conventional cycle. People with DSPD aren't choosing to stay up late — their internal clock genuinely runs on a delayed schedule."
+  },
+  {
+    "term": "GABA",
+    "definition": "Gamma-aminobutyric acid — the primary inhibitory neurotransmitter in the brain. It calms neuronal activity and is the target of many sleep medications and supplements (including some forms of magnesium and L-theanine)."
   },
   {
     "term": "Glymphatic System",
     "definition": "The brain's overnight 'wash cycle.' During deep sleep, cerebrospinal fluid flushes metabolic waste — including beta-amyloid plaques associated with Alzheimer's — out of brain tissue. Skipping deep sleep skips this wash cycle."
   },
   {
+    "term": "HRV (Heart Rate Variability)",
+    "definition": "The variation in time between consecutive heartbeats. Higher HRV during sleep is generally associated with better recovery and a more balanced autonomic nervous system. It's one of the most-used metrics on consumer sleep wearables."
+  },
+  {
+    "term": "Hypnagogia",
+    "definition": "The transitional state between wakefulness and sleep, characterized by vivid imagery, drifting thoughts, and occasional muscle twitches (hypnic jerks). It's normal — though some people find it disorienting."
+  },
+  {
+    "term": "Insomnia",
+    "definition": "Difficulty falling asleep, staying asleep, or waking too early — at least three nights per week, for at least three months, with daytime impact. Acute insomnia (less than three months) is common and often resolves; chronic insomnia is well-treated with CBT-I."
+  },
+  {
     "term": "Melatonin",
     "definition": "A hormone released by the pineal gland in response to darkness. It signals the body that it's time to sleep but does not directly cause sleep. Most over-the-counter doses (3–10mg) are 10–30x the physiological amount."
   },
   {
+    "term": "Orthosomnia",
+    "definition": "A relatively new term for the anxiety some sleep tracker users develop about their nightly score. The pursuit of perfect sleep data can paradoxically make sleep worse. The fix is often to look at weekly trends rather than nightly scores."
+  },
+  {
+    "term": "Polysomnography",
+    "definition": "A comprehensive overnight sleep study, typically performed in a clinic, that measures brain waves, eye movements, muscle activity, breathing, and oxygen levels. It's the gold standard for diagnosing sleep disorders."
+  },
+  {
     "term": "REM Sleep",
     "definition": "Rapid Eye Movement sleep — the stage where most vivid dreaming occurs. Critical for memory consolidation, emotional regulation, and creative problem-solving. Cycles get longer toward morning, which is why early-morning wake-ups disproportionately steal REM."
+  },
+  {
+    "term": "Restless Legs Syndrome (RLS)",
+    "definition": "A neurological condition causing uncomfortable sensations in the legs and an urge to move them, typically worse in the evening. It's a recognized cause of sleep onset insomnia and warrants medical evaluation."
+  },
+  {
+    "term": "Sleep Apnea",
+    "definition": "A sleep disorder in which breathing repeatedly stops and starts during sleep. Obstructive sleep apnea (OSA) — caused by airway collapse — is the most common form and is associated with serious cardiovascular risk if untreated. CPAP is the standard treatment."
   },
   {
     "term": "Sleep Architecture",
@@ -46,6 +98,14 @@
   {
     "term": "Sleep Pressure",
     "definition": "The biological drive to sleep, primarily mediated by adenosine accumulation. The longer you've been awake, the higher your sleep pressure. It's one of the two main systems (alongside circadian rhythm) that controls when you sleep."
+  },
+  {
+    "term": "Stimulus Control",
+    "definition": "A core behavioral technique in CBT-I. The principle is simple: only use your bed for sleep (and intimacy). Avoid lying awake in bed, working in bed, or scrolling in bed — all of which weaken the brain's association between 'bed' and 'sleep'."
+  },
+  {
+    "term": "Suprachiasmatic Nucleus (SCN)",
+    "definition": "The cluster of neurons in the hypothalamus that acts as the body's master circadian clock. It receives direct input from the retina and synchronizes downstream clocks throughout the body."
   },
   {
     "term": "Zeitgeber",
