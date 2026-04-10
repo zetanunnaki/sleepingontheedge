@@ -22,12 +22,7 @@ export function SearchDialog() {
   const [loading, setLoading] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  // Determine the base path at runtime so search works on GitHub Pages too.
-  const basePath =
-    typeof window !== "undefined" &&
-    window.location.pathname.startsWith("/sleepstackhq")
-      ? "/sleepstackhq"
-      : "";
+  const basePath = "";
 
   // Open with Cmd/Ctrl + K
   useEffect(() => {

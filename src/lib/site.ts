@@ -3,7 +3,7 @@ export const siteConfig = {
   tagline: "Stack the science of better sleep.",
   description:
     "Independent reviews, science-backed guides, and the best gear for deeper, more restorative sleep.",
-  url: "https://zetanunnaki.github.io/sleepstackhq",
+  url: "https://sleepstackhq.vercel.app",
   nav: [
     { label: "Stacks", href: "/best" },
     { label: "Lab Reports", href: "/reviews" },
