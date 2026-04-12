@@ -84,23 +84,6 @@
       "Strap can loosen over months of heavy use"
     ]
   },
-  "chilipad-cube": {
-    "name": "Sleepme Chilipad",
-    "brand": "Sleepme",
-    "price": "$499.00",
-    "image": "/images/products/chilipad-cube.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID6?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID6?irgwc=1",
-    "pros": [
-      "Actively cools and heats the mattress surface",
-      "Dual-zone option for couples",
-      "Significant temperature range (~55–115°F)"
-    ],
-    "cons": [
-      "Pump produces audible noise at higher levels",
-      "Tubing routing requires planning"
-    ]
-  },
   "oura-ring-gen-3": {
     "name": "Oura Ring Gen 3",
     "brand": "Oura",
@@ -118,23 +101,6 @@
       "No screen — must check the app"
     ]
   },
-  "whoop-4": {
-    "name": "Whoop 4.0",
-    "brand": "Whoop",
-    "price": "$239.00 / year",
-    "image": "/images/products/whoop-4.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID8?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID8?irgwc=1",
-    "pros": [
-      "Detailed sleep, recovery, and strain analytics",
-      "Comfortable strap, no screen distractions",
-      "Battery clip allows charging without removal"
-    ],
-    "cons": [
-      "Subscription-only — no buy-once option",
-      "Membership cost adds up over years"
-    ]
-  },
   "swanwick-blue-blockers": {
     "name": "Swannies Blue Light Blocking Glasses",
     "brand": "Swanwick Sleep",
@@ -150,23 +116,6 @@
     "cons": [
       "Strong amber tint takes adjustment",
       "Higher price than basic blue-light glasses"
-    ]
-  },
-  "ra-optics-twilight": {
-    "name": "Ra Optics Twilight Lens",
-    "brand": "Ra Optics",
-    "price": "$120.00",
-    "image": "/images/products/ra-optics-twilight.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID10?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID10?irgwc=1",
-    "pros": [
-      "Lab-validated lens spectrum data published",
-      "Lightweight, premium frame quality",
-      "Wraparound design reduces ambient leakage"
-    ],
-    "cons": [
-      "Premium pricing",
-      "Limited frame style availability"
     ]
   },
   "bearaby-cotton-napper": {
@@ -271,40 +220,6 @@
       "Foam can feel warm in the ear canal"
     ]
   },
-  "sleep-number-dualtemp": {
-    "name": "Sleep Number DualTemp Layer (Queen)",
-    "brand": "Sleep Number",
-    "price": "$1,599.00",
-    "image": "/images/products/sleep-number-dualtemp.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID17?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID17?irgwc=1",
-    "pros": [
-      "Active heating and cooling built into the topper",
-      "Fits most mattresses without disrupting feel",
-      "Quiet operation compared to pump-based systems"
-    ],
-    "cons": [
-      "Significant investment vs. passive toppers",
-      "Less cooling range than dedicated systems like Sleepme Chilipad"
-    ]
-  },
-  "saatva-latex-topper": {
-    "name": "Saatva Latex Mattress Topper (Queen)",
-    "brand": "Saatva",
-    "price": "$425.00",
-    "image": "/images/products/saatva-latex-topper.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID18?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID18?irgwc=1",
-    "pros": [
-      "Natural Talalay latex — breathable and responsive",
-      "Organic cotton cover with inherent cooling",
-      "1.5-inch profile meaningfully changes mattress feel"
-    ],
-    "cons": [
-      "Premium pricing",
-      "Heavy — difficult to reposition once placed"
-    ]
-  },
   "nicetown-blackout-curtains": {
     "name": "NICETOWN Blackout Curtains (2 Panels)",
     "brand": "NICETOWN",
@@ -405,23 +320,6 @@
     "cons": [
       "Premium pricing compared to cotton sheets",
       "Fabric is delicate — gentle wash cycle recommended"
-    ]
-  },
-  "saatva-classic-mattress": {
-    "name": "Saatva Classic Mattress (Queen)",
-    "brand": "Saatva",
-    "price": "$1,695.00",
-    "image": "/images/products/saatva-classic.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID25?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID25?irgwc=1",
-    "pros": [
-      "Coil-on-coil construction with strong edge support",
-      "Three firmness levels — works for back, side, and stomach sleepers",
-      "Free white-glove delivery and 365-night home trial"
-    ],
-    "cons": [
-      "Heavy — requires two people to maneuver",
-      "Premium pricing not suitable for budget shoppers"
     ]
   },
   "now-l-theanine": {
@@ -696,23 +594,6 @@
       "Single-form magnesium without complementary cofactors"
     ]
   },
-  "biostrap-evo": {
-    "name": "Apple Watch Series 10 (Sleep Tracking)",
-    "brand": "Apple",
-    "price": "$399.00",
-    "image": "/images/products/biostrap-evo.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID42?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID42?irgwc=1",
-    "pros": [
-      "Built-in sleep tracking with stages, heart rate, and breathing rate",
-      "ECG, blood oxygen, and fall detection beyond just sleep",
-      "Massive ecosystem and third-party sleep apps"
-    ],
-    "cons": [
-      "Battery life requires nightly or every-other-night charging",
-      "Sleep accuracy modest compared to Oura's published validation"
-    ]
-  },
   "smith-blackout-curtains": {
     "name": "Sun Zero Cyrus Thermal Blackout Curtains (2 Panels)",
     "brand": "Sun Zero",
@@ -728,23 +609,6 @@
     "cons": [
       "Top edge requires ceiling-mount rod for full blackout",
       "Wrinkles need steaming on first hang"
-    ]
-  },
-  "moonbird-breathing-device": {
-    "name": "Moonbird Breathing Coach",
-    "brand": "Moonbird",
-    "price": "$199.00",
-    "image": "/images/products/moonbird.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID44?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID44?irgwc=1",
-    "pros": [
-      "Tactile breathing pacer — expands and contracts in your hand",
-      "Tracks HRV biofeedback during breathing exercises",
-      "Helps with anxiety-driven insomnia"
-    ],
-    "cons": [
-      "Premium price for a single-purpose device",
-      "Requires app for full feature set"
     ]
   },
   "thrive-mood-blanket": {

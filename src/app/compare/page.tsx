@@ -33,21 +33,21 @@ const COMPARISONS: ComparisonCard[] = [
     href: "/best/best-smart-alarm-clocks",
   },
   {
-    slug: "oura-vs-whoop",
+    slug: "oura-vs-fitbit",
     productA: "oura-ring-gen-3",
-    productB: "whoop-4",
-    question: "Oura Ring vs. Whoop 4.0",
+    productB: "fitbit-charge-6",
+    question: "Oura Ring vs. Fitbit Charge 6",
     answer:
-      "Oura has the most published validation and a ring form factor. Whoop integrates sleep with athletic recovery and strain. Choose data purity or training integration.",
+      "Oura has the most published sleep validation and a ring form factor — no screen, no distractions. Fitbit Charge 6 is the mainstream pick with Google integrations and a bigger display. Choose data purity or daily versatility.",
     href: "/best/best-sleep-trackers",
   },
   {
-    slug: "swannies-vs-ra-optics",
+    slug: "swannies-vs-uvex",
     productA: "swanwick-blue-blockers",
-    productB: "ra-optics-twilight",
-    question: "Swannies vs. Ra Optics Twilight",
+    productB: "wenzel-blue-blockers-budget",
+    question: "Swannies vs. Uvex Skyper",
     answer:
-      "Swannies are the popular, comfortable all-rounder. Ra Optics publishes lab-verified lens data and has a premium wraparound frame. Choose comfort or verified specs.",
+      "Swannies are the designer pick — comfortable, stylish, priced for everyday use. Uvex Skyper are safety-glass ugly but cost under $12 with a near-identical amber lens. Choose aesthetics or budget.",
     href: "/best/best-blue-light-blocking-glasses",
   },
   {
