@@ -950,5 +950,39 @@
       "Less warmth than real down for cold sleepers",
       "Polyester fill can feel warm in summer"
     ]
+  },
+  "pure-green-latex-topper": {
+    "name": "Pure Green 100% Natural Latex Mattress Topper (Queen)",
+    "brand": "Sleep On Latex",
+    "price": "$179.00",
+    "image": "/images/products/pure-green-latex.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID57?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID57?irgwc=1",
+    "pros": [
+      "100% natural Talalay latex — no synthetic blends",
+      "Open-cell structure for genuine all-night cooling",
+      "GOLS organic certified, no off-gassing"
+    ],
+    "cons": [
+      "Heavy and difficult to reposition",
+      "Cover sold separately"
+    ]
+  },
+  "bedjet-3-cooling": {
+    "name": "BedJet 3 Climate Comfort System",
+    "brand": "BedJet",
+    "price": "$499.00",
+    "image": "/images/products/bedjet-3.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID58?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID58?irgwc=1",
+    "pros": [
+      "Active heating and cooling without water tubes",
+      "Wireless remote with programmable sleep schedules",
+      "Available in single-zone and dual-zone for couples"
+    ],
+    "cons": [
+      "Air-based system not as cold as water-based competitors",
+      "Slight fan noise on higher settings"
+    ]
   }
 }

@@ -27,7 +27,7 @@ const FEATURED_PRODUCT_IDS = [
   "oura-ring-gen-3",
   "bearaby-cotton-napper",
   "yogasleep-dohm",
-  "chilipad-cube",
+  "fitbit-charge-6",
   "swanwick-blue-blockers",
 ];
 
