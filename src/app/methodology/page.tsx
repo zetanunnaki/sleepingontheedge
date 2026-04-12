@@ -14,40 +14,40 @@ import { canonical } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Methodology",
   description:
-    "How SleepingOnTheEdge researches sleep products and writes science-informed protocols. Our sources, our process, and what we don't claim.",
+    "How SleepingOnTheEdge picks products and writes guides. We are writers, not testers or clinicians — here's exactly how we work and what we don't claim.",
   alternates: { canonical: canonical("/methodology") },
 };
 
 const PILLARS = [
   {
-    icon: Library,
-    title: "We cite published sources",
-    body: "Every health-related claim on this site is sourced from peer-reviewed studies, clinical guidelines, or organizations like the National Sleep Foundation and the AASM. Where evidence is mixed, we say so plainly.",
+    icon: Users,
+    title: "We curate from customer reviews",
+    body: "Our product picks are based on aggregated buyer feedback from Amazon, Walmart, manufacturer sites, and sleep-focused communities. We read thousands of reviews so you don't have to — and surface the patterns that keep showing up across real owners.",
   },
   {
-    icon: Users,
-    title: "We gather verified buyer feedback",
-    body: "Our product picks reflect aggregated feedback from thousands of verified buyers across Amazon, Walmart, manufacturer sites, and independent communities — not personal endorsements.",
+    icon: Library,
+    title: "We link what we reference",
+    body: "When a guide mentions a study, a clinical guideline, or something from an organization like the AASM or National Sleep Foundation, we link it so you can check it yourself. We don't fabricate sources.",
   },
   {
     icon: ScrollText,
-    title: "We separate evidence from opinion",
-    body: "When we share an editorial take, we label it. When we cite a study, we link it. You should always be able to tell the difference between what the data says and what we think.",
+    title: "We separate fact from opinion",
+    body: "When we share an editorial take, we label it. When we cite something external, we link it. You should always be able to tell the difference between what the data says and what we think.",
   },
   {
     icon: Repeat,
     title: "Living updates",
-    body: "Sleep science moves. Products change formulas. We revisit our roundups and reviews regularly and timestamp every meaningful update.",
+    body: "Products change. Prices move. Customer sentiment shifts. We revisit our roundups regularly and timestamp every meaningful update.",
   },
   {
     icon: ShieldOff,
     title: "No paid placement",
-    body: "We don't accept payment in exchange for rankings, reviews, or coverage. We do earn affiliate commissions when readers buy through our links — these never influence which products make our shortlists.",
+    body: "We don't accept payment for rankings, reviews, or coverage. We do earn affiliate commissions when readers buy through our links — these never influence which products make our shortlists.",
   },
   {
     icon: FlaskConical,
-    title: "What we don't claim",
-    body: "We are not a clinical lab. We do not perform original research. We do not provide medical advice. For anything affecting a medical condition, talk to a qualified provider.",
+    title: "What we are NOT",
+    body: "We are not a clinical lab. We do not test products ourselves. We do not conduct research. We are not physicians and we do not provide medical advice. For anything affecting a medical condition, talk to a qualified provider.",
   },
 ];
 
@@ -68,10 +68,11 @@ export default function MethodologyPage() {
           How we <span className="italic text-indigo-300">work.</span>
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-slate-400">
-          SleepingOnTheEdge exists to help you make better decisions about your
-          sleep. We gather information from published studies and buyer
-          feedback, put it in one place, and present it honestly — including
-          what we don&apos;t know.
+          SleepingOnTheEdge is written by a small team of writers. We curate
+          what verified customers are already saying about sleep products,
+          link out to the science when it's relevant, and present it honestly
+          — including what we don&apos;t know. We are not testers, researchers,
+          or clinicians.
         </p>
       </header>
 

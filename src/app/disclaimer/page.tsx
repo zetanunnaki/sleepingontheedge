@@ -54,25 +54,23 @@ export default function DisclaimerPage() {
           services immediately.
         </p>
 
-        <h2>No clinical testing claims</h2>
+        <h2>We are writers, not testers or clinicians</h2>
         <p>
-          SleepingOnTheEdge does not operate a clinical testing facility, conduct
-          original peer-reviewed studies, or publish primary research. Our
-          editorial content is based on:
+          SleepingOnTheEdge is an independent affiliate website operated by a
+          small team of <strong>writers</strong>. We are not doctors, nurses,
+          sleep coaches, clinicians, or licensed medical professionals of any
+          kind. We do not operate a lab. We do not test products ourselves.
+          We do not conduct original research.
         </p>
-        <ul>
-          <li>Aggregated verified-buyer reviews from major retailers,</li>
-          <li>
-            Published peer-reviewed research and clinical guidelines from
-            recognized organizations, and
-          </li>
-          <li>Manufacturer-published specifications and documentation.</li>
-        </ul>
         <p>
-          When we say a product is &quot;highly rated&quot; or &quot;top
-          recommended,&quot; we are summarizing patterns we observe across
-          publicly available reviews and references — not making clinical or
-          performance claims of our own.
+          Everything on this site is written by curating publicly available
+          information — primarily aggregated customer reviews from Amazon,
+          Walmart, and manufacturer sites, supplemented by publicly
+          available clinical references where relevant. When we say a product
+          is &quot;highly rated&quot; or &quot;best for&quot; a use case, we
+          are summarizing patterns in what verified buyers have written about
+          the product. We are not making independent clinical, performance,
+          or efficacy claims of our own.
         </p>
 
         <h2>No guarantee of results</h2>
@@ -80,18 +78,34 @@ export default function DisclaimerPage() {
           Sleep is highly individual. Strategies, products, or supplements
           that work well for some readers may not work for others, and may
           have side effects or contraindications depending on your health
-          status and medications. We make no guarantees about the
+          status and medications. <strong>We make no guarantees about the
           effectiveness of any product, protocol, or technique mentioned on
-          the site.
+          this site,</strong> and nothing here should be interpreted as a
+          promise or warranty of any outcome.
         </p>
 
-        <h2>Affiliate links</h2>
+        <h2>Use at your own risk; limitation of liability</h2>
         <p>
-          SleepingOnTheEdge participates in affiliate programs, including the
-          Amazon Services LLC Associates Program and the Walmart Associates
-          program. We may earn a commission when you purchase a product
-          through one of our links, at no additional cost to you. Affiliate
-          relationships do not influence which products we feature.
+          Your use of SleepingOnTheEdge is entirely at your own risk. To the
+          maximum extent permitted by law, SleepingOnTheEdge, its writers,
+          owners, and affiliates disclaim all liability for any direct,
+          indirect, incidental, consequential, or special damages arising
+          out of or in any way connected with your use of information on
+          this site or any product purchased through our links. Nothing in
+          this disclaimer is intended to exclude liability that cannot be
+          excluded under applicable law.
+        </p>
+
+        <h2>Affiliate disclosure (FTC)</h2>
+        <p>
+          SleepingOnTheEdge is a participant in the Amazon Services LLC
+          Associates Program and other affiliate programs including Walmart
+          Associates. As an Amazon Associate, we earn from qualifying
+          purchases. When you click a link on this site and purchase a
+          product, we may receive a commission at no additional cost to
+          you. These affiliate relationships do not influence our
+          recommendations, which are based on aggregated customer review
+          patterns and not on commission rates.
         </p>
 
         <h2>External links</h2>

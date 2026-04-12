@@ -9,12 +9,14 @@ export function AffiliateDisclaimer() {
       <Info className="mt-0.5 h-4 w-4 shrink-0 text-amber-400" />
       <p className="leading-relaxed">
         <strong className="font-semibold text-amber-100">
-          SleepingOnTheEdge is reader-supported.
+          Affiliate disclosure.
         </strong>{" "}
-        Some links in this article are affiliate links. If you click and buy,
-        we may earn a small commission at no extra cost to you. Our editorial
-        picks are based on aggregated customer reviews and published research,
-        not paid placement.
+        SleepingOnTheEdge is reader-supported. As an Amazon Associate we
+        earn from qualifying purchases. Some links in this article are
+        affiliate links — if you click and buy we may receive a small
+        commission at no extra cost to you. We are writers, not clinicians
+        or testers. Our product picks are based on aggregated customer
+        reviews, not paid placement. This article is not medical advice.
       </p>
     </aside>
   );

@@ -12,22 +12,11 @@ const authorsData: Record<string, Author> = {
     slug: "sleep-team",
     name: "Sleep Team",
     role: "Editorial",
-    bio: "The SleepingOnTheEdge editorial team curates sleep-related content by gathering information from published studies, clinical guidelines, and verified buyer reviews — then puts it in plain English so you can make better decisions about your sleep.",
+    bio: "SleepingOnTheEdge is written by a small team of writers who curate sleep product recommendations based on aggregated customer reviews from Amazon, Walmart, and sleep communities — then put what real buyers are saying in plain English. We are writers, not clinicians. We do not test products and we do not conduct research.",
     credentials: [
-      "Source-cited content",
-      "No paid placement, no sponsored rankings",
-      "Health content reviewed by a medical advisor",
-    ],
-  },
-  "dr-elena-vance": {
-    slug: "dr-elena-vance",
-    name: "Dr. Elena Vance",
-    role: "Medical Advisor",
-    bio: "Elena is a board-certified sleep medicine physician with over a decade of clinical practice. She reviews SleepingOnTheEdge articles touching on health, supplements, or sleep disorders for accuracy and to ensure they avoid framing that could be mistaken for medical advice.",
-    credentials: [
-      "MD, Board-certified in Sleep Medicine",
-      "10+ years of clinical practice",
-      "Peer-reviewed contributions in circadian biology",
+      "Independent writer team — no paid placement",
+      "Product picks based on aggregated customer reviews",
+      "Not medical advice — always consult a qualified provider",
     ],
   },
 };
