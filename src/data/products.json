@@ -338,5 +338,158 @@
       "Thinner fabric than premium options",
       "Light leakage at sides and top without proper overlap"
     ]
+  },
+  "carex-daylight-classic": {
+    "name": "Carex Day-Light Classic Plus",
+    "brand": "Carex",
+    "price": "$144.95",
+    "image": "/images/products/carex-daylight-classic.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID21?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID21?irgwc=1",
+    "pros": [
+      "Delivers 10,000 lux at the recommended 12-inch distance",
+      "Recommended in published SAD treatment studies",
+      "Adjustable height and angle for hands-free use"
+    ],
+    "cons": [
+      "Bulky compared to compact light therapy lamps",
+      "Plastic build feels less premium than the price suggests"
+    ]
+  },
+  "philips-smartsleep-wakeup": {
+    "name": "Philips SmartSleep Wake-Up Light",
+    "brand": "Philips",
+    "price": "$199.99",
+    "image": "/images/products/philips-smartsleep.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID22?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID22?irgwc=1",
+    "pros": [
+      "30-minute gradual sunrise simulation",
+      "Multiple natural wake-up sounds plus FM radio",
+      "Doubles as a bedside lamp with adjustable warm light"
+    ],
+    "cons": [
+      "Premium price for a single-purpose device",
+      "No app or routine programming like the Hatch"
+    ]
+  },
+  "pharmedoc-pregnancy-pillow": {
+    "name": "PharMeDoc U-Shaped Pregnancy Pillow",
+    "brand": "PharMeDoc",
+    "price": "$49.99",
+    "image": "/images/products/pharmedoc-pillow.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID23?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID23?irgwc=1",
+    "pros": [
+      "U-shape supports back, belly, and knees simultaneously",
+      "Removable, machine-washable cover",
+      "Affordable compared to premium pregnancy pillows"
+    ],
+    "cons": [
+      "Takes up significant bed space — not ideal for smaller beds",
+      "Filling can shift over time without periodic fluffing"
+    ]
+  },
+  "buffy-eucalyptus-sheets": {
+    "name": "Buffy Eucalyptus Sheets",
+    "brand": "Buffy",
+    "price": "$179.00",
+    "image": "/images/products/buffy-eucalyptus-sheets.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID24?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID24?irgwc=1",
+    "pros": [
+      "Lyocell from sustainably sourced eucalyptus — naturally cooling",
+      "Moisture-wicking and breathable for hot sleepers",
+      "Soft and silky without chemical finishes"
+    ],
+    "cons": [
+      "Premium pricing compared to cotton sheets",
+      "Fabric is delicate — gentle wash cycle recommended"
+    ]
+  },
+  "saatva-classic-mattress": {
+    "name": "Saatva Classic Mattress",
+    "brand": "Saatva",
+    "price": "$1,395.00",
+    "image": "/images/products/saatva-classic.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID25?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID25?irgwc=1",
+    "pros": [
+      "Coil-on-coil construction with strong edge support",
+      "Three firmness levels — works for back, side, and stomach sleepers",
+      "Free white-glove delivery and 365-night home trial"
+    ],
+    "cons": [
+      "Heavy — requires two people to maneuver",
+      "Premium pricing not suitable for budget shoppers"
+    ]
+  },
+  "now-l-theanine": {
+    "name": "NOW Foods L-Theanine 200mg",
+    "brand": "NOW Foods",
+    "price": "$14.99",
+    "image": "/images/products/now-l-theanine.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID26?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID26?irgwc=1",
+    "pros": [
+      "200mg L-theanine — the most-studied dose for relaxation",
+      "GMP-certified, third-party tested",
+      "Excellent value at under $0.20 per capsule"
+    ],
+    "cons": [
+      "Effect is subtle — not a sedative",
+      "Capsule form only, no chewable option"
+    ]
+  },
+  "lectrofan-evo": {
+    "name": "LectroFan Evo",
+    "brand": "Adaptive Sound Technologies",
+    "price": "$59.99",
+    "image": "/images/products/lectrofan-evo.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID27?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID27?irgwc=1",
+    "pros": [
+      "10 fan sounds plus 10 ambient noise variations",
+      "Non-looping digital — no audible repetition",
+      "Compact size with sleep timer and headphone jack"
+    ],
+    "cons": [
+      "Digital generation lacks the texture of real-fan machines",
+      "Speaker quality is good but not exceptional"
+    ]
+  },
+  "intevision-wedge-pillow": {
+    "name": "InteVision Foam Bed Wedge Pillow",
+    "brand": "InteVision",
+    "price": "$49.99",
+    "image": "/images/products/intevision-wedge.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID28?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID28?irgwc=1",
+    "pros": [
+      "Helps with acid reflux, snoring, and post-surgery recovery",
+      "Memory foam top layer for comfort",
+      "Removable, washable bamboo cover"
+    ],
+    "cons": [
+      "Off-gassing smell on first unboxing",
+      "Fixed height may not suit all body sizes"
+    ]
+  },
+  "philips-hue-bulb": {
+    "name": "Philips Hue White Ambiance Bulb",
+    "brand": "Philips",
+    "price": "$26.99",
+    "image": "/images/products/philips-hue-bulb.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID29?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID29?irgwc=1",
+    "pros": [
+      "Adjustable warm-to-cool color temperature for circadian-friendly evenings",
+      "Schedules and routines via app for automatic dimming",
+      "Long lifespan and low energy use"
+    ],
+    "cons": [
+      "Requires Hue Bridge for full functionality",
+      "More expensive per bulb than basic smart bulbs"
+    ]
   }
 }

@@ -12,9 +12,23 @@ import {
   ShieldCheck,
   Layers,
 } from "lucide-react";
+import Image from "next/image";
 import { getAllContentAcrossTypes } from "@/lib/content";
 import { ArticleCard } from "@/components/article/ArticleCard";
+import { CoverFallback } from "@/components/article/CoverFallback";
 import { siteConfig } from "@/lib/site";
+import { getProducts } from "@/lib/products";
+
+const FEATURED_PRODUCT_IDS = [
+  "hatch-restore-2",
+  "manta-sleep-mask",
+  "magnesium-breakthrough",
+  "oura-ring-gen-3",
+  "bearaby-cotton-napper",
+  "yogasleep-dohm",
+  "chilipad-cube",
+  "swanwick-blue-blockers",
+];
 
 const TOOL_CARDS = [
   {
@@ -259,6 +273,78 @@ export default function HomePage() {
               </span>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* FEATURED PRODUCTS */}
+      <section className="container relative z-10 mx-auto px-6 pb-24 md:pb-32">
+        <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">
+              The Shelf
+            </span>
+            <h2 className="mt-3 font-serif text-4xl md:text-5xl">
+              Top sleep <span className="italic text-indigo-300">picks.</span>
+            </h2>
+            <p className="mt-4 max-w-2xl text-base text-slate-400">
+              Highly-rated sleep products curated from aggregated buyer
+              reviews. Click through for the full review or jump to the
+              listing.
+            </p>
+          </div>
+          <Link
+            href="/brands"
+            className="inline-flex items-center gap-1 text-sm font-bold text-slate-400 hover:text-white"
+          >
+            All brands <ArrowRight size={14} />
+          </Link>
+        </div>
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {getProducts(FEATURED_PRODUCT_IDS).map((p) => (
+            <a
+              key={p.id}
+              href={p.amazonLink}
+              target="_blank"
+              rel="sponsored nofollow noopener"
+              className="group flex flex-col overflow-hidden rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 transition-all hover:border-indigo-500/40 hover:shadow-2xl hover:shadow-indigo-500/10"
+            >
+              <div className="relative aspect-square w-full overflow-hidden bg-slate-900">
+                {p.image ? (
+                  <Image
+                    src={p.image}
+                    alt={p.name}
+                    fill
+                    sizes="(min-width: 1024px) 280px, (min-width: 640px) 50vw, 100vw"
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <CoverFallback seed={p.id} label={p.brand} />
+                )}
+              </div>
+              <div className="flex flex-1 flex-col p-5">
+                <p className="text-[10px] font-black uppercase tracking-[0.2em] text-amber-400">
+                  {p.brand}
+                </p>
+                <h3 className="mt-2 font-serif text-xl text-white group-hover:text-indigo-300">
+                  {p.name}
+                </h3>
+                <p className="mt-2 text-base font-bold text-indigo-400">
+                  {p.price}
+                </p>
+                <span className="mt-auto inline-flex items-center gap-1.5 pt-4 text-xs font-bold uppercase tracking-[0.15em] text-indigo-400">
+                  View on Amazon <ArrowRight size={12} />
+                </span>
+              </div>
+            </a>
+          ))}
+        </div>
+        <div className="mt-8 flex justify-center">
+          <Link
+            href="/best"
+            className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-2.5 text-xs font-bold uppercase tracking-[0.15em] text-slate-300 transition-colors hover:border-indigo-500/40 hover:text-white"
+          >
+            See all product roundups <ArrowRight size={12} />
+          </Link>
         </div>
       </section>
 
