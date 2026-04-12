@@ -12,9 +12,9 @@ export const metadata: Metadata = {
 
 const TOOLS = [
   {
-    href: "/tools/sleep-stack-quiz",
+    href: "/tools/sleep-edge-quiz",
     icon: Compass,
-    title: "Sleep Stack Quiz",
+    title: "Sleep Edge Quiz",
     description:
       "Answer four questions, get a personalized starting point — articles and tools matched to your specific problem.",
   },

@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
   applicationName: siteConfig.name,
-  authors: [{ name: "SleepStackHQ Editorial" }],
+  authors: [{ name: "SleepingOnTheEdge Editorial" }],
   keywords: [
     "sleep optimization",
     "sleep science",
@@ -67,8 +67,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@sleepstackhq",
-    creator: "@sleepstackhq",
+    site: "@sleepingontheedge",
+    creator: "@sleepingontheedge",
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
     images: [`${siteConfig.url}/opengraph-image`],

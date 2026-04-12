@@ -33,7 +33,7 @@ const COLUMNS: Array<{ heading: string; links: Array<{ label: string; href: stri
   {
     heading: "Discover",
     links: [
-      { label: "Stacks", href: "/best" },
+      { label: "The Edge", href: "/best" },
       { label: "Lab Reports", href: "/reviews" },
       { label: "Protocols", href: "/guides" },
       { label: "Compare", href: "/compare" },
@@ -77,14 +77,14 @@ export function Footer() {
                 <Moon size={16} fill="white" className="text-white" />
               </span>
               <span>
-                SleepStack<span className="text-indigo-400">HQ</span>
+                Sleeping<span className="text-indigo-400">OnThe</span>Edge
               </span>
             </Link>
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-slate-400">
               {siteConfig.description}
             </p>
             <p className="mt-5 max-w-sm text-xs leading-relaxed text-slate-500">
-              SleepStackHQ is reader-supported. Some links on this site are
+              SleepingOnTheEdge is reader-supported. Some links on this site are
               affiliate links — if you click and buy, we may earn a small
               commission at no extra cost to you. Our editorial picks are based
               on aggregated customer reviews and published research, not paid
@@ -120,7 +120,7 @@ export function Footer() {
         </div>
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center">
           <span className="text-xs text-slate-500">
-            &copy; {year} SleepStackHQ. All rights reserved.
+            &copy; {year} SleepingOnTheEdge. All rights reserved.
           </span>
           <div className="flex items-center gap-3">
             {Object.entries(siteConfig.socials).map(([key, url]) => {

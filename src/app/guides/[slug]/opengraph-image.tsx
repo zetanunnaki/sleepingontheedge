@@ -4,7 +4,7 @@ import { articleOgImage, ogSize } from "@/components/seo/og-template";
 export const dynamic = "force-static";
 export const size = ogSize;
 export const contentType = "image/png";
-export const alt = "SleepStackHQ protocol";
+export const alt = "SleepingOnTheEdge protocol";
 
 export function generateStaticParams() {
   return getAllSlugs("guides").map((slug) => ({ slug }));
@@ -18,6 +18,6 @@ export default function Image({ params }: OgProps) {
   const item = getContentItem("guides", params.slug);
   return articleOgImage({
     type: "Protocol",
-    title: item?.frontmatter.title ?? "SleepStackHQ",
+    title: item?.frontmatter.title ?? "SleepingOnTheEdge",
   });
 }

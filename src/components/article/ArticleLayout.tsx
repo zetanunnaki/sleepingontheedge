@@ -98,7 +98,7 @@ export function ArticleLayout({
             priority
           />
         ) : (
-          <CoverFallback seed={item.url} label={eyebrow ?? "SleepStackHQ"} />
+          <CoverFallback seed={item.url} label={eyebrow ?? "SleepingOnTheEdge"} />
         )}
       </div>
 

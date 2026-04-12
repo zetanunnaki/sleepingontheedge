@@ -1,11 +1,12 @@
 export const siteConfig = {
-  name: "SleepStackHQ",
-  tagline: "Stack the science of better sleep.",
+  name: "SleepingOnTheEdge",
+  displayName: "Sleeping On The Edge",
+  tagline: "The sharpest sleep advice on the internet.",
   description:
-    "Independent reviews, science-backed guides, and the best gear for deeper, more restorative sleep.",
-  url: "https://sleepstackhq.vercel.app",
+    "Cutting-edge sleep science, honest product breakdowns, and the edge you need to actually sleep better. Independent, research-backed, no BS.",
+  url: "https://sleepingontheedge.com",
   nav: [
-    { label: "Stacks", href: "/best" },
+    { label: "The Edge", href: "/best" },
     { label: "Lab Reports", href: "/reviews" },
     { label: "Protocols", href: "/guides" },
     { label: "Tools", href: "/tools" },
@@ -37,12 +38,12 @@ export const siteConfig = {
     },
   ],
   socials: {
-    twitter: "https://x.com/sleepstackhq",
-    instagram: "https://instagram.com/sleepstackhq",
-    pinterest: "https://pinterest.com/sleepstackhq",
-    youtube: "https://youtube.com/@sleepstackhq",
-    tiktok: "https://tiktok.com/@sleepstackhq",
-    facebook: "https://facebook.com/sleepstackhq",
+    twitter: "https://x.com/sleepingontheedge",
+    instagram: "https://instagram.com/sleepingontheedge",
+    pinterest: "https://pinterest.com/sleepingontheedge",
+    youtube: "https://youtube.com/@sleepingontheedge",
+    tiktok: "https://tiktok.com/@sleepingontheedge",
+    facebook: "https://facebook.com/sleepingontheedge",
   },
 };
 

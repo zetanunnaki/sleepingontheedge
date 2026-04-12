@@ -13,7 +13,7 @@ interface GlossaryEntry {
 export const metadata: Metadata = {
   title: "Sleep Glossary",
   description:
-    "Plain-English definitions of the sleep science terms you'll see across SleepStackHQ — from adenosine to zeitgebers.",
+    "Plain-English definitions of the sleep science terms you'll see across SleepingOnTheEdge — from adenosine to zeitgebers.",
   alternates: { canonical: canonical("/glossary") },
 };
 
@@ -31,7 +31,7 @@ export default function GlossaryPage() {
   const definedTermSchema = {
     "@context": "https://schema.org",
     "@type": "DefinedTermSet",
-    name: "SleepStackHQ Sleep Glossary",
+    name: "SleepingOnTheEdge Sleep Glossary",
     url: `${siteConfig.url}/glossary`,
     hasDefinedTerm: sorted.map((e) => ({
       "@type": "DefinedTerm",

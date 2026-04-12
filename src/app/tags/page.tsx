@@ -7,7 +7,7 @@ import { canonical } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Tags",
   description:
-    "Browse every article on SleepStackHQ by topic — from circadian science and supplements to sleep tech and environment optimization.",
+    "Browse every article on SleepingOnTheEdge by topic — from circadian science and supplements to sleep tech and environment optimization.",
   alternates: { canonical: canonical("/tags") },
 };
 
@@ -24,7 +24,7 @@ export default function TagsIndexPage() {
           Browse by <span className="italic text-indigo-300">topic.</span>
         </h1>
         <p className="mt-6 text-lg text-slate-400">
-          Every article on SleepStackHQ is tagged so you can dig into the
+          Every article on SleepingOnTheEdge is tagged so you can dig into the
           topics that matter to your stack.
         </p>
       </header>

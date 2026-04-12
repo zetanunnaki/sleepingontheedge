@@ -6,7 +6,7 @@ import { canonical } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How SleepStackHQ collects, uses, and protects your information, plus our affiliate disclosures.",
+    "How SleepingOnTheEdge collects, uses, and protects your information, plus our affiliate disclosures.",
   alternates: { canonical: canonical("/privacy-policy") },
 };
 
@@ -37,7 +37,7 @@ export default function PrivacyPage() {
       >
         <h2>Information we collect</h2>
         <p>
-          SleepStackHQ is a static website. We do not require accounts and we
+          SleepingOnTheEdge is a static website. We do not require accounts and we
           do not collect personal information directly. Our hosting provider
           may log standard request data (IP address, user agent, timestamp)
           for security and analytics purposes.
@@ -51,7 +51,7 @@ export default function PrivacyPage() {
         </p>
         <h2>Affiliate disclosure</h2>
         <p>
-          SleepStackHQ is a participant in the Amazon Services LLC Associates
+          SleepingOnTheEdge is a participant in the Amazon Services LLC Associates
           Program and the Walmart Creator/Associates program, both affiliate
           advertising programs designed to provide a means for sites to earn
           fees by linking to Amazon.com and Walmart.com. As an Amazon
@@ -65,7 +65,7 @@ export default function PrivacyPage() {
         <h2>Contact</h2>
         <p>
           Questions about this policy? Email{" "}
-          <code>privacy@sleepstackhq.com</code>.
+          <code>privacy@sleepingontheedge.com</code>.
         </p>
       </div>
     </div>

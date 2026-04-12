@@ -191,7 +191,7 @@ export function SearchDialog() {
                 </kbd>{" "}
                 to close
               </span>
-              <span>SleepStackHQ</span>
+              <span>SleepingOnTheEdge</span>
             </div>
           </div>
         </div>

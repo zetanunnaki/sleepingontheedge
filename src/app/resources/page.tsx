@@ -17,7 +17,7 @@ import { canonical } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Resources",
   description:
-    "Every tool, guide, glossary term, and reference on SleepStackHQ — organized by what you're trying to accomplish.",
+    "Every tool, guide, glossary term, and reference on SleepingOnTheEdge — organized by what you're trying to accomplish.",
   alternates: { canonical: canonical("/resources") },
 };
 
@@ -99,9 +99,9 @@ export default function ResourcesPage() {
           <div className="mt-6 grid gap-4 sm:grid-cols-2">
             <ResourceCard
               icon={Compass}
-              title="Sleep Stack Quiz"
+              title="Sleep Edge Quiz"
               description="4 questions, a personalized starting point matched to your specific sleep problem."
-              href="/tools/sleep-stack-quiz"
+              href="/tools/sleep-edge-quiz"
             />
             <ResourceCard
               icon={Calculator}
@@ -143,7 +143,7 @@ export default function ResourcesPage() {
             />
             <ResourceCard
               icon={Zap}
-              title="Stacks"
+              title="The Edge"
               description="Product roundups for every layer of your stack."
               href="/best"
               count={roundupsCount}

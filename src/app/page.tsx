@@ -33,9 +33,9 @@ const FEATURED_PRODUCT_IDS = [
 
 const TOOL_CARDS = [
   {
-    href: "/tools/sleep-stack-quiz",
+    href: "/tools/sleep-edge-quiz",
     icon: Compass,
-    title: "Sleep Stack Quiz",
+    title: "Sleep Edge Quiz",
     body: "Four questions, a personalized starting point.",
   },
   {
@@ -86,22 +86,22 @@ export default function HomePage() {
       {/* HERO */}
       <header className="relative z-10 px-6 pb-24 pt-16 text-center md:pb-32 md:pt-20">
         <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-1.5 text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">
-          <Activity size={12} /> The 2026 Sleep Optimization Guide
+          <Activity size={12} /> Cutting-Edge Sleep Science
         </div>
         <h1 className="mx-auto mb-8 max-w-5xl font-serif text-5xl leading-[1.05] sm:text-6xl md:text-8xl">
-          Sleep better, on{" "}
+          The sharpest sleep advice{" "}
           <span className="bg-gradient-to-r from-indigo-400 to-amber-200 bg-clip-text italic text-transparent">
-            evidence — not hype.
+            on the internet.
           </span>
         </h1>
         <p className="mx-auto mb-10 max-w-2xl text-lg text-slate-400 md:text-xl">
-          SleepStackHQ aggregates peer-reviewed research, clinical guidelines,
-          and verified buyer reviews into one place — so you can build a
-          better night&apos;s sleep without wading through marketing copy.
+          Cutting-edge sleep science, honest product breakdowns, and the edge you
+          need to actually sleep better. Independent, research-backed,
+          no BS — like a smart friend who&apos;s obsessed with sleep.
         </p>
         <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:gap-6">
           <Link
-            href="/tools/sleep-stack-quiz"
+            href="/tools/sleep-edge-quiz"
             className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-8 py-4 text-base font-bold shadow-xl shadow-indigo-500/20 transition-all hover:scale-[1.02] sm:w-auto md:px-10 md:py-5"
           >
             Take the 4-Question Quiz <ChevronRight size={18} />
@@ -110,7 +110,7 @@ export default function HomePage() {
             href="/best"
             className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-slate-700 bg-slate-900/50 px-8 py-4 text-base font-bold transition-all hover:border-slate-600 hover:bg-slate-800 sm:w-auto md:px-10 md:py-5"
           >
-            Browse the Stacks
+            Get the Edge
           </Link>
         </div>
 
@@ -207,15 +207,15 @@ export default function HomePage() {
       <section className="container relative z-10 mx-auto px-6 pb-24 md:pb-32">
         <div className="mb-10">
           <span className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">
-            The Layers
+            The Edges
           </span>
           <h2 className="mt-3 font-serif text-4xl md:text-5xl">
-            Build it{" "}
-            <span className="italic text-indigo-300">layer by layer.</span>
+            Sharpen every{" "}
+            <span className="italic text-indigo-300">edge.</span>
           </h2>
           <p className="mt-4 max-w-2xl text-base text-slate-400">
-            Sleep optimization isn&apos;t one big lever — it&apos;s a stack of
-            small ones. Pick the layer that&apos;s missing from your routine.
+            Better sleep isn&apos;t one big fix — it&apos;s a handful of small
+            edges. Find the one that&apos;s missing from your routine.
           </p>
         </div>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -397,7 +397,7 @@ export default function HomePage() {
             answers, not a generic checklist.
           </p>
           <Link
-            href="/tools/sleep-stack-quiz"
+            href="/tools/sleep-edge-quiz"
             className="mt-8 inline-flex items-center gap-2 rounded-2xl bg-white px-8 py-4 text-base font-bold text-slate-950 shadow-xl shadow-black/20 transition-all hover:scale-[1.02] hover:bg-indigo-100"
           >
             Start the quiz <ChevronRight size={18} />

@@ -9,7 +9,7 @@ import { canonical } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Sitemap",
   description:
-    "Every page on SleepStackHQ — articles, tools, brands, tags, and references.",
+    "Every page on SleepingOnTheEdge — articles, tools, brands, tags, and references.",
   alternates: { canonical: canonical("/sitemap") },
 };
 
@@ -79,7 +79,7 @@ export default function HtmlSitemapPage() {
           Site <span className="italic text-indigo-300">map.</span>
         </h1>
         <p className="mt-6 text-lg text-slate-400">
-          Every published page on SleepStackHQ, in one place. The XML version
+          Every published page on SleepingOnTheEdge, in one place. The XML version
           for crawlers lives at <code>/sitemap.xml</code>.
         </p>
       </header>
@@ -89,7 +89,7 @@ export default function HtmlSitemapPage() {
           <LinkList
             items={[
               { href: "/", label: "Home" },
-              { href: "/best", label: "Stacks" },
+              { href: "/best", label: "The Edge" },
               { href: "/reviews", label: "Lab Reports" },
               { href: "/guides", label: "Protocols" },
               { href: "/tools", label: "Tools" },

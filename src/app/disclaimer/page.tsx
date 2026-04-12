@@ -6,7 +6,7 @@ import { canonical } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Disclaimer",
   description:
-    "SleepStackHQ provides general educational information about sleep and is not a substitute for medical advice. Read our full disclaimer.",
+    "SleepingOnTheEdge provides general educational information about sleep and is not a substitute for medical advice. Read our full disclaimer.",
   alternates: { canonical: canonical("/disclaimer") },
 };
 
@@ -36,7 +36,7 @@ export default function DisclaimerPage() {
       >
         <h2>No medical advice</h2>
         <p>
-          The content on SleepStackHQ — including articles, guides, product
+          The content on SleepingOnTheEdge — including articles, guides, product
           summaries, calculators, and the glossary — is provided for general
           informational and educational purposes only. It is{" "}
           <strong>
@@ -56,7 +56,7 @@ export default function DisclaimerPage() {
 
         <h2>No clinical testing claims</h2>
         <p>
-          SleepStackHQ does not operate a clinical testing facility, conduct
+          SleepingOnTheEdge does not operate a clinical testing facility, conduct
           original peer-reviewed studies, or publish primary research. Our
           editorial content is based on:
         </p>
@@ -87,7 +87,7 @@ export default function DisclaimerPage() {
 
         <h2>Affiliate links</h2>
         <p>
-          SleepStackHQ participates in affiliate programs, including the
+          SleepingOnTheEdge participates in affiliate programs, including the
           Amazon Services LLC Associates Program and the Walmart Associates
           program. We may earn a commission when you purchase a product
           through one of our links, at no additional cost to you. Affiliate
@@ -104,7 +104,7 @@ export default function DisclaimerPage() {
         <h2>Contact</h2>
         <p>
           Questions about this disclaimer? Email{" "}
-          <code>hello@sleepstackhq.com</code>.
+          <code>hello@sleepingontheedge.com</code>.
         </p>
       </div>
     </div>

@@ -4,9 +4,9 @@ import { getAllContent } from "@/lib/content";
 import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Stacks",
+  title: "The Edge",
   description:
-    "Vetted gear roundups for every layer of your sleep optimization stack — supplements, hardware, and environment.",
+    "Cutting-edge gear roundups for every side of sleep — supplements, hardware, bedding, and environment. The sharpest picks, based on aggregated buyer reviews.",
   alternates: { canonical: canonical("/best") },
 };
 
@@ -17,12 +17,12 @@ export default function StacksIndexPage() {
       eyebrow="The Vault"
       title={
         <>
-          Sleep <span className="italic text-indigo-300">stacks.</span>
+          Get the <span className="italic text-indigo-300">edge.</span>
         </>
       }
-      description="Vetted gear roundups for every layer of your sleep optimization stack — supplements, hardware, and environment."
+      description="Cutting-edge gear roundups for every side of sleep — supplements, hardware, bedding, and environment."
       items={items}
-      featuredEyebrow="Stack"
+      featuredEyebrow="Edge Pick"
     />
   );
 }

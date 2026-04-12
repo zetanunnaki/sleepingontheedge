@@ -1,4 +1,4 @@
-# SleepStackHQ
+# SleepingOnTheEdge
 
 > Stack the science of better sleep.
 
@@ -52,7 +52,7 @@ src/
 ```yaml
 ---
 title: "The 7 Best Weighted Blankets for Deep Sleep"
-seoTitle: "Best Weighted Blankets in 2026 | SleepStackHQ"
+seoTitle: "Best Weighted Blankets in 2026 | SleepingOnTheEdge"
 description: "Short, punchy meta description (150 chars)."
 author: "Sleep Team"
 date: "2026-04-10"
@@ -85,7 +85,7 @@ Add an entry to `src/data/products.json`:
   "brand": "Brand Name",
   "price": "$199.99",
   "image": "/images/products/product-id.jpg",
-  "amazonLink": "https://amazon.com/dp/ID?tag=sleepstackhq-20",
+  "amazonLink": "https://amazon.com/dp/ID?tag=slpedge-20",
   "walmartLink": "https://walmart.com/ip/ID?irgwc=1",
   "pros": ["…"],
   "cons": ["…"]

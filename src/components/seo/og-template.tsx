@@ -48,8 +48,9 @@ export function articleOgImage({ type, title }: ArticleOgProps) {
               letterSpacing: "-1px",
             }}
           >
-            <span>SleepStack</span>
-            <span style={{ color: "#a5b4fc" }}>HQ</span>
+            <span>Sleeping</span>
+            <span style={{ color: "#a5b4fc" }}>OnThe</span>
+            <span>Edge</span>
           </div>
         </div>
 
@@ -92,7 +93,7 @@ export function articleOgImage({ type, title }: ArticleOgProps) {
             color: "#94a3b8",
           }}
         >
-          <span>sleepstackhq.com</span>
+          <span>sleepingontheedge.com</span>
           <span>Reader-supported · Independent</span>
         </div>
       </div>

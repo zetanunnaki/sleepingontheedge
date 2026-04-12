@@ -14,7 +14,7 @@ import { canonical } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Methodology",
   description:
-    "How SleepStackHQ researches sleep products and writes science-informed protocols. Our sources, our process, and what we don't claim.",
+    "How SleepingOnTheEdge researches sleep products and writes science-informed protocols. Our sources, our process, and what we don't claim.",
   alternates: { canonical: canonical("/methodology") },
 };
 
@@ -68,7 +68,7 @@ export default function MethodologyPage() {
           How we <span className="italic text-indigo-300">work.</span>
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-slate-400">
-          SleepStackHQ exists to help you make better decisions about your
+          SleepingOnTheEdge exists to help you make better decisions about your
           sleep. We gather information from published studies and buyer
           feedback, put it in one place, and present it honestly — including
           what we don&apos;t know.

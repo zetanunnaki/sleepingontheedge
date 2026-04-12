@@ -9,7 +9,7 @@ export function AffiliateDisclaimer() {
       <Info className="mt-0.5 h-4 w-4 shrink-0 text-amber-400" />
       <p className="leading-relaxed">
         <strong className="font-semibold text-amber-100">
-          SleepStackHQ is reader-supported.
+          SleepingOnTheEdge is reader-supported.
         </strong>{" "}
         Some links in this article are affiliate links. If you click and buy,
         we may earn a small commission at no extra cost to you. Our editorial

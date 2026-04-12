@@ -24,7 +24,7 @@ export async function generateMetadata({
   if (!author) return {};
   return {
     title: author.name,
-    description: `Articles and credentials for ${author.name} on SleepStackHQ.`,
+    description: `Articles and credentials for ${author.name} on SleepingOnTheEdge.`,
     alternates: { canonical: canonical("/authors/" + slug) },
   };
 }

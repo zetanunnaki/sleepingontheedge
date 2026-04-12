@@ -47,8 +47,9 @@ export default function OpengraphImage() {
               letterSpacing: "-1px",
             }}
           >
-            <span>SleepStack</span>
-            <span style={{ color: "#a5b4fc" }}>HQ</span>
+            <span>Sleeping</span>
+            <span style={{ color: "#a5b4fc" }}>OnThe</span>
+            <span>Edge</span>
           </div>
         </div>
 
@@ -62,17 +63,17 @@ export default function OpengraphImage() {
               fontWeight: 700,
             }}
           >
-            The Biohacking Guide
+            Cutting-Edge Sleep Science
           </div>
           <div
             style={{
-              fontSize: "84px",
+              fontSize: "76px",
               lineHeight: 1.05,
               fontWeight: 700,
-              maxWidth: "1000px",
+              maxWidth: "1040px",
             }}
           >
-            Optimize your sleep with scientific precision.
+            The sharpest sleep advice on the internet.
           </div>
         </div>
 
@@ -85,7 +86,7 @@ export default function OpengraphImage() {
             alignItems: "center",
           }}
         >
-          <span>sleepstackhq.com</span>
+          <span>sleepingontheedge.com</span>
           <span>Reader-supported. Independent.</span>
         </div>
       </div>

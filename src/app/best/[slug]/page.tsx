@@ -54,10 +54,10 @@ export default async function RoundupPage({ params }: PageProps) {
       <JsonLd data={itemListSchema(item)} />
       <ArticleLayout
         item={item}
-        eyebrow="Stack"
+        eyebrow="Edge Pick"
         crumbs={[
           { label: "Home", href: "/" },
-          { label: "Stacks", href: "/best" },
+          { label: "The Edge", href: "/best" },
           { label: item.frontmatter.title, href: item.url },
         ]}
       >

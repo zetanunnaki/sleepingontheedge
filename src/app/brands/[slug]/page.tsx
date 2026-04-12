@@ -23,7 +23,7 @@ export async function generateMetadata({
   if (!brand) return {};
   return {
     title: brand.name,
-    description: `Every ${brand.name} sleep product tested and reviewed on SleepStackHQ.`,
+    description: `Every ${brand.name} sleep product tested and reviewed on SleepingOnTheEdge.`,
     alternates: { canonical: canonical("/brands/" + slug) },
   };
 }

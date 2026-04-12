@@ -12,7 +12,7 @@ export function Header() {
     >
       <Link
         href="/"
-        aria-label="SleepStackHQ home"
+        aria-label="SleepingOnTheEdge home"
         className="flex items-center gap-2 font-serif text-xl font-bold tracking-tighter text-white sm:text-2xl"
       >
         <span
@@ -22,7 +22,7 @@ export function Header() {
           <Moon size={16} fill="white" className="text-white" />
         </span>
         <span>
-          SleepStack<span className="text-indigo-400">HQ</span>
+          Sleeping<span className="text-indigo-400">OnThe</span>Edge
         </span>
       </Link>
       <ul className="hidden gap-10 text-xs font-medium uppercase tracking-[0.2em] text-slate-400 lg:flex">
@@ -40,7 +40,7 @@ export function Header() {
       <div className="flex items-center gap-2 sm:gap-3">
         <SearchDialog />
         <Link
-          href="/tools/sleep-stack-quiz"
+          href="/tools/sleep-edge-quiz"
           className="hidden rounded-full bg-white px-5 py-2 text-sm font-bold text-black transition-all hover:bg-indigo-400 lg:inline-block"
         >
           Take the Quiz

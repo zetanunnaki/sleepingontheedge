@@ -4,7 +4,7 @@
     "brand": "Hatch",
     "price": "$169.99",
     "image": "/images/products/hatch-restore-2.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID?irgwc=1",
     "pros": [
       "Programmable wind-down routines",
@@ -21,7 +21,7 @@
     "brand": "Yogasleep",
     "price": "$49.99",
     "image": "/images/products/yogasleep-dohm.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID2?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID2?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID2?irgwc=1",
     "pros": [
       "Real fan-based white noise with natural texture",
@@ -38,7 +38,7 @@
     "brand": "Loftie",
     "price": "$165.00",
     "image": "/images/products/loftie-clock.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID3?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID3?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID3?irgwc=1",
     "pros": [
       "Two-phase gentle alarm",
@@ -55,7 +55,7 @@
     "brand": "BiOptimizers",
     "price": "$45.00",
     "image": "/images/products/magnesium-breakthrough.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID4?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID4?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID4?irgwc=1",
     "pros": [
       "Combines seven bioavailable forms in one capsule",
@@ -72,7 +72,7 @@
     "brand": "Manta Sleep",
     "price": "$35.00",
     "image": "/images/products/manta-sleep-mask.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID5?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID5?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID5?irgwc=1",
     "pros": [
       "Adjustable eye cups for total blackout",
@@ -89,7 +89,7 @@
     "brand": "Sleepme",
     "price": "$499.00",
     "image": "/images/products/chilipad-cube.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID6?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID6?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID6?irgwc=1",
     "pros": [
       "Actively cools and heats the mattress surface",
@@ -106,7 +106,7 @@
     "brand": "Oura",
     "price": "$299.00",
     "image": "/images/products/oura-ring-gen-3.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID7?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID7?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID7?irgwc=1",
     "pros": [
       "Validated against polysomnography in published studies",
@@ -123,7 +123,7 @@
     "brand": "Whoop",
     "price": "$239.00 / year",
     "image": "/images/products/whoop-4.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID8?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID8?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID8?irgwc=1",
     "pros": [
       "Detailed sleep, recovery, and strain analytics",
@@ -140,7 +140,7 @@
     "brand": "Swanwick Sleep",
     "price": "$79.00",
     "image": "/images/products/swanwick-blue-blockers.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID9?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID9?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID9?irgwc=1",
     "pros": [
       "Filters short-wavelength blue and green light",
@@ -157,7 +157,7 @@
     "brand": "Ra Optics",
     "price": "$120.00",
     "image": "/images/products/ra-optics-twilight.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID10?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID10?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID10?irgwc=1",
     "pros": [
       "Lab-validated lens spectrum data published",
@@ -174,7 +174,7 @@
     "brand": "Bearaby",
     "price": "$249.00",
     "image": "/images/products/bearaby-cotton-napper.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID11?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID11?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID11?irgwc=1",
     "pros": [
       "Organic cotton — no beads, no plastic fill",
@@ -191,7 +191,7 @@
     "brand": "Luna",
     "price": "$54.99",
     "image": "/images/products/luna-weighted-blanket.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID12?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID12?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID12?irgwc=1",
     "pros": [
       "Glass bead fill with 100% cotton shell",
@@ -208,7 +208,7 @@
     "brand": "Coop Home Goods",
     "price": "$96.00",
     "image": "/images/products/coop-eden-pillow.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID13?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID13?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID13?irgwc=1",
     "pros": [
       "Adjustable fill — add or remove to match your loft preference",
@@ -225,7 +225,7 @@
     "brand": "Beckham Hotel Collection",
     "price": "$39.99",
     "image": "/images/products/beckham-hotel-pillow.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID14?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID14?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID14?irgwc=1",
     "pros": [
       "One of the highest-rated pillows on Amazon overall (350K+ reviews)",
@@ -242,7 +242,7 @@
     "brand": "Loop",
     "price": "$24.95",
     "image": "/images/products/loop-quiet-earplugs.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID15?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID15?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID15?irgwc=1",
     "pros": [
       "Comfortable silicone design for side sleepers",
@@ -259,7 +259,7 @@
     "brand": "Mack's",
     "price": "$13.49",
     "image": "/images/products/macks-slim-fit.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID16?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID16?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID16?irgwc=1",
     "pros": [
       "29 dB NRR — among the highest for foam earplugs",
@@ -276,7 +276,7 @@
     "brand": "Sleep Number",
     "price": "$1,599.00",
     "image": "/images/products/sleep-number-dualtemp.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID17?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID17?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID17?irgwc=1",
     "pros": [
       "Active heating and cooling built into the topper",
@@ -293,7 +293,7 @@
     "brand": "Saatva",
     "price": "$425.00",
     "image": "/images/products/saatva-latex-topper.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID18?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID18?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID18?irgwc=1",
     "pros": [
       "Natural Talalay latex — breathable and responsive",
@@ -310,7 +310,7 @@
     "brand": "NICETOWN",
     "price": "$28.95",
     "image": "/images/products/nicetown-blackout-curtains.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID19?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID19?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID19?irgwc=1",
     "pros": [
       "Triple-weave fabric blocks 85–99% of light",
@@ -327,7 +327,7 @@
     "brand": "BGment",
     "price": "$22.99",
     "image": "/images/products/bgment-blackout-curtains.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID20?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID20?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID20?irgwc=1",
     "pros": [
       "Ultra-budget — often under $25 for a pair",
@@ -344,7 +344,7 @@
     "brand": "Carex",
     "price": "$144.95",
     "image": "/images/products/carex-daylight-classic.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID21?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID21?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID21?irgwc=1",
     "pros": [
       "Delivers 10,000 lux at the recommended 12-inch distance",
@@ -361,7 +361,7 @@
     "brand": "Philips",
     "price": "$169.95",
     "image": "/images/products/philips-smartsleep.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID22?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID22?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID22?irgwc=1",
     "pros": [
       "30-minute gradual sunrise simulation",
@@ -378,7 +378,7 @@
     "brand": "PharMeDoc",
     "price": "$49.99",
     "image": "/images/products/pharmedoc-pillow.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID23?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID23?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID23?irgwc=1",
     "pros": [
       "U-shape supports back, belly, and knees simultaneously",
@@ -395,7 +395,7 @@
     "brand": "Buffy",
     "price": "$179.00",
     "image": "/images/products/buffy-eucalyptus-sheets.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID24?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID24?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID24?irgwc=1",
     "pros": [
       "Lyocell from sustainably sourced eucalyptus — naturally cooling",
@@ -412,7 +412,7 @@
     "brand": "Saatva",
     "price": "$1,695.00",
     "image": "/images/products/saatva-classic.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID25?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID25?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID25?irgwc=1",
     "pros": [
       "Coil-on-coil construction with strong edge support",
@@ -429,7 +429,7 @@
     "brand": "NOW Foods",
     "price": "$14.99",
     "image": "/images/products/now-l-theanine.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID26?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID26?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID26?irgwc=1",
     "pros": [
       "200mg L-theanine — the most-studied dose for relaxation",
@@ -446,7 +446,7 @@
     "brand": "Adaptive Sound Technologies",
     "price": "$59.99",
     "image": "/images/products/lectrofan-evo.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID27?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID27?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID27?irgwc=1",
     "pros": [
       "10 fan sounds plus 10 ambient noise variations",
@@ -463,7 +463,7 @@
     "brand": "InteVision",
     "price": "$45.99",
     "image": "/images/products/intevision-wedge.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID28?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID28?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID28?irgwc=1",
     "pros": [
       "Helps with acid reflux, snoring, and post-surgery recovery",
@@ -480,7 +480,7 @@
     "brand": "Philips",
     "price": "$24.99",
     "image": "/images/products/philips-hue-bulb.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID29?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID29?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID29?irgwc=1",
     "pros": [
       "Adjustable warm-to-cool color temperature for circadian-friendly evenings",
@@ -497,7 +497,7 @@
     "brand": "Tuft & Needle",
     "price": "$1,195.00",
     "image": "/images/products/tuft-needle-mint.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID30?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID30?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID30?irgwc=1",
     "pros": [
       "Three-layer adaptive foam with edge support",
@@ -514,7 +514,7 @@
     "brand": "Brooklinen",
     "price": "$169.00",
     "image": "/images/products/brooklinen-luxe.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID31?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID31?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID31?irgwc=1",
     "pros": [
       "480 thread count long-staple cotton sateen",
@@ -531,7 +531,7 @@
     "brand": "Natrol",
     "price": "$8.99",
     "image": "/images/products/natrol-melatonin.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID32?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID32?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID32?irgwc=1",
     "pros": [
       "Low 1mg dose closer to physiological range",
@@ -548,7 +548,7 @@
     "brand": "Yogasleep",
     "price": "$34.95",
     "image": "/images/products/marpac-rohm.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID33?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID33?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID33?irgwc=1",
     "pros": [
       "Compact and rechargeable — fits in a coat pocket",
@@ -565,7 +565,7 @@
     "brand": "Uvex",
     "price": "$11.99",
     "image": "/images/products/uvex-skyper.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID34?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID34?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID34?irgwc=1",
     "pros": [
       "98% blue light blocking — verified on lab spectrum tests",
@@ -582,7 +582,7 @@
     "brand": "Yogi",
     "price": "$5.49",
     "image": "/images/products/yogi-bedtime-tea.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID35?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID35?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID35?irgwc=1",
     "pros": [
       "Caffeine-free herbal blend with chamomile and valerian",
@@ -599,7 +599,7 @@
     "brand": "Withings",
     "price": "$129.95",
     "image": "/images/products/withings-sleep-mat.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID36?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID36?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID36?irgwc=1",
     "pros": [
       "Slides under mattress — nothing to wear",
@@ -616,7 +616,7 @@
     "brand": "Hatch",
     "price": "$59.99",
     "image": "/images/products/hatch-rest-baby.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID37?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID37?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID37?irgwc=1",
     "pros": [
       "Combination nightlight, sound machine, and ok-to-wake clock",
@@ -633,7 +633,7 @@
     "brand": "Purple",
     "price": "$1,499.00",
     "image": "/images/products/purple-mattress.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID38?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID38?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID38?irgwc=1",
     "pros": [
       "GelFlex Grid technology — uniquely cooling and pressure-relieving",
@@ -650,7 +650,7 @@
     "brand": "Casper",
     "price": "$65.00",
     "image": "/images/products/casper-pillow.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID39?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID39?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID39?irgwc=1",
     "pros": [
       "Pillow-in-pillow design with breathable polyester microfiber",
@@ -667,7 +667,7 @@
     "brand": "Tempur-Pedic",
     "price": "$99.00",
     "image": "/images/products/tempur-neck.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID40?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID40?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID40?irgwc=1",
     "pros": [
       "Contoured cervical support for back and side sleepers",
@@ -684,7 +684,7 @@
     "brand": "Doctor's Best",
     "price": "$22.99",
     "image": "/images/products/doctors-best-mag.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID41?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID41?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID41?irgwc=1",
     "pros": [
       "100% chelated magnesium glycinate — gentle on the gut",
@@ -701,7 +701,7 @@
     "brand": "Apple",
     "price": "$399.00",
     "image": "/images/products/biostrap-evo.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID42?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID42?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID42?irgwc=1",
     "pros": [
       "Built-in sleep tracking with stages, heart rate, and breathing rate",
@@ -718,7 +718,7 @@
     "brand": "Sun Zero",
     "price": "$25.99",
     "image": "/images/products/sun-zero-curtains.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID43?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID43?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID43?irgwc=1",
     "pros": [
       "Triple-weave thermal-insulated fabric",
@@ -735,7 +735,7 @@
     "brand": "Moonbird",
     "price": "$199.00",
     "image": "/images/products/moonbird.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID44?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID44?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID44?irgwc=1",
     "pros": [
       "Tactile breathing pacer — expands and contracts in your hand",
@@ -752,7 +752,7 @@
     "brand": "YnM",
     "price": "$69.90",
     "image": "/images/products/ynm-bamboo.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID45?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID45?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID45?irgwc=1",
     "pros": [
       "100% bamboo viscose cover — naturally cooling",
@@ -769,7 +769,7 @@
     "brand": "SafeRest",
     "price": "$34.95",
     "image": "/images/products/saferest-protector.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID46?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID46?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID46?irgwc=1",
     "pros": [
       "100% waterproof yet breathable terry cotton surface",
@@ -786,7 +786,7 @@
     "brand": "Fitbit",
     "price": "$159.95",
     "image": "/images/products/fitbit-charge-6.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID47?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID47?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID47?irgwc=1",
     "pros": [
       "Sleep stages, heart rate variability, and SpO2 tracking",
@@ -803,7 +803,7 @@
     "brand": "Bedsure",
     "price": "$39.99",
     "image": "/images/products/bedsure-bamboo-sheets.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID48?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID48?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID48?irgwc=1",
     "pros": [
       "Bamboo viscose blend — naturally cooling and moisture-wicking",
@@ -820,7 +820,7 @@
     "brand": "Linenspa",
     "price": "$79.99",
     "image": "/images/products/linenspa-topper.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID49?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID49?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID49?irgwc=1",
     "pros": [
       "Gel-infused memory foam for moderate cooling",
@@ -837,7 +837,7 @@
     "brand": "Zinus",
     "price": "$329.00",
     "image": "/images/products/zinus-mattress.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID50?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID50?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID50?irgwc=1",
     "pros": [
       "Highest-rated budget mattress on Amazon and Walmart",
@@ -854,7 +854,7 @@
     "brand": "Mellanni",
     "price": "$28.97",
     "image": "/images/products/mellanni-sheets.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID51?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID51?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID51?irgwc=1",
     "pros": [
       "Amazon's #1 best-selling sheet set with 400K+ reviews",
@@ -871,7 +871,7 @@
     "brand": "HoMedics",
     "price": "$24.99",
     "image": "/images/products/homedics-soundspa.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID52?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID52?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID52?irgwc=1",
     "pros": [
       "Six relaxing sounds including rain, ocean, and white noise",
@@ -888,7 +888,7 @@
     "brand": "Vicks",
     "price": "$44.99",
     "image": "/images/products/vicks-humidifier.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID53?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID53?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID53?irgwc=1",
     "pros": [
       "1.2-gallon tank runs up to 30 hours per fill",
@@ -905,7 +905,7 @@
     "brand": "Conair",
     "price": "$44.99",
     "image": "/images/products/conair-sunrise.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID54?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID54?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID54?irgwc=1",
     "pros": [
       "30-minute gradual sunrise simulation at a budget price",
@@ -922,7 +922,7 @@
     "brand": "Vornado",
     "price": "$99.99",
     "image": "/images/products/vornado-660.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID55?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID55?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID55?irgwc=1",
     "pros": [
       "Vortex airflow circulates an entire bedroom",
@@ -939,7 +939,7 @@
     "brand": "Bedsure",
     "price": "$54.99",
     "image": "/images/products/bedsure-comforter.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID56?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID56?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID56?irgwc=1",
     "pros": [
       "Hypoallergenic down-alternative fill — safe for allergies",
@@ -956,7 +956,7 @@
     "brand": "Sleep On Latex",
     "price": "$179.00",
     "image": "/images/products/pure-green-latex.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID57?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID57?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID57?irgwc=1",
     "pros": [
       "100% natural Talalay latex — no synthetic blends",
@@ -973,7 +973,7 @@
     "brand": "BedJet",
     "price": "$499.00",
     "image": "/images/products/bedjet-3.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID58?tag=sleepstackhq-20",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID58?tag=slpedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID58?irgwc=1",
     "pros": [
       "Active heating and cooling without water tubes",

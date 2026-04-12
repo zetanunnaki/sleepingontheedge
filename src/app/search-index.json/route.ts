@@ -3,7 +3,7 @@ import { getAllContentAcrossTypes } from "@/lib/content";
 export const dynamic = "force-static";
 
 const TYPE_LABEL: Record<string, string> = {
-  roundups: "Stack",
+  roundups: "Edge Pick",
   reviews: "Lab Report",
   guides: "Protocol",
 };

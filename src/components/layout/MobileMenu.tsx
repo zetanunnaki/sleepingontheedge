@@ -46,7 +46,7 @@ export function MobileMenu() {
         >
           <div className="flex items-center justify-between px-6 py-8">
             <span className="font-serif text-xl font-bold text-white">
-              SleepStack<span className="text-indigo-400">HQ</span>
+              Sleeping<span className="text-indigo-400">OnThe</span>Edge
             </span>
             <button
               type="button"
@@ -109,7 +109,7 @@ export function MobileMenu() {
 
           <div className="px-6 pb-10">
             <Link
-              href="/tools/sleep-stack-quiz"
+              href="/tools/sleep-edge-quiz"
               onClick={() => setOpen(false)}
               className="block rounded-2xl bg-indigo-600 px-6 py-4 text-center text-base font-bold text-white shadow-xl shadow-indigo-500/20"
             >

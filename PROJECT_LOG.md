@@ -1,9 +1,11 @@
-# SleepStackHQ — Project Log
+# SleepingOnTheEdge — Project Log
+
+> **Rebranded from SleepStackHQ in Phase 17.** The project directory still says `SleepStackHQ` and the GitHub repo is still `zetanunnaki/sleepstackhq`, but the brand, domain, and all content now reference SleepingOnTheEdge / sleepingontheedge.com.
 
 > Comprehensive reference for everything built on this site, in the order it was built.
 > Use this file to remember what exists, why it exists, and how to extend it.
 
-**Live URL:** https://sleepstackhq.vercel.app
+**Live URL:** https://sleepingontheedge.com
 **Repo:** https://github.com/zetanunnaki/sleepstackhq
 **Hosted on:** Vercel (auto-deploys from `main` branch)
 **Stack:** Next.js 16 (App Router) · Tailwind v4 · MDX · TypeScript · static export
@@ -137,7 +139,7 @@ src/
 - SleepCycleCalculator (90-min cycles + 14-min sleep onset)
 - CaffeineCalculator (5h half-life decay model)
 - SleepQuiz (4-question personalized recommendation engine)
-- /tools, /tools/sleep-cycle-calculator, /tools/caffeine-cutoff-calculator, /tools/sleep-stack-quiz
+- /tools, /tools/sleep-cycle-calculator, /tools/caffeine-cutoff-calculator, /tools/sleep-edge-quiz
 - WebApplication JSON-LD on tool pages
 
 ### Phase 7: UX polish
@@ -176,7 +178,7 @@ src/
 
 ### Phase 11: Social media + accessibility
 - 6 social platform links in Footer (X, Instagram, Pinterest, YouTube, TikTok, Facebook — all placeholder handles)
-- Twitter `@sleepstackhq` handle in OG meta
+- Twitter `@sleepingontheedge` handle in OG meta
 - Skip link, focus-visible rings, prefers-reduced-motion respected
 - ARIA labels on MobileMenu, AuthorBio
 - Semantic ul/li in Header nav
@@ -189,7 +191,7 @@ src/
 
 ### Phase 13: Vercel deployment
 - Removed GitHub Pages basePath/assetPrefix conditionals
-- Updated siteConfig.url to https://sleepstackhq.vercel.app
+- Updated siteConfig.url to https://sleepingontheedge.com
 - Removed basePath detection from SearchDialog
 - next.config.ts simplified
 
@@ -280,13 +282,13 @@ src/
 ### Tools (3 interactive)
 - Sleep Cycle Calculator
 - Caffeine Cutoff Calculator
-- Sleep Stack Quiz
+- Sleep Edge Quiz
 
 ### Comparisons
 - 5 curated head-to-head matchups on /compare
 
 ### Products (56+ as of Phase 16)
-All products have BOTH Amazon and Walmart link slots in the standard format. **Affiliate IDs are placeholders (`YOUR_ID1` through `YOUR_ID56` and `sleepstackhq-20`) that need to be replaced with real Amazon Associates and Walmart Creator IDs before going live.** Prices are MSRP/typical retail estimates from training data — verify against current listings before launch.
+All products have BOTH Amazon and Walmart link slots in the standard format. **Affiliate IDs are placeholders (`YOUR_ID1` through `YOUR_ID56` and `slpedge-20`) that need to be replaced with real Amazon Associates and Walmart Creator IDs before going live.** Prices are MSRP/typical retail estimates from training data — verify against current listings before launch.
 
 #### ⚠️ Direct-only products (NOT reliably on Amazon/Walmart) — REVIEW BEFORE LAUNCH
 
@@ -317,7 +319,33 @@ Suggested replacements (all confirmed on both Amazon and Walmart):
 - Moonbird → remove (digital meditation apps are the alternative)
 - Sleepme Chilipad → BedJet 3 Climate Comfort System
 
-#### Phase 16 additions (10 new products, all confirmed on both Amazon and Walmart)
+#### Phase 17: Rebrand to SleepingOnTheEdge
+
+User-requested rebrand from "SleepStackHQ" to "SleepingOnTheEdge":
+
+- **Brand name:** SleepStackHQ → SleepingOnTheEdge
+- **Display name:** Sleep Stack → Sleeping On The Edge
+- **Tagline:** "Stack the science of better sleep" → "The sharpest sleep advice on the internet"
+- **Domain:** sleepstackhq.vercel.app → sleepingontheedge.com
+- **Affiliate tag:** sleepstackhq-20 → slpedge-20 (all 58 product entries)
+- **Quiz URL:** /tools/sleep-stack-quiz → /tools/sleep-edge-quiz (folder renamed)
+- **Category label:** "Stacks" → "The Edge" (nav + footer + card labels)
+- **Type label:** "Stack" → "Edge Pick" (ArticleCard, search index)
+- **Section label:** "The Layers" → "The Edges" (homepage categories)
+- **Tone:** "stack it layer by layer" → "sharpen every edge"
+- **Social handles:** @sleepstackhq → @sleepingontheedge
+- **Email:** hello@sleepstackhq.com → hello@sleepingontheedge.com
+- **Homepage hero:** "Sleep better on evidence" → "The sharpest sleep advice on the internet"
+- **Homepage CTAs:** "Browse the Stacks" → "Get the Edge"
+- **OG images:** Updated brand wordmark in both root opengraph-image.tsx and per-article og-template.tsx
+
+**Logo generated** (via Kie.ai Flux, stored in `public/brand/`):
+- `logo-icon.png` — 1:1 crescent moon + razor edge icon with indigo/amber gradient
+- `logo-wordmark.png` — 16:9 horizontal wordmark on dark navy with italic serif
+
+The Header/Footer still use the text-based brand display (styled span with `<Moon>` icon) — logo files are available for future integration if you want to swap the text wordmark for an image.
+
+### Phase 16 additions (10 new products, all confirmed on both Amazon and Walmart)
 1. Fitbit Charge 6 — sleep tracker
 2. Bedsure Bamboo Sheets — cooling sheets value pick
 3. Linenspa 3" Gel Memory Foam Topper — budget topper
@@ -353,8 +381,8 @@ Categories covered:
 3. **Verify product prices** — all prices are training-data estimates. Check current Amazon/Walmart listings.
 4. **Replace `G-XXXXXXXXXX` in `src/components/analytics/GoogleAnalytics.tsx`** — paste your real GA4 measurement ID. Once set, all affiliate clicks start reporting to GA4 immediately.
 5. **Replace `PINTEREST_VERIFICATION_CODE` and `FACEBOOK_PAGE_ID`** in `src/app/layout.tsx` `metadata.other`
-6. **Replace social handles in `src/lib/site.ts`** — currently all `@sleepstackhq` placeholders
-7. **Submit sitemap to Google Search Console** — `https://sleepstackhq.vercel.app/sitemap.xml`
+6. **Replace social handles in `src/lib/site.ts`** — currently all `@sleepingontheedge` placeholders
+7. **Submit sitemap to Google Search Console** — `https://sleepingontheedge.com/sitemap.xml`
 8. **Re-add AdSense when you have a publisher ID** — components still in `src/components/ads/`. Re-import TopAd/BottomAd in layout.tsx and replace `ca-pub-XXXXXXXXXXXXXXXX`.
 9. **Set up Pinterest business account** — high-traffic platform for sleep niche
 
@@ -373,7 +401,7 @@ node scripts/generate-images.mjs # Regenerate or add product/cover images via Ki
 ### Git
 Git is unconfigured locally; commits use inline identity flags:
 ```bash
-git -c user.email=claude@anthropic.com -c user.name=SleepStackHQ commit -m "..."
+git -c user.email=claude@anthropic.com -c user.name=SleepingOnTheEdge commit -m "..."
 ```
 Commit messages end with: `Co-Authored-By: Claude Opus 4.6 (1M context) <noreply@anthropic.com>`
 
@@ -395,7 +423,7 @@ Pushing to `main` triggers Vercel auto-deploy. No workflow file needed — Verce
 
 ### Vercel
 - **Project:** sleepstackhq
-- **URL:** https://sleepstackhq.vercel.app
+- **URL:** https://sleepingontheedge.com
 - **Framework preset:** Next.js (auto-detected)
 - **Build command:** `next build` (default)
 - **Output directory:** `out` (auto-detected from `output: 'export'`)

@@ -12,7 +12,7 @@ const authorsData: Record<string, Author> = {
     slug: "sleep-team",
     name: "Sleep Team",
     role: "Editorial",
-    bio: "The SleepStackHQ editorial team curates sleep-related content by gathering information from published studies, clinical guidelines, and verified buyer reviews — then puts it in plain English so you can make better decisions about your sleep.",
+    bio: "The SleepingOnTheEdge editorial team curates sleep-related content by gathering information from published studies, clinical guidelines, and verified buyer reviews — then puts it in plain English so you can make better decisions about your sleep.",
     credentials: [
       "Source-cited content",
       "No paid placement, no sponsored rankings",
@@ -23,7 +23,7 @@ const authorsData: Record<string, Author> = {
     slug: "dr-elena-vance",
     name: "Dr. Elena Vance",
     role: "Medical Advisor",
-    bio: "Elena is a board-certified sleep medicine physician with over a decade of clinical practice. She reviews SleepStackHQ articles touching on health, supplements, or sleep disorders for accuracy and to ensure they avoid framing that could be mistaken for medical advice.",
+    bio: "Elena is a board-certified sleep medicine physician with over a decade of clinical practice. She reviews SleepingOnTheEdge articles touching on health, supplements, or sleep disorders for accuracy and to ensure they avoid framing that could be mistaken for medical advice.",
     credentials: [
       "MD, Board-certified in Sleep Medicine",
       "10+ years of clinical practice",

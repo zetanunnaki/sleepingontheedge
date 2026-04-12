@@ -7,7 +7,7 @@ import { canonical } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Search",
-  description: "Browse every article on SleepStackHQ in one place.",
+  description: "Browse every article on SleepingOnTheEdge in one place.",
   alternates: { canonical: canonical("/search") },
 };
 

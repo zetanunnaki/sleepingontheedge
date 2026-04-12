@@ -5,7 +5,7 @@ import type { ContentItem } from "@/lib/content";
 import { CoverFallback } from "./CoverFallback";
 
 const TYPE_LABEL: Record<string, string> = {
-  roundups: "Stack",
+  roundups: "Edge Pick",
   reviews: "Lab Report",
   guides: "Protocol",
 };

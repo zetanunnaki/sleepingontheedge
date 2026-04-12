@@ -127,7 +127,7 @@ export function articleSchema(item: ContentItem) {
     dateModified: item.frontmatter.updated ?? item.frontmatter.date,
     author: {
       "@type": "Organization",
-      name: item.frontmatter.author ?? "SleepStackHQ Editorial",
+      name: item.frontmatter.author ?? "SleepingOnTheEdge Editorial",
     },
     publisher: {
       "@type": "Organization",
@@ -156,7 +156,7 @@ export function reviewSchema(item: ContentItem, productId: string) {
     },
     author: {
       "@type": "Organization",
-      name: item.frontmatter.author ?? "SleepStackHQ Editorial",
+      name: item.frontmatter.author ?? "SleepingOnTheEdge Editorial",
     },
     datePublished: item.frontmatter.date,
     publisher: {

@@ -6,7 +6,7 @@ import { canonical } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "SleepStackHQ is an independent publication helping people make better sleep decisions through research-backed guides and aggregated buyer reviews.",
+    "SleepingOnTheEdge is an independent publication helping people make better sleep decisions through research-backed guides and aggregated buyer reviews.",
   alternates: { canonical: canonical("/about") },
 };
 
@@ -20,7 +20,7 @@ export default function AboutPage() {
         <ArrowLeft size={14} /> Home
       </Link>
       <h1 className="mt-8 font-serif text-5xl leading-[1.05] text-white sm:text-7xl">
-        About <span className="italic text-indigo-300">SleepStackHQ.</span>
+        About <span className="italic text-indigo-300">SleepingOnTheEdge.</span>
       </h1>
       <div
         className="prose prose-invert prose-lg mt-10 max-w-none
@@ -33,7 +33,7 @@ export default function AboutPage() {
           prose-code:text-amber-300 prose-code:before:content-none prose-code:after:content-none"
       >
         <p>
-          SleepStackHQ exists because most sleep advice on the internet is
+          SleepingOnTheEdge exists because most sleep advice on the internet is
           either thinly disguised marketing or recycled headline science.
           We&apos;re trying to do something simpler: gather information from
           published studies and real buyer feedback, put it in one place,
@@ -75,7 +75,7 @@ export default function AboutPage() {
         </ul>
         <h2>How we make money</h2>
         <p>
-          SleepStackHQ is a participant in the Amazon Associates and Walmart
+          SleepingOnTheEdge is a participant in the Amazon Associates and Walmart
           Associates programs. When you buy something through one of our
           affiliate links, we earn a small commission at no extra cost to
           you. This is the only way we get paid. Affiliate revenue does not
@@ -84,7 +84,7 @@ export default function AboutPage() {
         <h2>Get in touch</h2>
         <p>
           Have feedback, a correction, or a topic you&apos;d like us to
-          cover? Email us at <code>hello@sleepstackhq.com</code>. We read
+          cover? Email us at <code>hello@sleepingontheedge.com</code>. We read
           everything, even when we can&apos;t reply to all of it.
         </p>
       </div>

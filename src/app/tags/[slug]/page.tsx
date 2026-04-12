@@ -20,7 +20,7 @@ export async function generateMetadata({
   if (!tag) return {};
   return {
     title: `${tag.name} — Sleep Articles & Research`,
-    description: `Browse ${tag.count} research-backed articles about ${tag.name.toLowerCase()} on SleepStackHQ — stacks, lab reports, and protocols curated from published studies and verified reviews.`,
+    description: `Browse ${tag.count} research-backed articles about ${tag.name.toLowerCase()} on SleepingOnTheEdge — edge picks, lab reports, and protocols curated from published studies and verified reviews.`,
     alternates: { canonical: canonical(`/tags/${slug}`) },
   };
 }
@@ -40,7 +40,7 @@ export default async function TagPage({ params }: PageProps) {
           <span className="italic text-indigo-300">#{tag.name.toLowerCase()}</span>
         </>
       }
-      description={`Every SleepStackHQ stack, lab report, and protocol filed under ${tag.name}.`}
+      description={`Every SleepingOnTheEdge edge pick, lab report, and protocol filed under ${tag.name}.`}
       items={items}
     />
   );
