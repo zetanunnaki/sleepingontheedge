@@ -108,8 +108,12 @@ async function poll(taskId, maxTries = 60) {
 
 const COVERS = [
   [
-    "best-pillows-side-sleepers.jpg",
-    "Photograph of two white fluffy pillows on a dark bed. Simple real estate photo of a hotel bed with white pillows and dark comforter. No people. Empty room.",
+    "best-magnesium-glycinate.jpg",
+    "Simple product photograph. A small brown glass supplement bottle with plain white label stands on a dark stone surface. White capsules scattered next to the bottle. Plain dark grey background. No people. No faces. Just the bottle and capsules.",
+  ],
+  [
+    "best-pregnancy-pillows.jpg",
+    "Simple photograph. A large white U-shaped body pillow lying on top of an empty made bed with dark grey sheets. Plain white bedroom walls. No people. No faces. Just an empty bed with the pillow.",
   ],
 ];
 
