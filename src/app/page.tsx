@@ -18,6 +18,7 @@ import { ArticleCard } from "@/components/article/ArticleCard";
 import { CoverFallback } from "@/components/article/CoverFallback";
 import { siteConfig } from "@/lib/site";
 import { getProducts } from "@/lib/products";
+import { TrackedAffiliateLink } from "@/components/analytics/TrackedAffiliateLink";
 
 const FEATURED_PRODUCT_IDS = [
   "hatch-restore-2",
@@ -301,11 +302,15 @@ export default function HomePage() {
         </div>
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {getProducts(FEATURED_PRODUCT_IDS).map((p) => (
-            <a
+            <TrackedAffiliateLink
               key={p.id}
               href={p.amazonLink}
-              target="_blank"
-              rel="sponsored nofollow noopener"
+              productId={p.id}
+              productName={p.name}
+              brand={p.brand}
+              price={p.price}
+              retailer="amazon"
+              location="homepage_featured"
               className="group flex flex-col overflow-hidden rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 transition-all hover:border-indigo-500/40 hover:shadow-2xl hover:shadow-indigo-500/10"
             >
               <div className="relative aspect-square w-full overflow-hidden bg-slate-900">
@@ -335,7 +340,7 @@ export default function HomePage() {
                   View on Amazon <ArrowRight size={12} />
                 </span>
               </div>
-            </a>
+            </TrackedAffiliateLink>
           ))}
         </div>
         <div className="mt-8 flex justify-center">

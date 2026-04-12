@@ -1,5 +1,6 @@
 import { ExternalLink } from "lucide-react";
 import { getProduct } from "@/lib/products";
+import { TrackedAffiliateLink } from "@/components/analytics/TrackedAffiliateLink";
 
 interface ProductMentionProps {
   productId: string;
@@ -19,14 +20,18 @@ export function ProductMention({
   const href =
     retailer === "walmart" ? product.walmartLink : product.amazonLink;
   return (
-    <a
+    <TrackedAffiliateLink
       href={href}
-      target="_blank"
-      rel="sponsored nofollow noopener"
+      productId={productId}
+      productName={product.name}
+      brand={product.brand}
+      price={product.price}
+      retailer={retailer}
+      location="inline_mention"
       className="inline-flex items-center gap-1 font-semibold text-indigo-300 underline-offset-4 hover:text-indigo-200 hover:underline"
     >
       {children ?? product.name}
       <ExternalLink size={12} className="opacity-60" />
-    </a>
+    </TrackedAffiliateLink>
   );
 }

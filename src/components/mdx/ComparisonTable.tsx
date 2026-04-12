@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getProducts } from "@/lib/products";
 import { CoverFallback } from "@/components/article/CoverFallback";
+import { TrackedAffiliateLink } from "@/components/analytics/TrackedAffiliateLink";
 
 interface ComparisonTableProps {
   productIds: string[];
@@ -59,14 +60,18 @@ export function ComparisonTable({ productIds }: ComparisonTableProps) {
               <td className="px-5 py-5 font-bold text-indigo-400">{p.price}</td>
               <td className="px-5 py-5 text-slate-400">{p.pros[0] ?? "—"}</td>
               <td className="px-5 py-5 text-right">
-                <a
+                <TrackedAffiliateLink
                   href={p.amazonLink}
-                  target="_blank"
-                  rel="sponsored nofollow noopener"
+                  productId={p.id}
+                  productName={p.name}
+                  brand={p.brand}
+                  price={p.price}
+                  retailer="amazon"
+                  location="comparison_table"
                   className="inline-block rounded-full bg-amber-400 px-4 py-1.5 text-xs font-bold text-slate-950 transition hover:bg-amber-300"
                 >
                   Amazon
-                </a>
+                </TrackedAffiliateLink>
               </td>
             </tr>
           ))}

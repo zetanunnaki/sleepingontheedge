@@ -25,6 +25,21 @@ export async function generateMetadata({
     title: item.frontmatter.seoTitle ?? item.frontmatter.title,
     description: item.frontmatter.description,
     alternates: { canonical: canonical(item.url) },
+    openGraph: {
+      type: "article",
+      title: item.frontmatter.seoTitle ?? item.frontmatter.title,
+      description: item.frontmatter.description,
+      url: canonical(item.url),
+      publishedTime: item.frontmatter.date,
+      modifiedTime: item.frontmatter.updated ?? item.frontmatter.date,
+      authors: item.frontmatter.author ? [item.frontmatter.author] : undefined,
+      tags: item.frontmatter.tags,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: item.frontmatter.seoTitle ?? item.frontmatter.title,
+      description: item.frontmatter.description,
+    },
   };
 }
 

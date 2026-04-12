@@ -64,6 +64,47 @@ export function softwareAppSchema(input: {
   };
 }
 
+function parsePriceNumeric(price: string): string {
+  const num = parseFloat(price.replace(/[^0-9.]/g, ""));
+  return Number.isFinite(num) ? num.toFixed(2) : "0.00";
+}
+
+/**
+ * Schema.org Product with Offer — enables Google rich snippets showing
+ * price, brand, and (when ratings are added) star ratings in search results.
+ */
+export function productSchema(input: {
+  id: string;
+  name: string;
+  brand: string;
+  price: string;
+  image?: string;
+  url: string;
+  description?: string;
+}) {
+  const imageUrl = input.image ? `${siteConfig.url}${input.image}` : undefined;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "@id": `${siteConfig.url}${input.url}#product-${input.id}`,
+    name: input.name,
+    brand: { "@type": "Brand", name: input.brand },
+    description: input.description,
+    image: imageUrl,
+    offers: {
+      "@type": "Offer",
+      url: `${siteConfig.url}${input.url}`,
+      priceCurrency: "USD",
+      price: parsePriceNumeric(input.price),
+      availability: "https://schema.org/InStock",
+      seller: {
+        "@type": "Organization",
+        name: "Amazon",
+      },
+    },
+  };
+}
+
 export function organizationSchema() {
   return {
     "@context": "https://schema.org",

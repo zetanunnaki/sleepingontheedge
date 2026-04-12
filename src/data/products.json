@@ -491,5 +491,294 @@
       "Requires Hue Bridge for full functionality",
       "More expensive per bulb than basic smart bulbs"
     ]
+  },
+  "tuft-needle-mint": {
+    "name": "Tuft & Needle Mint Mattress",
+    "brand": "Tuft & Needle",
+    "price": "$995.00",
+    "image": "/images/products/tuft-needle-mint.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID30?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID30?irgwc=1",
+    "pros": [
+      "Three-layer adaptive foam with edge support",
+      "Sleeps cooler than most all-foam mattresses",
+      "100-night sleep trial and 10-year warranty"
+    ],
+    "cons": [
+      "Off-gassing smell for the first 24-48 hours",
+      "Not as bouncy as a hybrid for combination sleepers"
+    ]
+  },
+  "brooklinen-luxe-sheets": {
+    "name": "Brooklinen Luxe Core Sheet Set",
+    "brand": "Brooklinen",
+    "price": "$169.00",
+    "image": "/images/products/brooklinen-luxe.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID31?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID31?irgwc=1",
+    "pros": [
+      "480 thread count long-staple cotton sateen",
+      "Soft from first wash, durable over years",
+      "Wide range of colors and OEKO-TEX certified"
+    ],
+    "cons": [
+      "Sleeps slightly warm compared to linen or eucalyptus",
+      "Premium pricing vs. budget cotton sets"
+    ]
+  },
+  "natrol-melatonin-1mg": {
+    "name": "Natrol Melatonin 1mg Fast Dissolve",
+    "brand": "Natrol",
+    "price": "$8.99",
+    "image": "/images/products/natrol-melatonin.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID32?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID32?irgwc=1",
+    "pros": [
+      "Low 1mg dose closer to physiological range",
+      "Fast-dissolve tablet — no water needed",
+      "USP-verified for ingredient accuracy"
+    ],
+    "cons": [
+      "Strawberry flavor isn't to everyone's taste",
+      "Most studies use even lower doses (0.3-0.5mg)"
+    ]
+  },
+  "marpac-rohm": {
+    "name": "Marpac Rohm Travel White Noise Machine",
+    "brand": "Yogasleep",
+    "price": "$34.95",
+    "image": "/images/products/marpac-rohm.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID33?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID33?irgwc=1",
+    "pros": [
+      "Compact and rechargeable — fits in a coat pocket",
+      "Three sound options: white noise, fan, surf",
+      "Up to 12 hours battery life per charge"
+    ],
+    "cons": [
+      "Only three sounds vs full LectroFan library",
+      "Not as full-bodied as a plug-in Dohm"
+    ]
+  },
+  "wenzel-blue-blockers-budget": {
+    "name": "Uvex Skyper Blue Light Blocking Glasses",
+    "brand": "Uvex",
+    "price": "$11.99",
+    "image": "/images/products/uvex-skyper.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID34?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID34?irgwc=1",
+    "pros": [
+      "98% blue light blocking — verified on lab spectrum tests",
+      "Fits over prescription glasses",
+      "Cheapest credible blue blockers on the market"
+    ],
+    "cons": [
+      "Industrial safety glasses look — not stylish",
+      "Bulkier than fashion-frame alternatives"
+    ]
+  },
+  "thompsons-tea": {
+    "name": "Yogi Bedtime Tea",
+    "brand": "Yogi",
+    "price": "$5.99",
+    "image": "/images/products/yogi-bedtime-tea.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID35?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID35?irgwc=1",
+    "pros": [
+      "Caffeine-free herbal blend with chamomile and valerian",
+      "Calming ritual without sedative side effects",
+      "Organic, non-GMO ingredients"
+    ],
+    "cons": [
+      "Effects are mild — best as a wind-down ritual",
+      "Strong licorice flavor not for everyone"
+    ]
+  },
+  "withings-sleep-tracking-mat": {
+    "name": "Withings Sleep Tracking Mat",
+    "brand": "Withings",
+    "price": "$129.95",
+    "image": "/images/products/withings-sleep-mat.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID36?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID36?irgwc=1",
+    "pros": [
+      "Slides under mattress — nothing to wear",
+      "Tracks sleep cycles, heart rate, and snoring",
+      "No subscription required for full data"
+    ],
+    "cons": [
+      "Less accurate stage detection than Oura",
+      "Single-zone — measures only one side of the bed"
+    ]
+  },
+  "snuz-sound-machine-baby": {
+    "name": "Hatch Rest Baby Sound Machine",
+    "brand": "Hatch",
+    "price": "$59.99",
+    "image": "/images/products/hatch-rest-baby.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID37?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID37?irgwc=1",
+    "pros": [
+      "Combination nightlight, sound machine, and ok-to-wake clock",
+      "Programmable colors and routines for kids",
+      "Pediatric sleep consultant favorite"
+    ],
+    "cons": [
+      "App required for full feature set",
+      "Premium content requires subscription"
+    ]
+  },
+  "purple-mattress": {
+    "name": "Purple Mattress",
+    "brand": "Purple",
+    "price": "$1,499.00",
+    "image": "/images/products/purple-mattress.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID38?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID38?irgwc=1",
+    "pros": [
+      "GelFlex Grid technology — uniquely cooling and pressure-relieving",
+      "Strong edge support and motion isolation",
+      "100-night sleep trial"
+    ],
+    "cons": [
+      "Heavy and difficult to move",
+      "Distinctive feel — not for traditional foam fans"
+    ]
+  },
+  "casper-original-pillow": {
+    "name": "Casper Original Pillow",
+    "brand": "Casper",
+    "price": "$65.00",
+    "image": "/images/products/casper-pillow.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID39?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID39?irgwc=1",
+    "pros": [
+      "Pillow-in-pillow design with adjustable support",
+      "Machine-washable polyester microfiber fill",
+      "Mid-range price for premium feel"
+    ],
+    "cons": [
+      "Loft may be too low for tall side sleepers",
+      "Less customization than fully adjustable pillows"
+    ]
+  },
+  "tempur-neck-pillow": {
+    "name": "TEMPUR-Neck Pillow",
+    "brand": "Tempur-Pedic",
+    "price": "$99.00",
+    "image": "/images/products/tempur-neck.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID40?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID40?irgwc=1",
+    "pros": [
+      "Contoured cervical support for back and side sleepers",
+      "Original TEMPUR memory foam — durable and supportive",
+      "Three sizes for different shoulder widths"
+    ],
+    "cons": [
+      "Firmer feel takes adjustment for soft-pillow lovers",
+      "Not machine washable — spot clean only"
+    ]
+  },
+  "doctors-best-magnesium-glycinate": {
+    "name": "Doctor's Best High Absorption Magnesium Glycinate",
+    "brand": "Doctor's Best",
+    "price": "$22.99",
+    "image": "/images/products/doctors-best-mag.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID41?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID41?irgwc=1",
+    "pros": [
+      "100% chelated magnesium glycinate — gentle on the gut",
+      "200mg elemental magnesium per serving",
+      "Third-party tested, non-GMO"
+    ],
+    "cons": [
+      "Large pill size — some users split or open capsules",
+      "Single-form magnesium without complementary cofactors"
+    ]
+  },
+  "biostrap-evo": {
+    "name": "Biostrap EVO",
+    "brand": "Biostrap",
+    "price": "$249.00",
+    "image": "/images/products/biostrap-evo.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID42?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID42?irgwc=1",
+    "pros": [
+      "Medical-grade red LED PPG sensor for accurate HRV",
+      "Tracks sleep stages, SpO2, and breathing rate",
+      "No subscription required for core data"
+    ],
+    "cons": [
+      "Bulkier than Oura ring or Whoop strap",
+      "Smaller community than Oura/Whoop"
+    ]
+  },
+  "smith-blackout-curtains": {
+    "name": "Sun Zero Cyrus Thermal Blackout Curtains",
+    "brand": "Sun Zero",
+    "price": "$22.99",
+    "image": "/images/products/sun-zero-curtains.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID43?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID43?irgwc=1",
+    "pros": [
+      "Triple-weave thermal-insulated fabric",
+      "Energy-saving — reduces heat transfer at windows",
+      "Available in 30+ colors and 12 size options"
+    ],
+    "cons": [
+      "Top edge requires ceiling-mount rod for full blackout",
+      "Wrinkles need steaming on first hang"
+    ]
+  },
+  "moonbird-breathing-device": {
+    "name": "Moonbird Breathing Coach",
+    "brand": "Moonbird",
+    "price": "$199.00",
+    "image": "/images/products/moonbird.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID44?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID44?irgwc=1",
+    "pros": [
+      "Tactile breathing pacer — expands and contracts in your hand",
+      "Tracks HRV biofeedback during breathing exercises",
+      "Helps with anxiety-driven insomnia"
+    ],
+    "cons": [
+      "Premium price for a single-purpose device",
+      "Requires app for full feature set"
+    ]
+  },
+  "thrive-mood-blanket": {
+    "name": "YnM Cooling Bamboo Weighted Blanket",
+    "brand": "YnM",
+    "price": "$79.99",
+    "image": "/images/products/ynm-bamboo.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID45?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID45?irgwc=1",
+    "pros": [
+      "100% bamboo viscose cover — naturally cooling",
+      "Glass beads in 7-layer construction with extra cotton padding",
+      "Wide range of weights (5-30 lbs) and sizes"
+    ],
+    "cons": [
+      "Bamboo cover is delicate — separate cover recommended for washing",
+      "Not as breathable as a knitted Bearaby"
+    ]
+  },
+  "sealy-mattress-protector": {
+    "name": "SafeRest Premium Mattress Protector",
+    "brand": "SafeRest",
+    "price": "$34.95",
+    "image": "/images/products/saferest-protector.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID46?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID46?irgwc=1",
+    "pros": [
+      "100% waterproof yet breathable terry cotton surface",
+      "Hypoallergenic — protects against dust mites and allergens",
+      "Fits mattresses 6-22 inches deep"
+    ],
+    "cons": [
+      "Slight crinkle sound during the first few nights",
+      "Adds a thin layer that can affect mattress feel slightly"
+    ]
   }
 }

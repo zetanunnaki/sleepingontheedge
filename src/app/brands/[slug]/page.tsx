@@ -5,6 +5,7 @@ import { ArrowLeft } from "lucide-react";
 import { getAllBrands, getBrandBySlug } from "@/lib/products";
 import { ProductCard } from "@/components/mdx/ProductCard";
 import { canonical } from "@/lib/site";
+import { JsonLd, productSchema } from "@/components/seo/JsonLd";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -34,6 +35,19 @@ export default async function BrandPage({ params }: PageProps) {
 
   return (
     <div className="container relative z-10 mx-auto max-w-4xl px-6 py-16 md:py-24">
+      {brand.products.map((p) => (
+        <JsonLd
+          key={p.id}
+          data={productSchema({
+            id: p.id,
+            name: p.name,
+            brand: p.brand,
+            price: p.price,
+            image: p.image,
+            url: `/brands/${slug}`,
+          })}
+        />
+      ))}
       <Link
         href="/brands"
         className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.2em] text-indigo-400 transition-colors hover:text-white"

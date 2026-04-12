@@ -5,6 +5,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { siteConfig } from "@/lib/site";
 import { JsonLd, organizationSchema } from "@/components/seo/JsonLd";
+import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -53,6 +54,16 @@ export const metadata: Metadata = {
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
     url: siteConfig.url,
+    locale: "en_US",
+    images: [
+      {
+        url: `${siteConfig.url}/opengraph-image`,
+        width: 1200,
+        height: 630,
+        alt: `${siteConfig.name} — ${siteConfig.tagline}`,
+        type: "image/png",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -60,12 +71,20 @@ export const metadata: Metadata = {
     creator: "@sleepstackhq",
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
+    images: [`${siteConfig.url}/opengraph-image`],
   },
   alternates: {
     canonical: siteConfig.url,
     types: {
       "application/rss+xml": `${siteConfig.url}/rss.xml`,
     },
+  },
+  other: {
+    // Pinterest verification — replace with your real verification code from
+    // pinterest.com/business/claim-website/ once you have a Pinterest account.
+    "p:domain_verify": "PINTEREST_VERIFICATION_CODE",
+    // Facebook page ID — replace once you have a real Facebook page.
+    "fb:pages": "FACEBOOK_PAGE_ID",
   },
 };
 
@@ -86,6 +105,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} h-full antialiased`}
     >
       <body className="relative flex min-h-full flex-col bg-[#020617] font-sans text-slate-50 selection:bg-indigo-500/30">
+        <GoogleAnalytics />
         <JsonLd data={organizationSchema()} />
         {/* Background Aura orbs */}
         <div
