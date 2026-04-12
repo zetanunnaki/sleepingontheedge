@@ -2,7 +2,7 @@
   "hatch-restore-2": {
     "name": "Hatch Restore 2",
     "brand": "Hatch",
-    "price": "$199.99",
+    "price": "$169.99",
     "image": "/images/products/hatch-restore-2.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID?irgwc=1",
@@ -53,7 +53,7 @@
   "magnesium-breakthrough": {
     "name": "Magnesium Breakthrough",
     "brand": "BiOptimizers",
-    "price": "$40.00",
+    "price": "$45.00",
     "image": "/images/products/magnesium-breakthrough.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID4?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID4?irgwc=1",
@@ -85,16 +85,16 @@
     ]
   },
   "chilipad-cube": {
-    "name": "ChiliPad Cube",
+    "name": "Sleepme Chilipad",
     "brand": "Sleepme",
     "price": "$499.00",
     "image": "/images/products/chilipad-cube.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID6?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID6?irgwc=1",
     "pros": [
-      "Actively cools the mattress surface",
+      "Actively cools and heats the mattress surface",
       "Dual-zone option for couples",
-      "Significant temperature range (~55–110°F)"
+      "Significant temperature range (~55–115°F)"
     ],
     "cons": [
       "Pump produces audible noise at higher levels",
@@ -170,7 +170,7 @@
     ]
   },
   "bearaby-cotton-napper": {
-    "name": "Bearaby Cotton Napper",
+    "name": "Bearaby Cotton Napper (15 lb)",
     "brand": "Bearaby",
     "price": "$249.00",
     "image": "/images/products/bearaby-cotton-napper.jpg",
@@ -187,16 +187,16 @@
     ]
   },
   "luna-weighted-blanket": {
-    "name": "Luna Adult Weighted Blanket",
+    "name": "Luna Adult Weighted Blanket (15 lb)",
     "brand": "Luna",
-    "price": "$69.99",
+    "price": "$54.99",
     "image": "/images/products/luna-weighted-blanket.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID12?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID12?irgwc=1",
     "pros": [
-      "Glass bead fill with cotton shell",
+      "Glass bead fill with 100% cotton shell",
       "Available in 5–25 lbs across multiple sizes",
-      "Strong value at the price point"
+      "OEKO-TEX certified, strong value"
     ],
     "cons": [
       "Can run warm in summer — no cooling variant",
@@ -204,9 +204,9 @@
     ]
   },
   "coop-eden-pillow": {
-    "name": "Coop Home Goods Eden Pillow",
+    "name": "Coop Home Goods Eden Pillow (Queen)",
     "brand": "Coop Home Goods",
-    "price": "$79.99",
+    "price": "$96.00",
     "image": "/images/products/coop-eden-pillow.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID13?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID13?irgwc=1",
@@ -221,16 +221,16 @@
     ]
   },
   "beckham-hotel-collection-pillow": {
-    "name": "Beckham Hotel Collection Gel Pillow",
+    "name": "Beckham Hotel Collection Bed Pillows (2-Pack)",
     "brand": "Beckham Hotel Collection",
-    "price": "$55.99",
+    "price": "$39.99",
     "image": "/images/products/beckham-hotel-pillow.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID14?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID14?irgwc=1",
     "pros": [
-      "One of the highest-rated pillows on Amazon overall",
+      "One of the highest-rated pillows on Amazon overall (350K+ reviews)",
       "Gel fiber fill is hypoallergenic and machine washable",
-      "Excellent value — often under $30 per pillow in a 2-pack"
+      "Excellent value — typically under $20 per pillow in the 2-pack"
     ],
     "cons": [
       "Not adjustable — fixed loft may not suit all sleep positions",
@@ -238,16 +238,16 @@
     ]
   },
   "loop-quiet-earplugs": {
-    "name": "Loop Quiet Earplugs",
+    "name": "Loop Quiet 2 Earplugs",
     "brand": "Loop",
-    "price": "$22.95",
+    "price": "$24.95",
     "image": "/images/products/loop-quiet-earplugs.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID15?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID15?irgwc=1",
     "pros": [
       "Comfortable silicone design for side sleepers",
-      "26 dB noise reduction — blocks snoring and traffic",
-      "Reusable, multiple ear tip sizes included"
+      "27 dB noise reduction — blocks snoring and traffic",
+      "Reusable, four ear tip sizes included"
     ],
     "cons": [
       "Won't block very loud noise (construction, heavy snoring)",
@@ -255,9 +255,9 @@
     ]
   },
   "macks-slim-fit-foam": {
-    "name": "Mack's Slim Fit Soft Foam Earplugs",
+    "name": "Mack's Slim Fit Soft Foam Earplugs (50 Pair)",
     "brand": "Mack's",
-    "price": "$12.99",
+    "price": "$13.49",
     "image": "/images/products/macks-slim-fit.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID16?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID16?irgwc=1",
@@ -272,9 +272,9 @@
     ]
   },
   "sleep-number-dualtemp": {
-    "name": "Sleep Number DualTemp Layer",
+    "name": "Sleep Number DualTemp Layer (Queen)",
     "brand": "Sleep Number",
-    "price": "$299.00",
+    "price": "$1,599.00",
     "image": "/images/products/sleep-number-dualtemp.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID17?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID17?irgwc=1",
@@ -284,21 +284,21 @@
       "Quiet operation compared to pump-based systems"
     ],
     "cons": [
-      "Higher price point than passive toppers",
-      "Less cooling range than dedicated systems like ChiliPad"
+      "Significant investment vs. passive toppers",
+      "Less cooling range than dedicated systems like Sleepme Chilipad"
     ]
   },
   "saatva-latex-topper": {
-    "name": "Saatva Latex Mattress Topper",
+    "name": "Saatva Latex Mattress Topper (Queen)",
     "brand": "Saatva",
-    "price": "$395.00",
+    "price": "$425.00",
     "image": "/images/products/saatva-latex-topper.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID18?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID18?irgwc=1",
     "pros": [
       "Natural Talalay latex — breathable and responsive",
       "Organic cotton cover with inherent cooling",
-      "3-inch profile meaningfully changes mattress feel"
+      "1.5-inch profile meaningfully changes mattress feel"
     ],
     "cons": [
       "Premium pricing",
@@ -306,9 +306,9 @@
     ]
   },
   "nicetown-blackout-curtains": {
-    "name": "NICETOWN Blackout Curtains",
+    "name": "NICETOWN Blackout Curtains (2 Panels)",
     "brand": "NICETOWN",
-    "price": "$29.95",
+    "price": "$28.95",
     "image": "/images/products/nicetown-blackout-curtains.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID19?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID19?irgwc=1",
@@ -323,14 +323,14 @@
     ]
   },
   "bgment-blackout-curtains": {
-    "name": "BGment Blackout Curtains",
+    "name": "BGment Blackout Curtains (2 Panels)",
     "brand": "BGment",
-    "price": "$16.99",
+    "price": "$22.99",
     "image": "/images/products/bgment-blackout-curtains.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID20?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID20?irgwc=1",
     "pros": [
-      "Ultra-budget — often under $20 for a pair",
+      "Ultra-budget — often under $25 for a pair",
       "Rod-pocket and grommet-top options",
       "Decent light blocking for the price"
     ],
@@ -357,9 +357,9 @@
     ]
   },
   "philips-smartsleep-wakeup": {
-    "name": "Philips SmartSleep Wake-Up Light",
+    "name": "Philips SmartSleep Wake-Up Light HF3520",
     "brand": "Philips",
-    "price": "$199.99",
+    "price": "$169.95",
     "image": "/images/products/philips-smartsleep.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID22?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID22?irgwc=1",
@@ -391,7 +391,7 @@
     ]
   },
   "buffy-eucalyptus-sheets": {
-    "name": "Buffy Eucalyptus Sheets",
+    "name": "Buffy Eucalyptus Sheets (Queen)",
     "brand": "Buffy",
     "price": "$179.00",
     "image": "/images/products/buffy-eucalyptus-sheets.jpg",
@@ -408,9 +408,9 @@
     ]
   },
   "saatva-classic-mattress": {
-    "name": "Saatva Classic Mattress",
+    "name": "Saatva Classic Mattress (Queen)",
     "brand": "Saatva",
-    "price": "$1,395.00",
+    "price": "$1,695.00",
     "image": "/images/products/saatva-classic.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID25?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID25?irgwc=1",
@@ -425,7 +425,7 @@
     ]
   },
   "now-l-theanine": {
-    "name": "NOW Foods L-Theanine 200mg",
+    "name": "NOW Foods L-Theanine 200mg (60 Capsules)",
     "brand": "NOW Foods",
     "price": "$14.99",
     "image": "/images/products/now-l-theanine.jpg",
@@ -434,7 +434,7 @@
     "pros": [
       "200mg L-theanine — the most-studied dose for relaxation",
       "GMP-certified, third-party tested",
-      "Excellent value at under $0.20 per capsule"
+      "Excellent value at under $0.30 per capsule"
     ],
     "cons": [
       "Effect is subtle — not a sedative",
@@ -442,7 +442,7 @@
     ]
   },
   "lectrofan-evo": {
-    "name": "LectroFan Evo",
+    "name": "LectroFan Evo Sound Machine",
     "brand": "Adaptive Sound Technologies",
     "price": "$59.99",
     "image": "/images/products/lectrofan-evo.jpg",
@@ -461,7 +461,7 @@
   "intevision-wedge-pillow": {
     "name": "InteVision Foam Bed Wedge Pillow",
     "brand": "InteVision",
-    "price": "$49.99",
+    "price": "$45.99",
     "image": "/images/products/intevision-wedge.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID28?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID28?irgwc=1",
@@ -476,9 +476,9 @@
     ]
   },
   "philips-hue-bulb": {
-    "name": "Philips Hue White Ambiance Bulb",
+    "name": "Philips Hue White Ambiance Bulb (A19)",
     "brand": "Philips",
-    "price": "$26.99",
+    "price": "$24.99",
     "image": "/images/products/philips-hue-bulb.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID29?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID29?irgwc=1",
@@ -493,9 +493,9 @@
     ]
   },
   "tuft-needle-mint": {
-    "name": "Tuft & Needle Mint Mattress",
+    "name": "Tuft & Needle Mint Mattress (Queen)",
     "brand": "Tuft & Needle",
-    "price": "$995.00",
+    "price": "$1,195.00",
     "image": "/images/products/tuft-needle-mint.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID30?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID30?irgwc=1",
@@ -510,7 +510,7 @@
     ]
   },
   "brooklinen-luxe-sheets": {
-    "name": "Brooklinen Luxe Core Sheet Set",
+    "name": "Brooklinen Luxe Core Sheet Set (Queen)",
     "brand": "Brooklinen",
     "price": "$169.00",
     "image": "/images/products/brooklinen-luxe.jpg",
@@ -527,7 +527,7 @@
     ]
   },
   "natrol-melatonin-1mg": {
-    "name": "Natrol Melatonin 1mg Fast Dissolve",
+    "name": "Natrol Melatonin 1mg Fast Dissolve (90 Tablets)",
     "brand": "Natrol",
     "price": "$8.99",
     "image": "/images/products/natrol-melatonin.jpg",
@@ -544,7 +544,7 @@
     ]
   },
   "marpac-rohm": {
-    "name": "Marpac Rohm Travel White Noise Machine",
+    "name": "Yogasleep Rohm Travel White Noise Machine",
     "brand": "Yogasleep",
     "price": "$34.95",
     "image": "/images/products/marpac-rohm.jpg",
@@ -561,7 +561,7 @@
     ]
   },
   "wenzel-blue-blockers-budget": {
-    "name": "Uvex Skyper Blue Light Blocking Glasses",
+    "name": "Uvex Skyper SCT-Orange Blue Light Blocking Glasses",
     "brand": "Uvex",
     "price": "$11.99",
     "image": "/images/products/uvex-skyper.jpg",
@@ -578,9 +578,9 @@
     ]
   },
   "thompsons-tea": {
-    "name": "Yogi Bedtime Tea",
+    "name": "Yogi Bedtime Herbal Tea (16 Tea Bags)",
     "brand": "Yogi",
-    "price": "$5.99",
+    "price": "$5.49",
     "image": "/images/products/yogi-bedtime-tea.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID35?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID35?irgwc=1",
@@ -612,7 +612,7 @@
     ]
   },
   "snuz-sound-machine-baby": {
-    "name": "Hatch Rest Baby Sound Machine",
+    "name": "Hatch Rest Baby Sound Machine + Nightlight",
     "brand": "Hatch",
     "price": "$59.99",
     "image": "/images/products/hatch-rest-baby.jpg",
@@ -629,7 +629,7 @@
     ]
   },
   "purple-mattress": {
-    "name": "Purple Mattress",
+    "name": "Purple Mattress (Queen)",
     "brand": "Purple",
     "price": "$1,499.00",
     "image": "/images/products/purple-mattress.jpg",
@@ -646,15 +646,15 @@
     ]
   },
   "casper-original-pillow": {
-    "name": "Casper Original Pillow",
+    "name": "Casper Original Pillow (Standard)",
     "brand": "Casper",
     "price": "$65.00",
     "image": "/images/products/casper-pillow.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID39?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID39?irgwc=1",
     "pros": [
-      "Pillow-in-pillow design with adjustable support",
-      "Machine-washable polyester microfiber fill",
+      "Pillow-in-pillow design with breathable polyester microfiber",
+      "Machine-washable cover",
       "Mid-range price for premium feel"
     ],
     "cons": [
@@ -663,7 +663,7 @@
     ]
   },
   "tempur-neck-pillow": {
-    "name": "TEMPUR-Neck Pillow",
+    "name": "TEMPUR-Neck Pillow (Medium)",
     "brand": "Tempur-Pedic",
     "price": "$99.00",
     "image": "/images/products/tempur-neck.jpg",
@@ -680,7 +680,7 @@
     ]
   },
   "doctors-best-magnesium-glycinate": {
-    "name": "Doctor's Best High Absorption Magnesium Glycinate",
+    "name": "Doctor's Best High Absorption Magnesium Glycinate (240 Tablets)",
     "brand": "Doctor's Best",
     "price": "$22.99",
     "image": "/images/products/doctors-best-mag.jpg",
@@ -697,26 +697,26 @@
     ]
   },
   "biostrap-evo": {
-    "name": "Biostrap EVO",
-    "brand": "Biostrap",
-    "price": "$249.00",
+    "name": "Apple Watch Series 10 (Sleep Tracking)",
+    "brand": "Apple",
+    "price": "$399.00",
     "image": "/images/products/biostrap-evo.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID42?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID42?irgwc=1",
     "pros": [
-      "Medical-grade red LED PPG sensor for accurate HRV",
-      "Tracks sleep stages, SpO2, and breathing rate",
-      "No subscription required for core data"
+      "Built-in sleep tracking with stages, heart rate, and breathing rate",
+      "ECG, blood oxygen, and fall detection beyond just sleep",
+      "Massive ecosystem and third-party sleep apps"
     ],
     "cons": [
-      "Bulkier than Oura ring or Whoop strap",
-      "Smaller community than Oura/Whoop"
+      "Battery life requires nightly or every-other-night charging",
+      "Sleep accuracy modest compared to Oura's published validation"
     ]
   },
   "smith-blackout-curtains": {
-    "name": "Sun Zero Cyrus Thermal Blackout Curtains",
+    "name": "Sun Zero Cyrus Thermal Blackout Curtains (2 Panels)",
     "brand": "Sun Zero",
-    "price": "$22.99",
+    "price": "$25.99",
     "image": "/images/products/sun-zero-curtains.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID43?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID43?irgwc=1",
@@ -748,9 +748,9 @@
     ]
   },
   "thrive-mood-blanket": {
-    "name": "YnM Cooling Bamboo Weighted Blanket",
+    "name": "YnM Cooling Bamboo Weighted Blanket (15 lb)",
     "brand": "YnM",
-    "price": "$79.99",
+    "price": "$69.90",
     "image": "/images/products/ynm-bamboo.jpg",
     "amazonLink": "https://amazon.com/dp/YOUR_ID45?tag=sleepstackhq-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID45?irgwc=1",
@@ -765,7 +765,7 @@
     ]
   },
   "sealy-mattress-protector": {
-    "name": "SafeRest Premium Mattress Protector",
+    "name": "SafeRest Premium Mattress Protector (Queen)",
     "brand": "SafeRest",
     "price": "$34.95",
     "image": "/images/products/saferest-protector.jpg",
@@ -779,6 +779,176 @@
     "cons": [
       "Slight crinkle sound during the first few nights",
       "Adds a thin layer that can affect mattress feel slightly"
+    ]
+  },
+  "fitbit-charge-6": {
+    "name": "Fitbit Charge 6",
+    "brand": "Fitbit",
+    "price": "$159.95",
+    "image": "/images/products/fitbit-charge-6.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID47?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID47?irgwc=1",
+    "pros": [
+      "Sleep stages, heart rate variability, and SpO2 tracking",
+      "6+ day battery life — wear continuously without charging interruptions",
+      "Sleep Score with morning summary"
+    ],
+    "cons": [
+      "Requires Premium subscription for full insights",
+      "Smaller display than smartwatch alternatives"
+    ]
+  },
+  "bedsure-bamboo-sheets": {
+    "name": "Bedsure Bamboo Sheets (Queen Set)",
+    "brand": "Bedsure",
+    "price": "$39.99",
+    "image": "/images/products/bedsure-bamboo-sheets.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID48?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID48?irgwc=1",
+    "pros": [
+      "Bamboo viscose blend — naturally cooling and moisture-wicking",
+      "One of the highest-rated budget cooling sheet sets on Amazon",
+      "Available in 30+ colors and all standard sizes"
+    ],
+    "cons": [
+      "Bamboo blend, not 100% bamboo — purists prefer pure",
+      "Pilling reported after many wash cycles"
+    ]
+  },
+  "linenspa-gel-memory-foam-topper": {
+    "name": "Linenspa 3 Inch Gel Memory Foam Mattress Topper (Queen)",
+    "brand": "Linenspa",
+    "price": "$79.99",
+    "image": "/images/products/linenspa-topper.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID49?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID49?irgwc=1",
+    "pros": [
+      "Gel-infused memory foam for moderate cooling",
+      "3-inch profile meaningfully softens firm mattresses",
+      "One of the best-selling budget toppers on both retailers"
+    ],
+    "cons": [
+      "Off-gassing smell for 24-72 hours after unboxing",
+      "Less responsive than latex toppers"
+    ]
+  },
+  "zinus-memory-foam-mattress": {
+    "name": "Zinus 12 Inch Green Tea Memory Foam Mattress (Queen)",
+    "brand": "Zinus",
+    "price": "$329.00",
+    "image": "/images/products/zinus-mattress.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID50?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID50?irgwc=1",
+    "pros": [
+      "Highest-rated budget mattress on Amazon and Walmart",
+      "12 inches of foam with green tea infusion to reduce odor",
+      "Compresses to a box for easy delivery"
+    ],
+    "cons": [
+      "All-foam build can sleep warm",
+      "Off-gassing smell for the first week"
+    ]
+  },
+  "mellanni-microfiber-sheets": {
+    "name": "Mellanni Iconic Collection Microfiber Sheet Set (Queen)",
+    "brand": "Mellanni",
+    "price": "$28.97",
+    "image": "/images/products/mellanni-sheets.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID51?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID51?irgwc=1",
+    "pros": [
+      "Amazon's #1 best-selling sheet set with 400K+ reviews",
+      "Brushed microfiber — soft, wrinkle-resistant, no ironing",
+      "Available in 40+ colors and prints"
+    ],
+    "cons": [
+      "Microfiber traps more heat than cotton or eucalyptus",
+      "Less durable than premium long-staple cotton"
+    ]
+  },
+  "homedics-soundspa": {
+    "name": "HoMedics SoundSpa White Noise Machine",
+    "brand": "HoMedics",
+    "price": "$24.99",
+    "image": "/images/products/homedics-soundspa.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID52?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID52?irgwc=1",
+    "pros": [
+      "Six relaxing sounds including rain, ocean, and white noise",
+      "Auto-off timer (15, 30, 60 minutes) and AC adapter included",
+      "Cheapest credible sound machine on both retailers"
+    ],
+    "cons": [
+      "Looping digital sounds — sensitive listeners may notice",
+      "Plastic build feels less premium than higher-end machines"
+    ]
+  },
+  "vicks-cool-mist-humidifier": {
+    "name": "Vicks Filter-Free Cool Mist Humidifier",
+    "brand": "Vicks",
+    "price": "$44.99",
+    "image": "/images/products/vicks-humidifier.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID53?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID53?irgwc=1",
+    "pros": [
+      "1.2-gallon tank runs up to 30 hours per fill",
+      "Ultrasonic — virtually silent operation for the bedroom",
+      "Helps with dry-air congestion that fragments sleep"
+    ],
+    "cons": [
+      "Requires regular cleaning to prevent mineral buildup",
+      "Doesn't work with hard tap water — distilled recommended"
+    ]
+  },
+  "conair-true-glow-sunrise": {
+    "name": "Conair True Glow Sunrise Alarm Clock",
+    "brand": "Conair",
+    "price": "$44.99",
+    "image": "/images/products/conair-sunrise.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID54?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID54?irgwc=1",
+    "pros": [
+      "30-minute gradual sunrise simulation at a budget price",
+      "Five wake-up sounds plus FM radio",
+      "Doubles as a bedside lamp with 20 brightness levels"
+    ],
+    "cons": [
+      "Less polished build than the Philips SmartSleep",
+      "Display can be slightly bright at lowest setting"
+    ]
+  },
+  "vornado-660-fan": {
+    "name": "Vornado 660 Whole Room Air Circulator",
+    "brand": "Vornado",
+    "price": "$99.99",
+    "image": "/images/products/vornado-660.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID55?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID55?irgwc=1",
+    "pros": [
+      "Vortex airflow circulates an entire bedroom",
+      "Four speeds — gentle for sleep, powerful for cooling",
+      "Provides white noise as a side benefit"
+    ],
+    "cons": [
+      "Audible motor on high settings",
+      "Larger footprint than basic desk fans"
+    ]
+  },
+  "bedsure-down-comforter": {
+    "name": "Bedsure Down Alternative Comforter (Queen)",
+    "brand": "Bedsure",
+    "price": "$54.99",
+    "image": "/images/products/bedsure-comforter.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID56?tag=sleepstackhq-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID56?irgwc=1",
+    "pros": [
+      "Hypoallergenic down-alternative fill — safe for allergies",
+      "Box-stitched to prevent fill shifting",
+      "Machine washable, popular value pick on both retailers"
+    ],
+    "cons": [
+      "Less warmth than real down for cold sleepers",
+      "Polyester fill can feel warm in summer"
     ]
   }
 }

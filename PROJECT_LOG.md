@@ -285,8 +285,49 @@ src/
 ### Comparisons
 - 5 curated head-to-head matchups on /compare
 
-### Products (38+ as of Phase 15)
-All products have BOTH Amazon and Walmart link slots in the standard format. **Affiliate IDs are placeholders (`YOUR_ID1` through `YOUR_ID46` and `sleepstackhq-20`) that need to be replaced with real Amazon Associates and Walmart Creator IDs before going live.** Prices are realistic estimates and need to be verified against current listings.
+### Products (56+ as of Phase 16)
+All products have BOTH Amazon and Walmart link slots in the standard format. **Affiliate IDs are placeholders (`YOUR_ID1` through `YOUR_ID56` and `sleepstackhq-20`) that need to be replaced with real Amazon Associates and Walmart Creator IDs before going live.** Prices are MSRP/typical retail estimates from training data — verify against current listings before launch.
+
+#### ⚠️ Direct-only products (NOT reliably on Amazon/Walmart) — REVIEW BEFORE LAUNCH
+
+Per the requirement that all products should be on Amazon and Walmart only, these existing products should be **removed or replaced** before launch because they're sold primarily through their own websites:
+
+1. **Whoop 4.0** (`whoop-4`) — subscription-only, sold direct
+2. **Ra Optics Twilight Lens** (`ra-optics-twilight`) — direct sales only
+3. **Sleep Number DualTemp Layer** (`sleep-number-dualtemp`) — Sleep Number stores only
+4. **Saatva Latex Mattress Topper** (`saatva-latex-topper`) — Saatva direct only
+5. **Buffy Eucalyptus Sheets** (`buffy-eucalyptus-sheets`) — Buffy direct only
+6. **Saatva Classic Mattress** (`saatva-classic-mattress`) — Saatva direct only
+7. **Moonbird Breathing Coach** (`moonbird-breathing-device`) — direct only mostly
+8. **Sleepme Chilipad** (`chilipad-cube`) — direct sales only
+
+Removing them will require updating the article copy in:
+- `src/content/roundups/best-sleep-trackers.mdx` (mentions Whoop)
+- `src/content/roundups/best-blue-light-blocking-glasses.mdx` (mentions Ra Optics)
+- `src/content/roundups/best-mattress-toppers-hot-sleepers.mdx` (mentions Sleep Number + Saatva)
+- `src/content/reviews/chilipad-cube-review.mdx` (entirely about Chilipad)
+
+Suggested replacements (all confirmed on both Amazon and Walmart):
+- Whoop → **Fitbit Charge 6** ✅ (added in Phase 16)
+- Ra Optics → Gunnar Optiks Intercept
+- Sleep Number DualTemp → **Linenspa Gel Memory Foam Topper** ✅ (added in Phase 16)
+- Saatva Latex Topper → Pure Green 100% Natural Latex Topper
+- Buffy Eucalyptus → **Bedsure Bamboo Sheets** ✅ (added in Phase 16)
+- Saatva Classic → **Zinus Green Tea Memory Foam Mattress** ✅ (added in Phase 16)
+- Moonbird → remove (digital meditation apps are the alternative)
+- Sleepme Chilipad → BedJet 3 Climate Comfort System
+
+#### Phase 16 additions (10 new products, all confirmed on both Amazon and Walmart)
+1. Fitbit Charge 6 — sleep tracker
+2. Bedsure Bamboo Sheets — cooling sheets value pick
+3. Linenspa 3" Gel Memory Foam Topper — budget topper
+4. Zinus Green Tea Memory Foam Mattress — bestselling budget mattress
+5. Mellanni Microfiber Sheet Set — Amazon's #1 sheet set
+6. HoMedics SoundSpa White Noise Machine — budget sound machine
+7. Vicks Filter-Free Cool Mist Humidifier — bedroom humidity
+8. Conair True Glow Sunrise Alarm Clock — budget sunrise alarm
+9. Vornado 660 Air Circulator — fan + white noise
+10. Bedsure Down Alternative Comforter — bedding upgrade
 
 Categories covered:
 - Sleep tech (alarm clocks, sound machines)
