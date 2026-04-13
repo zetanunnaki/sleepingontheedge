@@ -108,8 +108,8 @@ async function poll(taskId, maxTries = 60) {
 
 const COVERS = [
   [
-    "best-pillows-hip-pain.jpg",
-    "Product photograph of a plain white pillow on a plain dark surface, studio lighting, plain dark background",
+    "best-l-theanine-for-sleep.jpg",
+    "Top down view of green tea leaves scattered on a plain dark wooden surface, studio lighting, plain dark background",
   ],
 ];
 
