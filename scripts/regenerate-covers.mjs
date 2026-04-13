@@ -108,24 +108,8 @@ async function poll(taskId, maxTries = 60) {
 
 const COVERS = [
   [
-    "best-pillows-neck-pain.jpg",
-    "Product photograph of a contoured white memory foam pillow on a plain dark surface, studio lighting, plain dark background",
-  ],
-  [
-    "best-mattress-back-pain.jpg",
-    "Product photograph of a white mattress on a simple bed frame, plain dark bedroom wall, studio lighting, plain background",
-  ],
-  [
-    "best-pillows-stomach-sleepers.jpg",
-    "Product photograph of a flat soft white pillow on a plain dark wooden surface, studio lighting, plain background",
-  ],
-  [
-    "best-wedge-pillow-acid-reflux.jpg",
-    "Product photograph of a white triangular wedge pillow on a plain dark surface, studio lighting, plain dark background",
-  ],
-  [
-    "best-memory-foam-toppers.jpg",
-    "Product photograph of a thick white foam mattress topper rolled up on a plain dark surface, studio lighting, plain background",
+    "best-pillows-hip-pain.jpg",
+    "Product photograph of a plain white pillow on a plain dark surface, studio lighting, plain dark background",
   ],
 ];
 
