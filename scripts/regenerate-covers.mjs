@@ -108,8 +108,8 @@ async function poll(taskId, maxTries = 60) {
 
 const COVERS = [
   [
-    "best-l-theanine-for-sleep.jpg",
-    "Top down view of green tea leaves scattered on a plain dark wooden surface, studio lighting, plain dark background",
+    "doctors-best-magnesium-glycinate-review.jpg",
+    "Simple product photograph. A small brown glass supplement bottle with plain white label stands on a dark stone surface. White capsules scattered next to the bottle. Plain dark grey background. No people. No faces. Just the bottle and capsules.",
   ],
 ];
 

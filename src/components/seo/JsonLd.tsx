@@ -97,10 +97,6 @@ export function productSchema(input: {
       priceCurrency: "USD",
       price: parsePriceNumeric(input.price),
       availability: "https://schema.org/InStock",
-      seller: {
-        "@type": "Organization",
-        name: "Amazon",
-      },
     },
   };
 }
@@ -112,7 +108,7 @@ export function organizationSchema() {
     name: siteConfig.name,
     url: siteConfig.url,
     description: siteConfig.description,
-    logo: `${siteConfig.url}/icon.png`,
+    logo: `${siteConfig.url}/brand/logo-icon.png`,
   };
 }
 
