@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { CookieConsent } from "@/components/layout/CookieConsent";
 import { siteConfig } from "@/lib/site";
 import { JsonLd, organizationSchema } from "@/components/seo/JsonLd";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
@@ -128,6 +129,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </div>
+        <CookieConsent />
       </body>
     </html>
   );

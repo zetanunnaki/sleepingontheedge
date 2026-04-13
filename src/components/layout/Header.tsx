@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Moon } from "lucide-react";
+import Image from "next/image";
 import { siteConfig } from "@/lib/site";
 import { SearchDialog } from "@/components/search/SearchDialog";
 import { MobileMenu } from "./MobileMenu";
@@ -15,12 +15,15 @@ export function Header() {
         aria-label="SleepingOnTheEdge home"
         className="flex items-center gap-2 font-serif text-xl font-bold tracking-tighter text-white sm:text-2xl"
       >
-        <span
+        <Image
+          src="/brand/logo-icon.png"
+          alt=""
           aria-hidden
-          className="flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600 shadow-[0_0_15px_rgba(79,70,229,0.5)]"
-        >
-          <Moon size={16} fill="white" className="text-white" />
-        </span>
+          width={32}
+          height={32}
+          className="h-8 w-8 rounded-full shadow-[0_0_15px_rgba(79,70,229,0.5)]"
+          priority
+        />
         <span>
           Sleeping<span className="text-indigo-400">OnThe</span>Edge
         </span>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Moon } from "lucide-react";
+import Image from "next/image";
 import { siteConfig } from "@/lib/site";
 
 const SOCIAL_ICONS: Record<string, { label: string; icon: React.ReactNode }> = {
@@ -57,6 +57,7 @@ const COLUMNS: Array<{ heading: string; links: Array<{ label: string; href: stri
       { label: "Methodology", href: "/methodology" },
       { label: "Disclaimer", href: "/disclaimer" },
       { label: "Privacy Policy", href: "/privacy-policy" },
+      { label: "Terms of Service", href: "/terms" },
       { label: "RSS", href: "/rss.xml" },
     ],
   },
@@ -73,9 +74,14 @@ export function Footer() {
               href="/"
               className="flex items-center gap-2 font-serif text-2xl font-bold tracking-tighter text-white"
             >
-              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-indigo-600 shadow-[0_0_15px_rgba(79,70,229,0.5)]">
-                <Moon size={16} fill="white" className="text-white" />
-              </span>
+              <Image
+                src="/brand/logo-icon.png"
+                alt=""
+                aria-hidden
+                width={32}
+                height={32}
+                className="h-8 w-8 rounded-full shadow-[0_0_15px_rgba(79,70,229,0.5)]"
+              />
               <span>
                 Sleeping<span className="text-indigo-400">OnThe</span>Edge
               </span>

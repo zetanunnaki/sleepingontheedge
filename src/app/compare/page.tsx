@@ -68,6 +68,87 @@ const COMPARISONS: ComparisonCard[] = [
       "Coop is adjustable — add or remove fill for your exact loft. Beckham is fixed but costs 1/3 the price with 200K+ reviews. Choose customization or value.",
     href: "/best/best-pillows-for-sleep",
   },
+  {
+    slug: "zinus-vs-purple",
+    productA: "zinus-memory-foam-mattress",
+    productB: "purple-mattress",
+    question: "Zinus Green Tea vs. Purple Mattress",
+    answer:
+      "Zinus is traditional memory foam at a fraction of the price — best for budget-constrained back pain sufferers. Purple uses a hyper-elastic grid that sleeps cool and pressure-relieves differently. Choose budget or unique pressure relief.",
+    href: "/best/best-mattress-back-pain",
+  },
+  {
+    slug: "tempur-vs-coop",
+    productA: "tempur-neck-pillow",
+    productB: "coop-eden-pillow",
+    question: "TEMPUR-Neck vs. Coop Eden",
+    answer:
+      "TEMPUR-Neck is a structured contour pillow for chronic pain — fixed geometry, dense foam, dedicated neck ridge. Coop Eden is adjustable shredded foam that lets you dial in exact loft. Choose structured support or customization.",
+    href: "/best/best-pillows-neck-pain",
+  },
+  {
+    slug: "bamboo-vs-cotton",
+    productA: "bedsure-bamboo-sheets",
+    productB: "brooklinen-luxe-sheets",
+    question: "Bedsure Bamboo vs. Brooklinen Luxe",
+    answer:
+      "Bamboo wicks moisture fastest for night sweats; premium cotton percale dries fastest between episodes. Both are good picks for hot sleepers — bamboo for the sweat moment, cotton for the recovery.",
+    href: "/best/best-sheets-night-sweats",
+  },
+  {
+    slug: "latex-vs-memory-foam-topper",
+    productA: "pure-green-latex-topper",
+    productB: "linenspa-gel-memory-foam-topper",
+    question: "Pure Green Latex vs. Linenspa Gel Memory Foam Topper",
+    answer:
+      "Latex sleeps genuinely cool all night and lasts 10+ years. Gel memory foam feels cool briefly then equilibrates with body temperature, and lasts 3–4 years. Choose long-term cooling or budget conforming feel.",
+    href: "/best/best-cooling-mattress-topper",
+  },
+  {
+    slug: "hatch-vs-philips",
+    productA: "hatch-restore-2",
+    productB: "philips-smartsleep-wakeup",
+    question: "Hatch Restore 2 vs. Philips SmartSleep HF3520",
+    answer:
+      "Hatch is an all-in-one bedside platform — sound, light, wind-down routines, smart alarm. Philips is a dedicated sunrise lamp with brighter peak light, better for deep sleepers who need real brightness. Choose platform or brightness.",
+    href: "/best/best-sunrise-alarm-clocks",
+  },
+  {
+    slug: "yogasleep-vs-lectrofan",
+    productA: "yogasleep-dohm",
+    productB: "lectrofan-evo",
+    question: "Yogasleep Dohm vs. LectroFan EVO",
+    answer:
+      "The Dohm is a real fan inside a housing — the sound is truly natural and never loops. The EVO is electronic with 20+ sound options including rain and ocean. Choose natural texture or variety.",
+    href: "/best/best-sound-machines",
+  },
+  {
+    slug: "magnesium-vs-ltheanine",
+    productA: "doctors-best-magnesium-glycinate",
+    productB: "now-l-theanine",
+    question: "Magnesium Glycinate vs. L-Theanine",
+    answer:
+      "Magnesium calms the nervous system and muscles through GABA pathways — best for tense sleepers. L-theanine reduces mental activation without sedation — best for racing-brain insomnia. Different mechanisms; many users stack both.",
+    href: "/best/best-bedtime-supplement-stack",
+  },
+  {
+    slug: "loop-vs-macks",
+    productA: "loop-quiet-earplugs",
+    productB: "macks-slim-fit-foam",
+    question: "Loop Quiet vs. Mack's Slim Fit",
+    answer:
+      "Loop Quiet is reusable silicone — flush fit, great for side sleepers, 24 dB NRR. Mack's Slim Fit is disposable foam with 29 dB NRR — more sound blocking for loud snorers but less comfortable long-term. Choose comfort or max attenuation.",
+    href: "/best/best-earplugs-snoring-spouse",
+  },
+  {
+    slug: "bearaby-vs-ynm",
+    productA: "bearaby-cotton-napper",
+    productB: "thrive-mood-blanket",
+    question: "Bearaby Cotton Napper vs. YnM Cooling Bamboo",
+    answer:
+      "Bearaby is chunky knit — most breathable, best for hot sleepers, gentlest weight distribution. YnM uses traditional glass beads with a bamboo cover — deeper pressure feel, still cooler than polyester-covered alternatives. Choose breathability or deep pressure.",
+    href: "/best/best-weighted-blanket-anxiety",
+  },
 ];
 
 function ProductThumb({
