@@ -8,12 +8,13 @@ import {
   Calculator,
   Coffee,
   BookOpen,
-  Library,
+  Users,
+  Eye,
   ShieldCheck,
-  Layers,
+  Sparkles,
 } from "lucide-react";
 import Image from "next/image";
-import { getAllContentAcrossTypes } from "@/lib/content";
+import { getAllContentAcrossTypes, getAllContent } from "@/lib/content";
 import { ArticleCard } from "@/components/article/ArticleCard";
 import { CoverFallback } from "@/components/article/CoverFallback";
 import { siteConfig } from "@/lib/site";
@@ -23,7 +24,7 @@ import { TrackedAffiliateLink } from "@/components/analytics/TrackedAffiliateLin
 const FEATURED_PRODUCT_IDS = [
   "hatch-restore-2",
   "manta-sleep-mask",
-  "magnesium-breakthrough",
+  "doctors-best-magnesium-glycinate",
   "oura-ring-gen-3",
   "bearaby-cotton-napper",
   "yogasleep-dohm",
@@ -60,14 +61,14 @@ const TOOL_CARDS = [
 
 const TRUST_PILLARS = [
   {
-    icon: Library,
-    title: "Research, not opinions",
-    body: "Every health claim sourced from peer-reviewed studies and clinical guidelines.",
+    icon: Users,
+    title: "Curated from customer reviews",
+    body: "Every pick reflects patterns across thousands of verified buyer reviews — never a single opinion, never our own testing.",
   },
   {
-    icon: Layers,
-    title: "Aggregated reviews",
-    body: "Picks reflect patterns across thousands of verified buyer reviews — never a single opinion.",
+    icon: Eye,
+    title: "Writers, not clinicians",
+    body: "We're a small team of writers who put real buyer feedback into plain English. Not testers, not doctors, not paid influencers.",
   },
   {
     icon: ShieldCheck,
@@ -80,46 +81,76 @@ export default function HomePage() {
   const all = getAllContentAcrossTypes();
   const recent = all.slice(0, 6);
   const featured = all[0];
+  const roundupCount = getAllContent("roundups").length;
+  const guideCount = getAllContent("guides").length;
+  const reviewCount = getAllContent("reviews").length;
 
   return (
     <>
       {/* HERO */}
-      <header className="relative z-10 px-6 pb-24 pt-16 text-center md:pb-32 md:pt-20">
-        <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-1.5 text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">
+      <header className="relative z-10 px-5 pb-20 pt-12 text-center sm:px-6 md:pb-32 md:pt-20">
+        <div className="animate-fade-down mb-6 inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-1.5 text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400 sm:mb-8">
           <Activity size={12} /> Cutting-Edge Sleep Science
         </div>
-        <h1 className="mx-auto mb-8 max-w-5xl font-serif text-5xl leading-[1.05] sm:text-6xl md:text-8xl">
+        <h1 className="animate-fade-up mx-auto mb-6 max-w-5xl font-serif text-[2.5rem] leading-[1.02] sm:text-6xl md:mb-8 md:text-8xl">
           The sharpest sleep advice{" "}
-          <span className="bg-gradient-to-r from-indigo-400 to-amber-200 bg-clip-text italic text-transparent">
+          <span className="gradient-text-animated italic">
             on the internet.
           </span>
         </h1>
-        <p className="mx-auto mb-10 max-w-2xl text-lg text-slate-400 md:text-xl">
-          Cutting-edge sleep science, honest product breakdowns, and the edge you
-          need to actually sleep better. Independent, research-backed,
-          no BS — like a smart friend who&apos;s obsessed with sleep.
+        <p className="animate-fade-up delay-100 mx-auto mb-8 max-w-2xl text-base leading-relaxed text-slate-400 sm:text-lg md:mb-10 md:text-xl">
+          Honest product breakdowns and practical protocols curated from real
+          buyer reviews — so you can skip the noise and actually sleep better.
         </p>
-        <div className="flex flex-col items-center justify-center gap-4 md:flex-row md:gap-6">
+        <div className="animate-fade-up delay-200 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4 md:gap-6">
           <Link
             href="/tools/sleep-edge-quiz"
-            className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-8 py-4 text-base font-bold shadow-xl shadow-indigo-500/20 transition-all hover:scale-[1.02] sm:w-auto md:px-10 md:py-5"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-7 py-3.5 text-sm font-bold shadow-xl shadow-indigo-500/30 transition-all hover:scale-[1.02] hover:bg-indigo-500 sm:w-auto sm:px-8 sm:py-4 sm:text-base md:px-10 md:py-5"
           >
             Take the 4-Question Quiz <ChevronRight size={18} />
           </Link>
           <Link
             href="/best"
-            className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-slate-700 bg-slate-900/50 px-8 py-4 text-base font-bold transition-all hover:border-slate-600 hover:bg-slate-800 sm:w-auto md:px-10 md:py-5"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-slate-700 bg-slate-900/50 px-7 py-3.5 text-sm font-bold backdrop-blur-sm transition-all hover:border-indigo-500/40 hover:bg-slate-800 sm:w-auto sm:px-8 sm:py-4 sm:text-base md:px-10 md:py-5"
           >
             Get the Edge
           </Link>
         </div>
 
-        {/* Trust badges */}
-        <div className="mx-auto mt-14 grid max-w-3xl gap-3 text-left sm:grid-cols-3">
+        {/* Stats bar — credibility at a glance */}
+        <div className="animate-fade-up delay-300 mx-auto mt-12 grid max-w-2xl grid-cols-3 gap-4 border-y border-white/10 py-6 sm:mt-16 sm:gap-8">
+          <div className="text-center">
+            <p className="font-serif text-3xl text-white sm:text-4xl">
+              {roundupCount}
+            </p>
+            <p className="mt-1 text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500 sm:text-xs">
+              Roundups
+            </p>
+          </div>
+          <div className="border-x border-white/10 text-center">
+            <p className="font-serif text-3xl text-white sm:text-4xl">
+              {guideCount}
+            </p>
+            <p className="mt-1 text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500 sm:text-xs">
+              Guides
+            </p>
+          </div>
+          <div className="text-center">
+            <p className="font-serif text-3xl text-white sm:text-4xl">
+              {reviewCount}
+            </p>
+            <p className="mt-1 text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500 sm:text-xs">
+              Reviews
+            </p>
+          </div>
+        </div>
+
+        {/* Trust pillars */}
+        <div className="animate-fade-up delay-400 mx-auto mt-10 grid max-w-3xl gap-3 text-left sm:grid-cols-3">
           {TRUST_PILLARS.map((pillar) => (
             <div
               key={pillar.title}
-              className="rounded-2xl border border-white/10 bg-white/[0.02] p-4"
+              className="glass-card rounded-2xl p-4 transition-all"
             >
               <pillar.icon className="h-5 w-5 text-indigo-400" />
               <p className="mt-3 text-sm font-bold text-white">
@@ -134,13 +165,13 @@ export default function HomePage() {
       </header>
 
       {/* FEATURED GLASS CARDS */}
-      <section className="container relative z-10 mx-auto px-6 pb-24 md:pb-32">
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
+      <section className="container relative z-10 mx-auto px-5 pb-20 sm:px-6 md:pb-32">
+        <div className="grid grid-cols-1 gap-5 sm:gap-6 lg:grid-cols-12">
           {/* Main Feature Card */}
-          <div className="group relative overflow-hidden rounded-[32px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 p-8 md:rounded-[40px] md:p-10 lg:col-span-8">
+          <div className="group relative overflow-hidden rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 p-7 sm:p-8 md:rounded-[40px] md:p-10 lg:col-span-8">
             <div
               aria-hidden
-              className="absolute right-0 top-0 p-10 opacity-10 transition-opacity group-hover:opacity-20"
+              className="animate-orb-drift absolute right-0 top-0 p-10 opacity-10 transition-opacity group-hover:opacity-20"
             >
               <Moon size={200} />
             </div>
@@ -148,17 +179,17 @@ export default function HomePage() {
               <span className="text-xs font-bold uppercase tracking-widest text-amber-400">
                 Featured Guide
               </span>
-              <h2 className="mb-6 mt-4 font-serif text-3xl leading-tight md:text-4xl">
+              <h2 className="mb-5 mt-3 font-serif text-2xl leading-tight sm:mb-6 sm:text-3xl md:text-4xl">
                 {featured?.frontmatter.title ??
                   "How to Reset Your Sleep Schedule"}
               </h2>
-              <p className="mb-8 max-w-md text-slate-400">
+              <p className="mb-7 max-w-md text-sm leading-relaxed text-slate-400 sm:mb-8 sm:text-base">
                 {featured?.frontmatter.description ??
-                  "A research-backed week-long plan to fix your sleep."}
+                  "A week-long plan to fix your sleep."}
               </p>
               <Link
                 href={featured?.url ?? "/guides"}
-                className="group/cta inline-flex items-center gap-2 font-bold text-indigo-400"
+                className="group/cta inline-flex items-center gap-2 font-bold text-indigo-400 hover:text-indigo-300"
               >
                 Read the full guide{" "}
                 <ArrowRight
@@ -170,7 +201,7 @@ export default function HomePage() {
           </div>
 
           {/* Side Data Card */}
-          <div className="flex flex-col justify-between gap-8 rounded-[32px] bg-indigo-600 p-8 text-white md:rounded-[40px] md:p-10 lg:col-span-4">
+          <div className="flex flex-col justify-between gap-6 rounded-[28px] bg-gradient-to-br from-indigo-500 to-indigo-700 p-7 text-white sm:gap-8 sm:p-8 md:rounded-[40px] md:p-10 lg:col-span-4">
             <div>
               <span className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-200">
                 Quick Protocol
@@ -179,14 +210,14 @@ export default function HomePage() {
                 The Wind-Down
               </h3>
             </div>
-            <div className="space-y-5">
+            <div className="space-y-4 sm:space-y-5">
               {[
                 "8:00 PM — Dim overhead lights",
                 "9:30 PM — Phone out of bedroom",
                 "10:00 PM — Bedroom at 65°F",
               ].map((step, i) => (
                 <div key={step} className="flex items-center gap-4">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/20 text-sm font-bold">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/20 text-sm font-bold backdrop-blur-sm">
                     {i + 1}
                   </div>
                   <p className="text-sm font-medium">{step}</p>
@@ -204,28 +235,28 @@ export default function HomePage() {
       </section>
 
       {/* CATEGORIES */}
-      <section className="container relative z-10 mx-auto px-6 pb-24 md:pb-32">
-        <div className="mb-10">
+      <section className="container relative z-10 mx-auto px-5 pb-20 sm:px-6 md:pb-32">
+        <div className="mb-8 sm:mb-10">
           <span className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">
             The Edges
           </span>
-          <h2 className="mt-3 font-serif text-4xl md:text-5xl">
+          <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-4xl md:text-5xl">
             Sharpen every{" "}
             <span className="italic text-indigo-300">edge.</span>
           </h2>
-          <p className="mt-4 max-w-2xl text-base text-slate-400">
+          <p className="mt-4 max-w-2xl text-sm leading-relaxed text-slate-400 sm:text-base">
             Better sleep isn&apos;t one big fix — it&apos;s a handful of small
             edges. Find the one that&apos;s missing from your routine.
           </p>
         </div>
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4">
           {siteConfig.categories.map((cat) => (
             <Link
               key={cat.slug}
               href={cat.href}
-              className="group flex flex-col rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 p-7 transition-all hover:border-indigo-500/40 hover:shadow-2xl hover:shadow-indigo-500/10"
+              className="group flex flex-col rounded-[24px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 p-6 transition-all hover:-translate-y-1 hover:border-indigo-500/40 hover:shadow-2xl hover:shadow-indigo-500/10 sm:rounded-[28px] sm:p-7"
             >
-              <p className="font-serif text-2xl text-white group-hover:text-indigo-300">
+              <p className="font-serif text-xl text-white group-hover:text-indigo-300 sm:text-2xl">
                 {cat.title}
               </p>
               <p className="mt-3 flex-1 text-sm leading-relaxed text-slate-400">
@@ -240,30 +271,30 @@ export default function HomePage() {
       </section>
 
       {/* FREE TOOLS */}
-      <section className="container relative z-10 mx-auto px-6 pb-24 md:pb-32">
-        <div className="mb-10">
+      <section className="container relative z-10 mx-auto px-5 pb-20 sm:px-6 md:pb-32">
+        <div className="mb-8 sm:mb-10">
           <span className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">
             The Workshop
           </span>
-          <h2 className="mt-3 font-serif text-4xl md:text-5xl">
+          <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-4xl md:text-5xl">
             Free <span className="italic text-indigo-300">sleep tools.</span>
           </h2>
-          <p className="mt-4 max-w-2xl text-base text-slate-400">
+          <p className="mt-4 max-w-2xl text-sm leading-relaxed text-slate-400 sm:text-base">
             Calculators, quizzes, and references — no signup, no email, no
             tracking. Use them as often as you like.
           </p>
         </div>
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4">
           {TOOL_CARDS.map((tool) => (
             <Link
               key={tool.href}
               href={tool.href}
-              className="group flex flex-col rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 p-6 transition-all hover:border-indigo-500/40 hover:shadow-2xl hover:shadow-indigo-500/10"
+              className="group flex flex-col rounded-[24px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 p-5 transition-all hover:-translate-y-1 hover:border-indigo-500/40 hover:shadow-2xl hover:shadow-indigo-500/10 sm:rounded-[28px] sm:p-6"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-indigo-600/20 text-indigo-300 shadow-[0_0_30px_rgba(79,70,229,0.3)]">
+              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-indigo-600/20 text-indigo-300 shadow-[0_0_30px_rgba(79,70,229,0.3)] transition-transform group-hover:scale-110">
                 <tool.icon size={20} />
               </div>
-              <p className="mt-5 font-serif text-xl text-white group-hover:text-indigo-300">
+              <p className="mt-5 font-serif text-lg text-white group-hover:text-indigo-300 sm:text-xl">
                 {tool.title}
               </p>
               <p className="mt-2 flex-1 text-sm leading-relaxed text-slate-400">
@@ -278,19 +309,18 @@ export default function HomePage() {
       </section>
 
       {/* FEATURED PRODUCTS */}
-      <section className="container relative z-10 mx-auto px-6 pb-24 md:pb-32">
-        <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
+      <section className="container relative z-10 mx-auto px-5 pb-20 sm:px-6 md:pb-32">
+        <div className="mb-8 flex flex-wrap items-end justify-between gap-4 sm:mb-10">
           <div>
-            <span className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">
-              The Shelf
+            <span className="inline-flex items-center gap-1.5 text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">
+              <Sparkles size={12} /> The Shelf
             </span>
-            <h2 className="mt-3 font-serif text-4xl md:text-5xl">
+            <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-4xl md:text-5xl">
               Top sleep <span className="italic text-indigo-300">picks.</span>
             </h2>
-            <p className="mt-4 max-w-2xl text-base text-slate-400">
+            <p className="mt-4 max-w-2xl text-sm leading-relaxed text-slate-400 sm:text-base">
               Highly-rated sleep products curated from aggregated buyer
-              reviews. Click through for the full review or jump to the
-              listing.
+              reviews. Click through to Amazon or Walmart.
             </p>
           </div>
           <Link
@@ -300,7 +330,7 @@ export default function HomePage() {
             All brands <ArrowRight size={14} />
           </Link>
         </div>
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4">
           {getProducts(FEATURED_PRODUCT_IDS).map((p) => (
             <TrackedAffiliateLink
               key={p.id}
@@ -311,7 +341,7 @@ export default function HomePage() {
               price={p.price}
               retailer="amazon"
               location="homepage_featured"
-              className="group flex flex-col overflow-hidden rounded-[28px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 transition-all hover:border-indigo-500/40 hover:shadow-2xl hover:shadow-indigo-500/10"
+              className="group flex flex-col overflow-hidden rounded-[24px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 transition-all hover:-translate-y-1 hover:border-indigo-500/40 hover:shadow-2xl hover:shadow-indigo-500/10 sm:rounded-[28px]"
             >
               <div className="relative aspect-square w-full overflow-hidden bg-slate-900">
                 {p.image ? (
@@ -325,18 +355,19 @@ export default function HomePage() {
                 ) : (
                   <CoverFallback seed={p.id} label={p.brand} />
                 )}
-              </div>
-              <div className="flex flex-1 flex-col p-5">
-                <p className="text-[10px] font-black uppercase tracking-[0.2em] text-amber-400">
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent" />
+                <span className="absolute bottom-3 left-3 rounded-full border border-white/20 bg-slate-950/80 px-2.5 py-1 text-[9px] font-black uppercase tracking-[0.15em] text-white backdrop-blur-sm">
                   {p.brand}
-                </p>
-                <h3 className="mt-2 font-serif text-xl text-white group-hover:text-indigo-300">
+                </span>
+              </div>
+              <div className="flex flex-1 flex-col p-4 sm:p-5">
+                <h3 className="font-serif text-base leading-tight text-white group-hover:text-indigo-300 sm:text-lg">
                   {p.name}
                 </h3>
                 <p className="mt-2 text-base font-bold text-indigo-400">
                   {p.price}
                 </p>
-                <span className="mt-auto inline-flex items-center gap-1.5 pt-4 text-xs font-bold uppercase tracking-[0.15em] text-indigo-400">
+                <span className="mt-auto inline-flex items-center gap-1.5 pt-4 text-[10px] font-bold uppercase tracking-[0.15em] text-indigo-400 sm:text-xs">
                   View on Amazon <ArrowRight size={12} />
                 </span>
               </div>
@@ -354,13 +385,13 @@ export default function HomePage() {
       </section>
 
       {/* RECENT ARTICLES */}
-      <section className="container relative z-10 mx-auto px-6 pb-24 md:pb-32">
-        <div className="mb-10 flex flex-wrap items-end justify-between gap-4">
+      <section className="container relative z-10 mx-auto px-5 pb-20 sm:px-6 md:pb-32">
+        <div className="mb-8 flex flex-wrap items-end justify-between gap-4 sm:mb-10">
           <div>
             <span className="text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">
               The Archive
             </span>
-            <h2 className="mt-3 font-serif text-4xl md:text-5xl">
+            <h2 className="mt-3 font-serif text-3xl leading-tight sm:text-4xl md:text-5xl">
               Latest <span className="italic text-indigo-300">findings.</span>
             </h2>
           </div>
@@ -377,7 +408,7 @@ export default function HomePage() {
             Add MDX files in <code>src/content/</code> to populate this list.
           </p>
         ) : (
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
             {recent.map((item) => (
               <ArticleCard key={item.url} item={item} />
             ))}
@@ -386,22 +417,27 @@ export default function HomePage() {
       </section>
 
       {/* CLOSING CTA */}
-      <section className="container relative z-10 mx-auto px-6 pb-24 md:pb-32">
-        <div className="overflow-hidden rounded-[32px] border border-white/10 bg-gradient-to-br from-indigo-600 to-indigo-900 p-10 text-center md:rounded-[40px] md:p-16">
-          <h2 className="mx-auto max-w-2xl font-serif text-4xl leading-tight text-white md:text-5xl">
-            Ready to fix the layer that&apos;s costing you the most?
-          </h2>
-          <p className="mx-auto mt-5 max-w-xl text-indigo-100 md:text-lg">
-            Take the 4-question quiz and we&apos;ll point you at the article,
-            tool, or habit that will move your sleep the most — based on your
-            answers, not a generic checklist.
-          </p>
-          <Link
-            href="/tools/sleep-edge-quiz"
-            className="mt-8 inline-flex items-center gap-2 rounded-2xl bg-white px-8 py-4 text-base font-bold text-slate-950 shadow-xl shadow-black/20 transition-all hover:scale-[1.02] hover:bg-indigo-100"
-          >
-            Start the quiz <ChevronRight size={18} />
-          </Link>
+      <section className="container relative z-10 mx-auto px-5 pb-20 sm:px-6 md:pb-32">
+        <div className="relative overflow-hidden rounded-[28px] border border-white/10 bg-gradient-to-br from-indigo-600 via-indigo-700 to-indigo-950 p-8 text-center sm:p-10 md:rounded-[40px] md:p-16">
+          <div
+            aria-hidden
+            className="absolute inset-0 bg-dotgrid opacity-20"
+          />
+          <div className="relative z-10">
+            <h2 className="mx-auto max-w-2xl font-serif text-3xl leading-tight text-white sm:text-4xl md:text-5xl">
+              Ready to fix the layer that&apos;s costing you the most?
+            </h2>
+            <p className="mx-auto mt-5 max-w-xl text-sm text-indigo-100 sm:text-base md:text-lg">
+              Take the 4-question quiz and we&apos;ll point you at the article,
+              tool, or habit that will move your sleep the most.
+            </p>
+            <Link
+              href="/tools/sleep-edge-quiz"
+              className="mt-8 inline-flex items-center gap-2 rounded-2xl bg-white px-7 py-3.5 text-sm font-bold text-slate-950 shadow-xl shadow-black/20 transition-all hover:scale-[1.02] hover:bg-indigo-100 sm:px-8 sm:py-4 sm:text-base"
+            >
+              Start the quiz <ChevronRight size={18} />
+            </Link>
+          </div>
         </div>
       </section>
     </>

@@ -108,13 +108,21 @@ export default function RootLayout({
       <body className="relative flex min-h-full flex-col bg-[#020617] font-sans text-slate-50 selection:bg-indigo-500/30">
         <GoogleAnalytics />
         <JsonLd data={organizationSchema()} />
-        {/* Background Aura orbs */}
+        {/* Background — subtle dot grid + drifting aura orbs */}
         <div
           aria-hidden
           className="pointer-events-none fixed inset-0 overflow-hidden"
         >
-          <div className="absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-indigo-600/10 blur-[120px]" />
-          <div className="absolute bottom-[10%] right-[-5%] h-[400px] w-[400px] rounded-full bg-amber-500/5 blur-[100px]" />
+          <div className="bg-dotgrid absolute inset-0 opacity-40" />
+          <div className="animate-orb-drift absolute left-[-10%] top-[-10%] h-[500px] w-[500px] rounded-full bg-indigo-600/10 blur-[120px]" />
+          <div
+            className="animate-orb-drift absolute bottom-[10%] right-[-5%] h-[400px] w-[400px] rounded-full bg-amber-500/5 blur-[100px]"
+            style={{ animationDelay: "-12s" }}
+          />
+          <div
+            className="animate-orb-drift absolute left-[30%] top-[50%] h-[300px] w-[300px] rounded-full bg-indigo-500/5 blur-[110px]"
+            style={{ animationDelay: "-6s" }}
+          />
         </div>
         <a
           href="#main-content"
