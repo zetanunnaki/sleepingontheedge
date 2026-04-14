@@ -50,23 +50,6 @@
       "No sunrise light"
     ]
   },
-  "magnesium-breakthrough": {
-    "name": "Magnesium Breakthrough",
-    "brand": "BiOptimizers",
-    "price": "$45.00",
-    "image": "/images/products/magnesium-breakthrough.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID4?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID4?irgwc=1",
-    "pros": [
-      "Combines seven bioavailable forms in one capsule",
-      "Includes glycinate and threonate",
-      "Third-party tested for purity"
-    ],
-    "cons": [
-      "Higher price than single-form options",
-      "Subscription-pushed checkout"
-    ]
-  },
   "manta-sleep-mask": {
     "name": "Manta Sleep Mask",
     "brand": "Manta Sleep",
@@ -322,23 +305,6 @@
       "Fabric is delicate — gentle wash cycle recommended"
     ]
   },
-  "now-l-theanine": {
-    "name": "NOW Foods L-Theanine 200mg (60 Capsules)",
-    "brand": "NOW Foods",
-    "price": "$14.99",
-    "image": "/images/products/now-l-theanine.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID26?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID26?irgwc=1",
-    "pros": [
-      "200mg L-theanine — the most-studied dose for relaxation",
-      "GMP-certified, third-party tested",
-      "Excellent value at under $0.30 per capsule"
-    ],
-    "cons": [
-      "Effect is subtle — not a sedative",
-      "Capsule form only, no chewable option"
-    ]
-  },
   "lectrofan-evo": {
     "name": "LectroFan Evo Sound Machine",
     "brand": "Adaptive Sound Technologies",
@@ -424,23 +390,6 @@
       "Premium pricing vs. budget cotton sets"
     ]
   },
-  "natrol-melatonin-1mg": {
-    "name": "Natrol Melatonin 1mg Fast Dissolve (90 Tablets)",
-    "brand": "Natrol",
-    "price": "$8.99",
-    "image": "/images/products/natrol-melatonin.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID32?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID32?irgwc=1",
-    "pros": [
-      "Low 1mg dose closer to physiological range",
-      "Fast-dissolve tablet — no water needed",
-      "USP-verified for ingredient accuracy"
-    ],
-    "cons": [
-      "Strawberry flavor isn't to everyone's taste",
-      "Most studies use even lower doses (0.3-0.5mg)"
-    ]
-  },
   "marpac-rohm": {
     "name": "Yogasleep Rohm Travel White Noise Machine",
     "brand": "Yogasleep",
@@ -473,23 +422,6 @@
     "cons": [
       "Industrial safety glasses look — not stylish",
       "Bulkier than fashion-frame alternatives"
-    ]
-  },
-  "thompsons-tea": {
-    "name": "Yogi Bedtime Herbal Tea (16 Tea Bags)",
-    "brand": "Yogi",
-    "price": "$5.49",
-    "image": "/images/products/yogi-bedtime-tea.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID35?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID35?irgwc=1",
-    "pros": [
-      "Caffeine-free herbal blend with chamomile and valerian",
-      "Calming ritual without sedative side effects",
-      "Organic, non-GMO ingredients"
-    ],
-    "cons": [
-      "Effects are mild — best as a wind-down ritual",
-      "Strong licorice flavor not for everyone"
     ]
   },
   "withings-sleep-tracking-mat": {
@@ -830,23 +762,6 @@
     "cons": [
       "Air-based system not as cold as water-based competitors",
       "Slight fan noise on higher settings"
-    ]
-  },
-  "now-foods-magnesium-glycinate": {
-    "name": "NOW Foods Magnesium Glycinate 200mg (180 Veg Capsules)",
-    "brand": "NOW Foods",
-    "price": "$22.99",
-    "image": "/images/products/now-foods-magnesium-glycinate.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID41?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID41?irgwc=1",
-    "pros": [
-      "Highly absorbable magnesium bisglycinate form",
-      "200mg elemental magnesium per serving",
-      "Non-GMO and GMP-certified"
-    ],
-    "cons": [
-      "Three capsules needed for full serving",
-      "Single-form magnesium without complementary cofactors"
     ]
   }
 }

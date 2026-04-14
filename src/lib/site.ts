@@ -19,10 +19,10 @@ export const siteConfig = {
       href: "/tags/sleep-tech",
     },
     {
-      slug: "supplements",
-      title: "Supplements",
-      description: "Magnesium, melatonin, and the chemistry of falling asleep.",
-      href: "/tags/supplements",
+      slug: "bedding",
+      title: "Bedding",
+      description: "Sheets, pillows, mattresses, and toppers that actually change how you sleep.",
+      href: "/tags/bedding",
     },
     {
       slug: "environment",

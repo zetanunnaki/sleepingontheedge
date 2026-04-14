@@ -123,15 +123,6 @@ const COMPARISONS: ComparisonCard[] = [
     href: "/best/best-sound-machines",
   },
   {
-    slug: "magnesium-vs-ltheanine",
-    productA: "now-foods-magnesium-glycinate",
-    productB: "now-l-theanine",
-    question: "Magnesium Glycinate vs. L-Theanine",
-    answer:
-      "Magnesium calms the nervous system and muscles through GABA pathways — best for tense sleepers. L-theanine reduces mental activation without sedation — best for racing-brain insomnia. Different mechanisms; many users stack both.",
-    href: "/best/best-bedtime-supplement-stack",
-  },
-  {
     slug: "loop-vs-macks",
     productA: "loop-quiet-earplugs",
     productB: "macks-slim-fit-foam",
