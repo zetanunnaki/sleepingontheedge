@@ -421,6 +421,533 @@ export const COMPARISONS: ComparisonDetail[] = [
     ],
   },
   {
+    slug: "swannies-vs-uvex",
+    productA: "swanwick-blue-blockers",
+    productB: "wenzel-blue-blockers-budget",
+    question: "Swannies vs. Uvex Skyper",
+    tagline:
+      "Swannies are the designer pick — comfortable and stylish. Uvex Skyper are safety-glass ugly but cost under $12 with a near-identical amber lens. Choose aesthetics or budget.",
+    intro:
+      "These are the two most-recommended blue light blocking glasses in aggregated reviews — and they're at opposite ends of the price and design spectrum. **Swannies** are designed to look like everyday glasses you'd actually wear in front of guests: clean frames, comfortable temples, multiple style options. **Uvex Skyper** are industrial safety glasses that happen to have an amber lens with the same blue-blocking spectrum as much more expensive alternatives. The lens science is essentially identical; the difference is whether you care about looking weird in your own house at 10 PM.",
+    roundupHref: "/best/best-blue-light-blocking-glasses",
+    roundupTitle: "Best blue light blocking glasses",
+    chooseA: [
+      "You wear them around guests, partners, or family who don't already use them",
+      "You want a frame that doesn't feel like a costume",
+      "You'll only commit to wearing them if they look acceptable",
+      "You want multiple style options to match your face",
+    ],
+    chooseB: [
+      "You're alone or with people who don't care how you look",
+      "You want to test blue light blocking before spending more",
+      "You want the cheapest possible option that still actually works",
+      "Aesthetics are not part of the decision",
+    ],
+    categories: [
+      {
+        category: "Lens spectrum (the actual function)",
+        winner: "tie",
+        reason:
+          "Both block roughly the same range of blue wavelengths. Lens science is essentially identical at this price point.",
+      },
+      {
+        category: "Comfort for long wear",
+        winner: "A",
+        reason:
+          "Swannies are designed for everyday glasses comfort. Uvex are bulkier safety frames.",
+      },
+      {
+        category: "Aesthetic",
+        winner: "A",
+        reason:
+          "Swannies look like normal glasses. Uvex look like lab safety equipment.",
+      },
+      {
+        category: "Price",
+        winner: "B",
+        reason:
+          "Uvex are ~$12 vs Swannies ~$80. 6–7x price difference.",
+      },
+      {
+        category: "Compatibility with prescription lenses",
+        winner: "A",
+        reason:
+          "Swannies offer prescription versions. Uvex do not — though they fit over many prescription glasses.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Do the Uvex Skyper really block as much blue light as Swannies?",
+        a: "Aggregated reviews and lens spectrum data suggest yes — both filter the same approximate range. The premium price of Swannies pays for design, comfort, and brand, not better lens function.",
+      },
+      {
+        q: "Can I just wear safety glasses every night?",
+        a: "Functionally, yes. Many users buy Uvex first to confirm blue blocking works for them, then upgrade to Swannies for everyday-wear comfort. Some never upgrade and just keep using the safety glasses.",
+      },
+      {
+        q: "Are these worth wearing at all?",
+        a: "For evening screen use specifically, yes. Aggregated reviews consistently report easier sleep onset when wearing blue blockers in the 2–3 hours before bed. They're a small but real intervention.",
+      },
+    ],
+  },
+  {
+    slug: "bearaby-vs-luna",
+    productA: "bearaby-cotton-napper",
+    productB: "luna-weighted-blanket",
+    question: "Bearaby Cotton Napper vs. Luna Weighted Blanket",
+    tagline:
+      "Bearaby is the premium beadless chunky knit — breathable, beautiful, expensive. Luna is the value champion at 1/4 the price with traditional glass beads. Choose breathability or budget.",
+    intro:
+      "Both are top-rated weighted blankets but they take fundamentally different approaches. **Bearaby Cotton Napper** is a chunky-knit organic cotton design — no beads, no polyester cover, the weight comes from the dense knit itself. The result is a blanket that breathes well (essential for hot sleepers) and looks like a luxury throw. **Luna Adult Weighted Blanket** is a traditional glass-bead design with a cotton cover — the more common style at 1/4 the price. Both work for the same calming purpose; the choice is about breathability, aesthetics, and budget.",
+    roundupHref: "/best/best-weighted-blankets",
+    roundupTitle: "Best weighted blankets",
+    chooseA: [
+      "You sleep hot or have night sweats",
+      "You want a blanket that doubles as a couch throw",
+      "You prefer natural materials (organic cotton, no synthetics)",
+      "You have $200+ to spend on a single weighted blanket",
+    ],
+    chooseB: [
+      "Your budget is under $80",
+      "You sleep cool or normal temperature (not hot)",
+      "You want concentrated bead pressure rather than knit weight",
+      "You want to test if weighted blankets help before committing premium money",
+    ],
+    categories: [
+      {
+        category: "Breathability",
+        winner: "A",
+        reason:
+          "Chunky knit allows continuous airflow. Polyester-covered beaded blankets trap heat.",
+      },
+      {
+        category: "Price",
+        winner: "B",
+        reason:
+          "Luna ~$70 vs Bearaby ~$250. 3.5x price difference.",
+      },
+      {
+        category: "Pressure feel",
+        winner: "B",
+        reason:
+          "Glass beads create more concentrated pressure than knit. Some users prefer this for the deep-pressure sensation.",
+      },
+      {
+        category: "Aesthetic",
+        winner: "A",
+        reason:
+          "Bearaby looks like a designer throw. Luna looks like a medical product.",
+      },
+      {
+        category: "Materials",
+        winner: "A",
+        reason:
+          "100% organic cotton vs polyester cover with glass beads.",
+      },
+      {
+        category: "Long-term value",
+        winner: "tie",
+        reason:
+          "Bearaby costs more but lasts longer. Luna costs less but typically needs replacement sooner. Per-year cost is similar.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is the Bearaby really worth 3.5x the price?",
+        a: "For hot sleepers and people who'll display the blanket on the couch during the day, yes — the breathability and aesthetic justify the premium. For users who only need it on the bed at night and don't run hot, the Luna is the smarter purchase.",
+      },
+      {
+        q: "Which has more deep-pressure feel?",
+        a: "Luna. Glass beads concentrate weight at specific points, which produces the 'deep pressure' sensation that beaded weighted blankets are known for. Bearaby's chunky knit distributes weight more evenly and feels gentler.",
+      },
+      {
+        q: "Will the Bearaby still feel weighted enough?",
+        a: "Yes, but it's a different kind of weighted feel. Most users adjust within a few nights. If you specifically love the heavy bead-pressure sensation, the Bearaby may feel underwhelming — try Luna instead.",
+      },
+    ],
+  },
+  {
+    slug: "coop-vs-beckham",
+    productA: "coop-eden-pillow",
+    productB: "beckham-hotel-collection-pillow",
+    question: "Coop Eden vs. Beckham Hotel Collection Pillow",
+    tagline:
+      "Coop is adjustable shredded foam at premium quality. Beckham is a soft fiber pair at 1/3 the price with 200K+ reviews. Choose customization or value.",
+    intro:
+      "These are the two most-reviewed pillows on Amazon, and they target different buyers. **Coop Home Goods Eden** is an adjustable shredded memory foam pillow — you add or remove fill until the loft matches your exact body. It's the consensus pick for side sleepers and people with neck pain. **Beckham Hotel Collection** is a soft polyester fiber pillow that ships in pairs for ~$40 — the most-reviewed budget pillow on Amazon, and the right pick for buyers who want plush comfort without the customization or price of memory foam.",
+    roundupHref: "/best/best-pillows-for-sleep",
+    roundupTitle: "Best pillows overall",
+    chooseA: [
+      "You're a side sleeper who wants exact loft customization",
+      "You have neck or shoulder pain that needs proper support",
+      "You want one premium pillow that lasts 3–5 years",
+      "You're willing to iterate to find your ideal fill amount",
+    ],
+    chooseB: [
+      "You want maximum value — two pillows for under $45",
+      "You're a stomach sleeper who needs a soft, low-loft pillow",
+      "You want plush fluffy comfort over structured support",
+      "You're buying for guest rooms or kids' rooms",
+    ],
+    categories: [
+      {
+        category: "Price (per pillow)",
+        winner: "B",
+        reason:
+          "Beckham is ~$20/pillow when sold in pairs. Coop is ~$75. ~3.5x cheaper.",
+      },
+      {
+        category: "Adjustability",
+        winner: "A",
+        reason:
+          "Coop ships with extra fill for custom loft. Beckham is fixed.",
+      },
+      {
+        category: "Side-sleeper support",
+        winner: "A",
+        reason:
+          "Adjustable loft is essential for side sleepers with varying shoulder widths.",
+      },
+      {
+        category: "Stomach-sleeper comfort",
+        winner: "B",
+        reason:
+          "Beckham's soft compression is right for stomach sleepers. Coop is too firm.",
+      },
+      {
+        category: "Durability",
+        winner: "A",
+        reason:
+          "Coop holds shape 3–5 years. Beckham typically needs replacement every 12–18 months.",
+      },
+      {
+        category: "Number of reviews",
+        winner: "B",
+        reason:
+          "Beckham has 200K+ Amazon reviews vs Coop ~150K. Both at the top of their categories.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Which is better for side sleepers?",
+        a: "Coop, by a wide margin. Side sleepers need correctly-lofted pillows to prevent shoulder pressure, and the adjustability lets you find the right loft for your specific shoulder width.",
+      },
+      {
+        q: "Can I just buy two Beckhams instead of one Coop?",
+        a: "Yes, and many users do. The Beckham pair is the budget alternative to the Coop, and for stomach sleepers or back sleepers, two soft pillows often outperform one structured pillow.",
+      },
+      {
+        q: "Why is the Beckham so cheap?",
+        a: "Polyester fiber fill is dramatically cheaper than memory foam, and Beckham operates on volume. The combination gets you to the $20-per-pillow price point. The trade-off is shorter lifespan and less structured support.",
+      },
+    ],
+  },
+  {
+    slug: "latex-vs-memory-foam-topper",
+    productA: "pure-green-latex-topper",
+    productB: "linenspa-gel-memory-foam-topper",
+    question: "Pure Green Latex vs. Linenspa Gel Memory Foam Topper",
+    tagline:
+      "Latex sleeps genuinely cool all night and lasts 10+ years. Gel memory foam feels cool briefly then equilibrates, and lasts 3–4 years. Choose long-term cooling or budget conforming feel.",
+    intro:
+      "Both upgrade a too-firm or aging mattress, but they cool fundamentally differently. **Pure Green 100% Natural Latex** has an open-cell structure that allows continuous airflow — the topper is genuinely cooler all night because heat dissipates through the material. **Linenspa Gel Memory Foam** uses gel infusion in a closed-cell foam structure — it feels cool on contact for the first 20–30 minutes, then equilibrates with body temperature for the rest of the night. For severe hot sleepers, the difference is dramatic. For mild hot sleepers on a budget, the cheaper memory foam option is often enough.",
+    roundupHref: "/best/best-cooling-mattress-topper",
+    roundupTitle: "Best cooling mattress toppers",
+    chooseA: [
+      "You sleep very hot and need true all-night cooling",
+      "You want a 10+ year product",
+      "You prefer responsive feel over conforming sink-in",
+      "You want natural materials and chemical certifications",
+      "Your budget allows $300+",
+    ],
+    chooseB: [
+      "Your budget is under $100",
+      "You want the conforming sink-in feel of memory foam",
+      "Your hot sleeping is mild and intermittent",
+      "You're testing a topper without committing to premium",
+    ],
+    categories: [
+      {
+        category: "True all-night cooling",
+        winner: "A",
+        reason:
+          "Latex's open-cell structure dissipates heat continuously. Gel infusion only cools briefly.",
+      },
+      {
+        category: "Price",
+        winner: "B",
+        reason:
+          "Linenspa ~$80 vs Pure Green ~$300. ~3.75x cheaper.",
+      },
+      {
+        category: "Lifespan",
+        winner: "A",
+        reason:
+          "Latex lasts 10+ years. Memory foam typically 3–4 years before noticeable compression.",
+      },
+      {
+        category: "Conforming feel (sink-in)",
+        winner: "B",
+        reason:
+          "Memory foam conforms more closely than latex. If you specifically love the sink-in feel, latex isn't it.",
+      },
+      {
+        category: "Responsive feel (bounces back)",
+        winner: "A",
+        reason:
+          "Latex bounces back quickly. Memory foam holds shape longer when you move.",
+      },
+      {
+        category: "Materials and certifications",
+        winner: "A",
+        reason:
+          "100% natural latex with GOLS certification. Linenspa is synthetic foam.",
+      },
+    ],
+    faqs: [
+      {
+        q: "If I want the absolute coolest topper, should I get latex?",
+        a: "Yes. For hot sleepers specifically, latex is the cooler material by a clear margin. Gel memory foam is an improvement over plain memory foam, but it's not in the same category as latex for continuous overnight cooling.",
+      },
+      {
+        q: "Is latex worth 3.75x the price?",
+        a: "Over the lifespan of the products, yes — the per-year cost works out close (latex 10+ years vs memory foam 3–4 years). The upfront investment is just much higher.",
+      },
+      {
+        q: "Will the Linenspa actually cool me at all?",
+        a: "Yes, but with caveats. The cool-to-the-touch sensation lasts ~20–30 minutes before the gel equilibrates with your body temperature. For mild hot sleeping, this is often enough.",
+      },
+    ],
+  },
+  {
+    slug: "hatch-vs-philips",
+    productA: "hatch-restore-2",
+    productB: "philips-smartsleep-wakeup",
+    question: "Hatch Restore 2 vs. Philips SmartSleep HF3520",
+    tagline:
+      "Hatch is the all-in-one bedside platform — sound, light, routines. Philips is a dedicated sunrise lamp with brighter peak light. Choose platform or brightness.",
+    intro:
+      "Both are top-rated sunrise alarms, but they're built for different priorities. **Hatch Restore 2** is a complete bedside sleep platform: sunrise + sunset light, sound machine, wind-down routines, custom alarms, smart home integration, soft nightlight. The light isn't the brightest, but the device replaces multiple gadgets. **Philips SmartSleep HF3520** is a dedicated sunrise lamp with 300 lux peak brightness — the brightest in consumer sunrise alarms. It does one thing exceptionally well: bright gradual wake-up. For deep sleepers who specifically need bright light, Philips wins. For users who want the all-in-one bedside experience, Hatch wins.",
+    roundupHref: "/best/best-sunrise-alarm-clocks",
+    roundupTitle: "Best sunrise alarm clocks",
+    chooseA: [
+      "You want one device to replace sound machine + alarm + nightlight",
+      "Programmable wind-down routines appeal to you",
+      "You're a light-to-moderate sleeper (don't need maximum brightness)",
+      "You want smart home integration",
+    ],
+    chooseB: [
+      "You're a heavy sleeper who needs bright light to wake",
+      "You only want a sunrise alarm — you already have a sound machine",
+      "You prefer physical buttons over app-based interaction",
+      "You want a 20+ year proven product line",
+    ],
+    categories: [
+      {
+        category: "Peak brightness",
+        winner: "B",
+        reason:
+          "Philips reaches 300 lux at pillow distance. Hatch is significantly less bright.",
+      },
+      {
+        category: "All-in-one features",
+        winner: "A",
+        reason:
+          "Hatch replaces 3–4 separate devices. Philips is a dedicated sunrise lamp only.",
+      },
+      {
+        category: "Wind-down routines",
+        winner: "A",
+        reason:
+          "Hatch supports programmable evening routines. Philips does not.",
+      },
+      {
+        category: "Effectiveness for heavy sleepers",
+        winner: "B",
+        reason:
+          "Heavy sleepers need bright light to wake reliably. Philips has the brightness for this; Hatch may not.",
+      },
+      {
+        category: "Phone/app dependency",
+        winner: "B",
+        reason:
+          "Philips uses physical controls. Hatch needs the app for setup and complex routines.",
+      },
+      {
+        category: "Smart home integration",
+        winner: "A",
+        reason:
+          "Hatch works with Alexa and Google Home. Philips does not.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Which is better for a heavy sleeper who sleeps through phone alarms?",
+        a: "Philips. The 300 lux peak brightness is the threshold where light actually penetrates closed eyelids and triggers waking — Hatch is less bright and may not be enough for very deep sleepers.",
+      },
+      {
+        q: "Can I use both?",
+        a: "Yes — many users do. Hatch for evening routines, sounds, and night light + Philips as the bright sunrise alarm. Total cost is higher but for someone who wants both features, it's the optimal setup.",
+      },
+      {
+        q: "Does the Hatch's lower brightness matter for typical sleepers?",
+        a: "For light-to-moderate sleepers, no — the Hatch's gradual light is enough. The brightness gap matters specifically for deep sleepers who would otherwise sleep through the entire sunrise sequence.",
+      },
+    ],
+  },
+  {
+    slug: "loop-vs-macks",
+    productA: "loop-quiet-earplugs",
+    productB: "macks-slim-fit-foam",
+    question: "Loop Quiet vs. Mack's Slim Fit",
+    tagline:
+      "Loop Quiet is reusable silicone — flush fit for side sleepers, 24 dB NRR. Mack's Slim Fit is disposable foam with 29 dB NRR — more sound blocking but less comfortable long-term.",
+    intro:
+      "These are the two most-recommended sleep earplugs in aggregated reviews, and they target opposite priorities. **Loop Quiet 2** is a reusable silicone earplug with a flush fit that doesn't protrude from the ear — critical for side sleepers pressing their ear against a pillow. The trade-off is lower noise reduction (24 dB NRR) compared to foam alternatives. **Mack's Slim Fit** is a disposable foam earplug with 29 dB NRR — the highest attenuation in the consumer category. The trade-off is comfort: foam plugs stick out of the ear and become uncomfortable for side sleepers over a full night.",
+    roundupHref: "/best/best-earplugs-for-sleeping",
+    roundupTitle: "Best earplugs for sleeping",
+    chooseA: [
+      "You sleep on your side and need pillow-friendly comfort",
+      "You want reusable plugs that last months per pair",
+      "Your environment is moderate noise (snoring, hallway, HVAC)",
+      "You want a discreet design that doesn't look medical",
+    ],
+    chooseB: [
+      "Your environment is severely loud (heavy traffic, very loud snoring)",
+      "You want maximum possible attenuation",
+      "You're fine with disposable plugs",
+      "You sleep on your back where pillow comfort isn't the issue",
+    ],
+    categories: [
+      {
+        category: "Noise reduction (NRR)",
+        winner: "B",
+        reason:
+          "Mack's at 29 dB. Loop Quiet at 24 dB. 5 dB difference matters for severe noise.",
+      },
+      {
+        category: "Side-sleeper comfort",
+        winner: "A",
+        reason:
+          "Loop Quiet sits flush. Mack's foam protrudes and presses against pillows.",
+      },
+      {
+        category: "Reusability",
+        winner: "A",
+        reason:
+          "Loop Quiet lasts months with washing. Mack's are disposable (1–2 uses).",
+      },
+      {
+        category: "Cost over 1 year",
+        winner: "A",
+        reason:
+          "Loop Quiet ~$25 lasts a year. Mack's bulk packs add up over hundreds of nights.",
+      },
+      {
+        category: "Discreet appearance",
+        winner: "A",
+        reason:
+          "Loop Quiet is small and subtle. Mack's bright-colored foam is more visible.",
+      },
+      {
+        category: "Volume of attenuation",
+        winner: "B",
+        reason:
+          "When you really need maximum blocking, foam wins.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Is the 5 dB difference between 24 and 29 dB really meaningful?",
+        a: "5 dB is not huge but it's noticeable. For typical noise environments (snoring, distant traffic), Loop Quiet's 24 dB is enough. For very loud environments, the extra 5 dB from Mack's matters.",
+      },
+      {
+        q: "Can I sleep on my side with foam earplugs?",
+        a: "Technically yes, but most side sleepers find foam plugs uncomfortable after 2–3 hours because they protrude into the pillow. The 'slim fit' version of Mack's is better than standard foam but still less comfortable than Loop Quiet's flush silicone.",
+      },
+      {
+        q: "Should I have both?",
+        a: "Many serious users do — Loop Quiet for typical nights and Mack's for travel days, loud hotel stays, or environments where maximum attenuation matters more than comfort.",
+      },
+    ],
+  },
+  {
+    slug: "bearaby-vs-ynm",
+    productA: "bearaby-cotton-napper",
+    productB: "thrive-mood-blanket",
+    question: "Bearaby Cotton Napper vs. YnM Cooling Bamboo",
+    tagline:
+      "Bearaby is chunky knit — most breathable, gentlest weight, premium price. YnM is glass beads with bamboo cover — deeper pressure feel, still cooler than polyester, mid-tier price.",
+    intro:
+      "Both are top-rated weighted blankets for hot sleepers specifically — but they take different approaches. **Bearaby Cotton Napper** is a beadless chunky-knit design where the weight comes from the dense knit itself. The result is the most breathable weighted blanket on the market and the gentlest pressure distribution. **YnM Cooling Bamboo** uses traditional glass beads (more concentrated pressure) wrapped in a bamboo viscose cover (more breathable than standard polyester). It's the middle ground: more breathable than typical beaded blankets, deeper pressure than Bearaby, and roughly half the price.",
+    roundupHref: "/best/best-weighted-blanket-anxiety",
+    roundupTitle: "Best weighted blankets for anxiety",
+    chooseA: [
+      "You want maximum breathability and run very hot",
+      "You prefer gentle, distributed weight over concentrated bead pressure",
+      "Aesthetic matters — you want a blanket that doubles as a couch throw",
+      "You want 100% organic cotton, no synthetics",
+    ],
+    chooseB: [
+      "You want deep concentrated pressure (the classic weighted-blanket sensation)",
+      "You sleep moderately hot and need cooler-than-polyester but not chunky-knit-cool",
+      "Your budget is between the two extremes (~$100–150)",
+      "You want a more familiar blanket form (not a chunky knit)",
+    ],
+    categories: [
+      {
+        category: "Breathability",
+        winner: "A",
+        reason:
+          "Chunky knit allows the most airflow. Bamboo cover with beads is cooler than polyester but still less breathable than knit.",
+      },
+      {
+        category: "Pressure feel (concentrated)",
+        winner: "B",
+        reason:
+          "Glass beads concentrate weight at points. Knit distributes weight more evenly.",
+      },
+      {
+        category: "Price",
+        winner: "B",
+        reason:
+          "YnM ~$70–100 vs Bearaby ~$200–250. Roughly 2.5x cheaper.",
+      },
+      {
+        category: "Aesthetic",
+        winner: "A",
+        reason:
+          "Bearaby chunky knit looks like a designer throw. YnM looks like a normal weighted blanket.",
+      },
+      {
+        category: "Materials",
+        winner: "A",
+        reason:
+          "100% organic cotton vs bamboo blend with polyester glass-bead pockets.",
+      },
+      {
+        category: "Familiar feel",
+        winner: "B",
+        reason:
+          "YnM feels like a regular blanket with weight. Bearaby's knit form is unusual.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Which is more breathable?",
+        a: "Bearaby. The chunky knit structure allows continuous airflow in a way that no beaded blanket can match — even bamboo-covered ones. For severe hot sleepers, this is the deciding feature.",
+      },
+      {
+        q: "If I want the classic weighted-blanket pressure feel, which one?",
+        a: "YnM. Glass beads create the concentrated pressure sensation that most people associate with weighted blankets. Bearaby's knit weight feels gentler and more diffuse.",
+      },
+      {
+        q: "Is YnM as breathable as the marketing claims?",
+        a: "More breathable than standard polyester-covered weighted blankets, but not as breathable as Bearaby's knit. It's the middle ground.",
+      },
+    ],
+  },
+  {
     slug: "bamboo-vs-cotton",
     productA: "bedsure-bamboo-sheets",
     productB: "brooklinen-luxe-sheets",
