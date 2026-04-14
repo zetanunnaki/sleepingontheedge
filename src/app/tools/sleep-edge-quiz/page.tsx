@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function SleepStackQuizPage() {
   return (
-    <div className="container relative z-10 mx-auto max-w-3xl px-6 py-16 md:py-24">
+    <div className="container relative z-10 mx-auto max-w-3xl px-5 py-12 sm:px-6 md:py-24">
       <JsonLd data={softwareAppSchema({ name: "Sleep Edge Quiz", description: "Answer four questions and get a personalized sleep optimization starting point.", url: "/tools/sleep-edge-quiz" })} />
       <Link
         href="/tools"
@@ -22,20 +22,20 @@ export default function SleepStackQuizPage() {
       >
         <ArrowLeft size={14} /> All Tools
       </Link>
-      <header className="mt-8 text-center">
+      <header className="animate-fade-up mt-6 text-center sm:mt-8">
         <span className="text-[10px] font-black uppercase tracking-[0.2em] text-amber-400">
           The Workshop · Free Tool
         </span>
-        <h1 className="mt-4 font-serif text-5xl leading-[1.05] text-white sm:text-6xl">
-          Sleep stack <span className="italic text-indigo-300">quiz.</span>
+        <h1 className="mt-4 font-serif text-[2.25rem] leading-[1.05] text-white sm:text-5xl md:text-6xl">
+          Sleep edge <span className="italic text-indigo-300">quiz.</span>
         </h1>
-        <p className="mt-6 text-lg text-slate-400">
+        <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-slate-400 sm:mt-6 sm:text-lg">
           Four quick questions. A personalized starting point — no signup, no
           email, no medical advice.
         </p>
       </header>
 
-      <div className="mt-12">
+      <div className="animate-fade-up delay-150 mt-10 sm:mt-12">
         <SleepQuiz />
       </div>
     </div>
