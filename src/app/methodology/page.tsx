@@ -53,18 +53,18 @@ const PILLARS = [
 
 export default function MethodologyPage() {
   return (
-    <div className="container relative z-10 mx-auto max-w-3xl px-6 py-16 md:py-24">
+    <div className="container relative z-10 mx-auto max-w-3xl px-5 py-12 sm:px-6 md:py-24">
       <Link
         href="/"
         className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.2em] text-indigo-400 transition-colors hover:text-white"
       >
         <ArrowLeft size={14} /> Home
       </Link>
-      <header className="mt-10">
+      <header className="animate-fade-up mt-8 sm:mt-10">
         <span className="text-[10px] font-black uppercase tracking-[0.2em] text-amber-400">
           Editorial Standards
         </span>
-        <h1 className="mt-4 font-serif text-5xl leading-[1.05] text-white sm:text-7xl">
+        <h1 className="mt-4 font-serif text-[2.5rem] leading-[1.05] text-white sm:text-6xl md:text-7xl">
           How we <span className="italic text-indigo-300">work.</span>
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-slate-400">

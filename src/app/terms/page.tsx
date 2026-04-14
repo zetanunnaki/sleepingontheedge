@@ -12,27 +12,27 @@ export const metadata: Metadata = {
 
 export default function TermsPage() {
   return (
-    <div className="relative z-10 mx-auto max-w-3xl px-6 py-16 md:py-24">
+    <div className="relative z-10 mx-auto max-w-3xl px-5 py-12 sm:px-6 md:py-24">
       <Link
         href="/"
         className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.2em] text-indigo-400 transition-colors hover:text-white"
       >
         <ArrowLeft size={14} /> Home
       </Link>
-      <h1 className="mt-8 font-serif text-5xl leading-[1.05] text-white sm:text-6xl">
+      <h1 className="animate-fade-up mt-6 font-serif text-[2.5rem] leading-[1.05] text-white sm:mt-8 sm:text-5xl md:text-6xl">
         Terms of Service
       </h1>
       <p className="mt-3 text-xs uppercase tracking-[0.15em] text-slate-500">
         Last updated: April 12, 2026
       </p>
       <div
-        className="prose prose-invert prose-lg mt-10 max-w-none
+        className="animate-fade-up delay-100 prose prose-invert prose-base mt-8 max-w-none sm:prose-lg sm:mt-10
           prose-headings:font-serif prose-headings:font-normal prose-headings:text-white
-          prose-h2:mt-12 prose-h2:text-3xl
-          prose-p:text-slate-300 prose-p:leading-relaxed
+          prose-h2:mt-10 prose-h2:text-2xl sm:prose-h2:mt-12 sm:prose-h2:text-3xl
+          prose-p:text-slate-300 prose-p:leading-[1.75]
           prose-strong:text-white
           prose-a:text-indigo-400 prose-a:no-underline hover:prose-a:underline
-          prose-li:text-slate-300"
+          prose-li:text-slate-300 prose-li:leading-[1.75]"
       >
         <h2>Acceptance of terms</h2>
         <p>
