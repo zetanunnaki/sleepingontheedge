@@ -577,23 +577,6 @@
       "Not machine washable — spot clean only"
     ]
   },
-  "doctors-best-magnesium-glycinate": {
-    "name": "Doctor's Best High Absorption Magnesium Glycinate (240 Tablets)",
-    "brand": "Doctor's Best",
-    "price": "$22.99",
-    "image": "/images/products/doctors-best-mag.jpg",
-    "amazonLink": "https://amazon.com/dp/YOUR_ID41?tag=slpedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID41?irgwc=1",
-    "pros": [
-      "100% chelated magnesium glycinate — gentle on the gut",
-      "200mg elemental magnesium per serving",
-      "Third-party tested, non-GMO"
-    ],
-    "cons": [
-      "Large pill size — some users split or open capsules",
-      "Single-form magnesium without complementary cofactors"
-    ]
-  },
   "smith-blackout-curtains": {
     "name": "Sun Zero Cyrus Thermal Blackout Curtains (2 Panels)",
     "brand": "Sun Zero",
@@ -847,6 +830,23 @@
     "cons": [
       "Air-based system not as cold as water-based competitors",
       "Slight fan noise on higher settings"
+    ]
+  },
+  "now-foods-magnesium-glycinate": {
+    "name": "NOW Foods Magnesium Glycinate 200mg (180 Veg Capsules)",
+    "brand": "NOW Foods",
+    "price": "$22.99",
+    "image": "/images/products/now-foods-magnesium-glycinate.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID41?tag=slpedge-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID41?irgwc=1",
+    "pros": [
+      "Highly absorbable magnesium bisglycinate form",
+      "200mg elemental magnesium per serving",
+      "Non-GMO and GMP-certified"
+    ],
+    "cons": [
+      "Three capsules needed for full serving",
+      "Single-form magnesium without complementary cofactors"
     ]
   }
 }

@@ -24,7 +24,7 @@ import { TrackedAffiliateLink } from "@/components/analytics/TrackedAffiliateLin
 const FEATURED_PRODUCT_IDS = [
   "hatch-restore-2",
   "manta-sleep-mask",
-  "doctors-best-magnesium-glycinate",
+  "now-foods-magnesium-glycinate",
   "oura-ring-gen-3",
   "bearaby-cotton-napper",
   "yogasleep-dohm",

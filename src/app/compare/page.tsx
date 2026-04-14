@@ -124,7 +124,7 @@ const COMPARISONS: ComparisonCard[] = [
   },
   {
     slug: "magnesium-vs-ltheanine",
-    productA: "doctors-best-magnesium-glycinate",
+    productA: "now-foods-magnesium-glycinate",
     productB: "now-l-theanine",
     question: "Magnesium Glycinate vs. L-Theanine",
     answer:

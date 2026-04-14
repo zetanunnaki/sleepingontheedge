@@ -104,8 +104,8 @@ async function poll(taskId, maxTries = 60) {
 
 const PRODUCTS = [
   [
-    "bedsure-bamboo-sheets.jpg",
-    "Simple product photograph. A folded stack of crisp white bamboo bed sheets on a plain dark grey surface. Plain background. No people. Studio product photography.",
+    "now-foods-magnesium-glycinate.jpg",
+    "Product photograph of a white pill bottle with a simple label on a plain dark surface, studio lighting, plain dark background",
   ],
 ];
 
