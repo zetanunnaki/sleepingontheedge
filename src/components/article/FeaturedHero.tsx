@@ -19,7 +19,7 @@ export function FeaturedHero({ item, eyebrow }: FeaturedHeroProps) {
   return (
     <Link
       href={item.url}
-      className="group grid overflow-hidden rounded-[32px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 transition-all hover:border-indigo-500/40 hover:shadow-2xl hover:shadow-indigo-500/10 lg:grid-cols-[1.2fr_1fr]"
+      className="group relative grid overflow-hidden rounded-[24px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 ring-1 ring-white/5 transition-all hover:-translate-y-1 hover:border-indigo-500/40 hover:shadow-2xl hover:shadow-indigo-500/10 sm:rounded-[32px] lg:grid-cols-[1.2fr_1fr]"
     >
       <div className="relative aspect-[16/9] w-full overflow-hidden bg-slate-900 lg:aspect-auto">
         {item.frontmatter.featuredImage ? (
@@ -28,25 +28,25 @@ export function FeaturedHero({ item, eyebrow }: FeaturedHeroProps) {
             alt={item.frontmatter.title}
             fill
             sizes="(min-width: 1024px) 60vw, 100vw"
-            className="object-cover opacity-80 transition-all duration-500 group-hover:scale-105 group-hover:opacity-100"
+            className="object-cover opacity-85 transition-all duration-500 group-hover:scale-[1.03] group-hover:opacity-100"
             priority
           />
         ) : (
           <CoverFallback seed={item.url} label={eyebrow} />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-slate-950/10 to-transparent lg:bg-gradient-to-r lg:from-transparent lg:via-transparent lg:to-slate-950/40" />
       </div>
-      <div className="flex flex-col justify-center p-8 md:p-12">
-        <span className="text-[10px] font-black uppercase tracking-[0.2em] text-amber-400">
+      <div className="flex flex-col justify-center p-6 sm:p-8 md:p-10 lg:p-12">
+        <span className="inline-flex w-fit items-center gap-1.5 rounded-full border border-amber-500/30 bg-amber-500/10 px-3 py-1 text-[10px] font-black uppercase tracking-[0.2em] text-amber-300">
           Featured · {eyebrow}
         </span>
-        <h2 className="mt-4 font-serif text-3xl leading-tight text-white sm:text-4xl group-hover:text-indigo-300">
+        <h2 className="mt-4 font-serif text-2xl leading-tight text-white transition-colors group-hover:text-indigo-300 sm:text-3xl md:text-4xl">
           {item.frontmatter.title}
         </h2>
-        <p className="mt-4 text-base text-slate-400">
+        <p className="mt-4 text-sm leading-relaxed text-slate-400 sm:text-base">
           {item.frontmatter.description}
         </p>
-        <div className="mt-6 flex items-center gap-5 text-xs uppercase tracking-[0.15em] text-slate-500">
+        <div className="mt-5 flex flex-wrap items-center gap-4 text-[10px] uppercase tracking-[0.15em] text-slate-500 sm:mt-6 sm:gap-5 sm:text-xs">
           <span className="flex items-center gap-1.5">
             <Calendar size={12} /> {date}
           </span>
@@ -54,8 +54,12 @@ export function FeaturedHero({ item, eyebrow }: FeaturedHeroProps) {
             <Clock size={12} /> {item.readingTime} min read
           </span>
         </div>
-        <span className="mt-6 inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.15em] text-indigo-400">
-          Read the full piece <ArrowRight size={12} />
+        <span className="mt-5 inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.15em] text-indigo-400 sm:mt-6">
+          Read the full piece{" "}
+          <ArrowRight
+            size={12}
+            className="transition-transform group-hover:translate-x-1"
+          />
         </span>
       </div>
     </Link>

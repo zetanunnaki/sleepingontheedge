@@ -41,10 +41,18 @@ export function MobileMenu() {
           role="dialog"
           aria-modal="true"
           aria-label="Site navigation"
-          className="fixed inset-0 z-[100] flex flex-col bg-slate-950/95 backdrop-blur-md animate-in fade-in duration-200"
-          style={{ animation: "fadeSlideIn 0.2s ease-out" }}
+          className="fixed inset-0 z-[100] flex flex-col bg-slate-950/95 backdrop-blur-xl"
+          style={{ animation: "fadeSlideIn 0.25s ease-out" }}
         >
-          <div className="flex items-center justify-between px-6 py-8">
+          <div
+            aria-hidden
+            className="bg-dotgrid pointer-events-none absolute inset-0 opacity-30"
+          />
+          <div
+            aria-hidden
+            className="pointer-events-none absolute left-[-20%] top-[-10%] h-[400px] w-[400px] rounded-full bg-indigo-600/10 blur-[120px]"
+          />
+          <div className="relative flex items-center justify-between px-6 py-6">
             <span className="font-serif text-xl font-bold text-white">
               Sleeping<span className="text-indigo-400">OnThe</span>Edge
             </span>
@@ -60,14 +68,15 @@ export function MobileMenu() {
 
           <nav
             aria-label="Mobile navigation"
-            className="flex flex-1 flex-col gap-2 px-6 py-8"
+            className="relative flex flex-1 flex-col gap-2 overflow-y-auto px-6 py-6"
           >
-            {siteConfig.nav.map((item) => (
+            {siteConfig.nav.map((item, i) => (
               <Link
                 key={item.href}
                 href={item.href}
                 onClick={() => setOpen(false)}
-                className="group flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.02] px-5 py-5 font-serif text-2xl text-white transition-all hover:border-indigo-500/40 hover:bg-indigo-500/10 hover:text-indigo-300"
+                className="animate-fade-up group flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.02] px-5 py-4 font-serif text-xl text-white backdrop-blur-sm transition-all hover:border-indigo-500/40 hover:bg-indigo-500/10 hover:text-indigo-300 sm:py-5 sm:text-2xl"
+                style={{ animationDelay: `${i * 60}ms` }}
               >
                 {item.label}
                 <span className="text-indigo-500 transition-transform group-hover:translate-x-1">

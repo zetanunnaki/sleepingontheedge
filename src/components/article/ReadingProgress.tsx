@@ -23,10 +23,10 @@ export function ReadingProgress() {
       aria-valuemin={0}
       aria-valuemax={100}
       aria-label="Reading progress"
-      className="fixed left-0 top-0 z-[60] h-0.5 w-full"
+      className="fixed left-0 top-0 z-[60] h-1 w-full bg-transparent"
     >
       <div
-        className="h-full bg-indigo-500 transition-[width] duration-100"
+        className="h-full bg-gradient-to-r from-indigo-500 via-indigo-400 to-amber-300 shadow-[0_0_12px_rgba(99,102,241,0.6)] transition-[width] duration-100"
         style={{ width: `${progress}%` }}
       />
     </div>
