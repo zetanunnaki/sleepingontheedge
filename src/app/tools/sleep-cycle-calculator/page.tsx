@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function SleepCycleCalculatorPage() {
   return (
-    <div className="container relative z-10 mx-auto max-w-3xl px-6 py-16 md:py-24">
+    <div className="container relative z-10 mx-auto max-w-3xl px-5 py-12 sm:px-6 md:py-24">
       <JsonLd data={softwareAppSchema({ name: "Sleep Cycle Calculator", description: "Find the optimal bedtime for your wake-up time — based on 90-minute REM cycles.", url: "/tools/sleep-cycle-calculator" })} />
       <Link
         href="/tools"
@@ -22,29 +22,29 @@ export default function SleepCycleCalculatorPage() {
       >
         <ArrowLeft size={14} /> All Tools
       </Link>
-      <header className="mt-8 text-center">
+      <header className="animate-fade-up mt-6 text-center sm:mt-8">
         <span className="text-[10px] font-black uppercase tracking-[0.2em] text-amber-400">
           The Workshop · Free Tool
         </span>
-        <h1 className="mt-4 font-serif text-5xl leading-[1.05] text-white sm:text-6xl">
+        <h1 className="mt-4 font-serif text-[2.25rem] leading-[1.05] text-white sm:text-5xl md:text-6xl">
           Sleep Cycle{" "}
           <span className="italic text-indigo-300">calculator.</span>
         </h1>
-        <p className="mt-6 text-lg text-slate-400">
+        <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-slate-400 sm:mt-6 sm:text-lg">
           Wake up at the end of a 90-minute cycle, not the middle of one. The
           difference is the difference between groggy and clear.
         </p>
       </header>
 
-      <div className="mt-12">
+      <div className="animate-fade-up delay-150 mt-10 sm:mt-12">
         <SleepCycleCalculator />
       </div>
 
-      <section className="mt-16">
-        <h2 className="font-serif text-3xl text-white">
+      <section className="mt-12 sm:mt-16">
+        <h2 className="font-serif text-2xl text-white sm:text-3xl">
           How <span className="italic text-indigo-300">it works.</span>
         </h2>
-        <div className="prose prose-invert prose-lg mt-6 max-w-none prose-headings:font-serif prose-headings:text-white prose-p:text-slate-300">
+        <div className="prose prose-invert prose-base mt-6 max-w-none sm:prose-lg prose-headings:font-serif prose-headings:text-white prose-p:text-slate-300 prose-p:leading-[1.75]">
           <p>
             Sleep happens in repeating ~90-minute cycles of light, deep, and
             REM stages. If your alarm fires while you&apos;re mid-cycle —
