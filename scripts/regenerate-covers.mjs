@@ -108,8 +108,24 @@ async function poll(taskId, maxTries = 60) {
 
 const COVERS = [
   [
-    "doctors-best-magnesium-glycinate-review.jpg",
-    "Simple product photograph. A small brown glass supplement bottle with plain white label stands on a dark stone surface. White capsules scattered next to the bottle. Plain dark grey background. No people. No faces. Just the bottle and capsules.",
+    "best-sleep-gear-travel.jpg",
+    "Product photograph of a small black eye mask folded beside a small white earplug case on a plain dark wooden surface, studio lighting, plain dark background",
+  ],
+  [
+    "best-alarm-clocks-heavy-sleepers.jpg",
+    "Product photograph of a round sunrise alarm clock glowing warm amber light on a plain dark surface, studio lighting, plain dark background",
+  ],
+  [
+    "best-sheets-under-50.jpg",
+    "Product photograph of a neatly folded stack of white sheets on a plain dark wooden surface, studio lighting, plain dark background",
+  ],
+  [
+    "best-gifts-for-insomniacs.jpg",
+    "Product photograph of a plain wrapped gift box with ribbon on a plain dark surface, studio lighting, plain dark background",
+  ],
+  [
+    "best-cooling-pillows.jpg",
+    "Product photograph of a fluffy white pillow on a plain dark surface, studio lighting, plain dark background",
   ],
 ];
 
