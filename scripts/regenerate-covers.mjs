@@ -108,24 +108,24 @@ async function poll(taskId, maxTries = 60) {
 
 const COVERS = [
   [
-    "best-white-noise-tinnitus.jpg",
-    "Product photograph of a small round white noise machine on a plain dark wooden surface, studio lighting, plain dark background",
+    "best-products-stop-snoring.jpg",
+    "Product photograph of a white triangular wedge pillow on a plain dark wooden surface, studio lighting, plain dark background",
   ],
   [
-    "best-sleep-trackers-no-subscription.jpg",
-    "Product photograph of a black fitness tracker wristband on a plain dark surface, studio lighting, plain dark background",
+    "best-bed-cooling-system.jpg",
+    "Product photograph of a white cooling fan unit on a plain dark surface, studio lighting, plain dark background",
   ],
   [
-    "best-eucalyptus-sheets.jpg",
-    "Product photograph of a neatly folded stack of soft white sheets on a plain dark wooden surface, studio lighting, plain dark background",
+    "best-sleep-gifts-under-50.jpg",
+    "Product photograph of a small wrapped gift box with a simple ribbon on a plain dark surface, studio lighting, plain dark background",
   ],
   [
-    "best-blackout-curtains-apartment.jpg",
-    "Product photograph of dark grey heavy fabric panels folded neatly on a plain dark surface, studio lighting, plain dark background",
+    "best-minimalist-bedside-clocks.jpg",
+    "Product photograph of a minimalist white bedside clock on a plain dark wooden surface, studio lighting, plain dark background",
   ],
   [
-    "best-sleep-gear-college-students.jpg",
-    "Product photograph of a black sleep mask and white earplugs on a plain dark wooden surface, studio lighting, plain dark background",
+    "best-pregnancy-sleep-kit.jpg",
+    "Product photograph of a large white U-shaped pillow on a plain dark surface, studio lighting, plain dark background",
   ],
 ];
 
