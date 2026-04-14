@@ -80,6 +80,7 @@ export const metadata: Metadata = {
       "application/rss+xml": `${siteConfig.url}/rss.xml`,
     },
   },
+  manifest: "/site.webmanifest",
   other: {
     // Pinterest verification — replace with your real verification code from
     // pinterest.com/business/claim-website/ once you have a Pinterest account.
