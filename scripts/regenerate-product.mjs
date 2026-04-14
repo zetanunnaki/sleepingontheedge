@@ -104,8 +104,8 @@ async function poll(taskId, maxTries = 60) {
 
 const PRODUCTS = [
   [
-    "now-foods-magnesium-glycinate.jpg",
-    "Product photograph of a white pill bottle with a simple label on a plain dark surface, studio lighting, plain dark background",
+    "fitbit-charge-6.jpg",
+    "Product photograph of a slim black fitness tracker wristband with rectangular screen on a plain dark surface, studio lighting, plain dark background",
   ],
 ];
 
