@@ -103,10 +103,9 @@ async function poll(taskId, maxTries = 60) {
 }
 
 const PRODUCTS = [
-  [
-    "fitbit-charge-6.jpg",
-    "Product photograph of a slim black fitness tracker wristband with rectangular screen on a plain dark surface, studio lighting, plain dark background",
-  ],
+  ["pharmedoc-pillow.jpg", "Product photograph of a large white U-shaped body pillow on a plain dark surface, studio lighting, plain dark background"],
+  ["sun-zero-curtains.jpg", "Product photograph of dark grey folded fabric panels on a plain dark surface, studio lighting, plain dark background"],
+  ["mellanni-sheets.jpg", "Product photograph of a neatly folded stack of white sheets on a plain dark surface, studio lighting, plain dark background"],
 ];
 
 async function main() {

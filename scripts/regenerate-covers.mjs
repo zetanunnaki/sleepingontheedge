@@ -107,9 +107,7 @@ async function poll(taskId, maxTries = 60) {
 }
 
 const COVERS = [
-  ["best-sleep-accessories-couples.jpg","Product photograph of a black sleep mask and white earplugs on a plain dark surface, studio lighting, plain dark background"],
-  ["best-sleep-products-anxiety.jpg","Product photograph of a grey knit blanket draped on a plain dark surface, studio lighting, plain dark background"],
-  ["best-blackout-curtains-nursery.jpg","Product photograph of dark grey heavy fabric panels folded on a plain dark surface, studio lighting, plain dark background"],
+  ["zinus-mattress-review.jpg","Product photograph of a white mattress on a plain dark surface, studio lighting, plain dark background"],
 ];
 
 async function main() {
