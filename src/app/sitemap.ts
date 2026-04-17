@@ -3,6 +3,7 @@ import { siteConfig } from "@/lib/site";
 import { getAllContentAcrossTypes, getAllTags } from "@/lib/content";
 import { getAllAuthors } from "@/lib/authors";
 import { getAllBrands } from "@/lib/products";
+import { getAllComparisonSlugs } from "@/lib/comparisons";
 
 export const dynamic = "force-static";
 
@@ -19,6 +20,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/tools/caffeine-cutoff-calculator", priority: 0.8 },
     { path: "/resources", priority: 0.8 },
     { path: "/compare", priority: 0.7 },
+    { path: "/terms", priority: 0.3 },
+    { path: "/tools/sleep-edge-quiz", priority: 0.8 },
     { path: "/tags", priority: 0.6 },
     { path: "/brands", priority: 0.6 },
     { path: "/search", priority: 0.4 },
@@ -65,11 +68,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.4,
   }));
 
+  const compareRoutes: MetadataRoute.Sitemap = getAllComparisonSlugs().map(
+    (slug) => ({
+      url: `${siteConfig.url}/compare/${slug}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    }),
+  );
+
   return [
     ...staticRoutes,
     ...articleRoutes,
     ...tagRoutes,
     ...authorRoutes,
     ...brandRoutes,
+    ...compareRoutes,
   ];
 }

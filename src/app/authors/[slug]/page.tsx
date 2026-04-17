@@ -39,7 +39,7 @@ export default async function AuthorPage({ params }: PageProps) {
   );
 
   return (
-    <div className="container relative z-10 mx-auto px-6 py-16 md:py-24">
+    <div className="container relative z-10 mx-auto px-5 py-12 sm:px-6 md:py-24">
       <JsonLd data={personSchema(author)} />
       <Link
         href="/"

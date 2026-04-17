@@ -34,7 +34,7 @@ export default async function BrandPage({ params }: PageProps) {
   if (!brand) notFound();
 
   return (
-    <div className="container relative z-10 mx-auto max-w-4xl px-6 py-16 md:py-24">
+    <div className="container relative z-10 mx-auto max-w-4xl px-5 py-12 sm:px-6 md:py-24">
       {brand.products.map((p) => (
         <JsonLd
           key={p.id}

@@ -81,13 +81,9 @@ export const metadata: Metadata = {
     },
   },
   manifest: "/site.webmanifest",
-  other: {
-    // Pinterest verification — replace with your real verification code from
-    // pinterest.com/business/claim-website/ once you have a Pinterest account.
-    "p:domain_verify": "PINTEREST_VERIFICATION_CODE",
-    // Facebook page ID — replace once you have a real Facebook page.
-    "fb:pages": "FACEBOOK_PAGE_ID",
-  },
+  // Pinterest and Facebook verification codes: add real codes here once claimed.
+  // "p:domain_verify": "YOUR_PINTEREST_CODE",
+  // "fb:pages": "YOUR_FACEBOOK_PAGE_ID",
 };
 
 export const viewport = {

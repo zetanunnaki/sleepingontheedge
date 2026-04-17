@@ -5,7 +5,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 
 export interface Crumb {
   label: string;
-  href: string;
+  href?: string;
 }
 
 interface BreadcrumbsProps {
@@ -16,7 +16,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
   const schema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: items.map((c, i) => ({
+    itemListElement: items.filter((c) => c.href).map((c, i) => ({
       "@type": "ListItem",
       position: i + 1,
       name: c.label,
@@ -34,8 +34,8 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
         {items.map((crumb, i) => {
           const isLast = i === items.length - 1;
           return (
-            <span key={crumb.href} className="flex items-center gap-1.5">
-              {isLast ? (
+            <span key={crumb.href ?? crumb.label} className="flex items-center gap-1.5">
+              {isLast || !crumb.href ? (
                 <span className="text-indigo-300">{crumb.label}</span>
               ) : (
                 <Link

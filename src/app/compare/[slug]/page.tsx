@@ -13,13 +13,15 @@ import {
 } from "lucide-react";
 import { getProduct } from "@/lib/products";
 import { CoverFallback } from "@/components/article/CoverFallback";
-import { canonical } from "@/lib/site";
+import { canonical, siteConfig } from "@/lib/site";
 import {
   COMPARISONS,
   getComparisonBySlug,
   getAllComparisonSlugs,
 } from "@/lib/comparisons";
 import { TrackedAffiliateLink } from "@/components/analytics/TrackedAffiliateLink";
+import { Breadcrumbs } from "@/components/article/Breadcrumbs";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -35,10 +37,23 @@ export async function generateMetadata({
   const { slug } = await params;
   const comp = getComparisonBySlug(slug);
   if (!comp) return {};
+  const url = canonical(`/compare/${slug}`);
   return {
     title: comp.question,
     description: comp.tagline,
-    alternates: { canonical: canonical(`/compare/${slug}`) },
+    alternates: { canonical: url },
+    openGraph: {
+      type: "article",
+      title: comp.question,
+      description: comp.tagline,
+      url,
+      siteName: siteConfig.name,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: comp.question,
+      description: comp.tagline,
+    },
   };
 }
 
@@ -126,12 +141,24 @@ export default async function ComparePage({ params }: PageProps) {
 
   return (
     <div className="container relative z-10 mx-auto max-w-4xl px-5 py-12 sm:px-6 md:py-24">
-      <Link
-        href="/compare"
-        className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.2em] text-indigo-400 transition-colors hover:text-white"
-      >
-        <ArrowLeft size={14} /> All comparisons
-      </Link>
+      <Breadcrumbs
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Compare", href: "/compare" },
+          { label: comp.question },
+        ]}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: comp.faqs.map((f) => ({
+            "@type": "Question",
+            name: f.q,
+            acceptedAnswer: { "@type": "Answer", text: f.a },
+          })),
+        }}
+      />
 
       <header className="animate-fade-up mt-6 text-center sm:mt-8">
         <span className="inline-flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400">

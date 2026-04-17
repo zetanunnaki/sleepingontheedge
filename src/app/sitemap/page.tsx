@@ -64,7 +64,7 @@ export default function HtmlSitemapPage() {
   const brands = getAllBrands();
 
   return (
-    <div className="container relative z-10 mx-auto max-w-4xl px-6 py-16 md:py-24">
+    <div className="container relative z-10 mx-auto max-w-4xl px-5 py-12 sm:px-6 md:py-24">
       <Link
         href="/"
         className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-[0.2em] text-indigo-400 transition-colors hover:text-white"

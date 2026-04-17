@@ -41,7 +41,7 @@ export function CookieConsent() {
       aria-label="Cookie notice"
       className="fixed inset-x-0 bottom-0 z-[100] border-t border-white/10 bg-slate-950/95 backdrop-blur-md"
     >
-      <div className="mx-auto flex max-w-5xl flex-col gap-4 px-6 py-5 md:flex-row md:items-center md:justify-between md:gap-8">
+      <div className="mx-auto flex max-w-5xl flex-col gap-4 px-5 py-4 sm:px-6 sm:py-5 md:flex-row md:items-center md:justify-between md:gap-8">
         <div className="flex-1 text-sm leading-relaxed text-slate-300">
           <p>
             We use essential cookies for site functionality and optional
