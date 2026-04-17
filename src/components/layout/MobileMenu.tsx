@@ -1,12 +1,18 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { siteConfig } from "@/lib/site";
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   useEffect(() => {
     if (!open) return;
@@ -22,21 +28,8 @@ export function MobileMenu() {
     };
   }, [open]);
 
-  return (
-    <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-slate-300 transition-all hover:border-indigo-500/40 hover:text-white lg:hidden"
-        aria-label="Open menu"
-        aria-expanded={open}
-        aria-controls="mobile-menu"
-      >
-        <Menu size={18} />
-      </button>
-
-      {open && (
-        <div
+  const dialog = open && (
+    <div
           id="mobile-menu"
           role="dialog"
           aria-modal="true"
@@ -125,8 +118,22 @@ export function MobileMenu() {
               Take the Sleep Quiz
             </Link>
           </div>
-        </div>
-      )}
+    </div>
+  );
+
+  return (
+    <>
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-slate-300 transition-all hover:border-indigo-500/40 hover:text-white lg:hidden"
+        aria-label="Open menu"
+        aria-expanded={open}
+        aria-controls="mobile-menu"
+      >
+        <Menu size={18} />
+      </button>
+      {mounted && dialog ? createPortal(dialog, document.body) : null}
     </>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { Search, X, Loader2 } from "lucide-react";
 
@@ -20,9 +21,14 @@ export function SearchDialog() {
   const [query, setQuery] = useState("");
   const [index, setIndex] = useState<IndexEntry[] | null>(null);
   const [loading, setLoading] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   const basePath = "";
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   // Open with Cmd/Ctrl + K
   useEffect(() => {
@@ -92,28 +98,11 @@ export function SearchDialog() {
       .map((r) => r.entry);
   }, [query, index]);
 
-  return (
-    <>
-      <button
-        type="button"
-        onClick={() => setOpen(true)}
-        className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-slate-300 transition-all hover:border-indigo-500/40 hover:bg-indigo-500/10 hover:text-white md:h-auto md:w-auto md:gap-2 md:px-3 md:py-1.5"
-        aria-label="Open search"
-      >
-        <Search size={16} />
-        <span className="hidden text-xs font-medium text-slate-400 md:inline">
-          Search
-        </span>
-        <kbd className="hidden rounded border border-white/10 bg-white/5 px-1.5 py-0.5 font-mono text-[10px] text-slate-500 md:inline">
-          ⌘K
-        </kbd>
-      </button>
-
-      {open && (
-        <div
-          className="fixed inset-0 z-[100] flex items-start justify-center bg-slate-950/80 px-4 pt-20 backdrop-blur-md"
-          onClick={() => setOpen(false)}
-        >
+  const dialog = open && (
+    <div
+      className="fixed inset-0 z-[100] flex items-start justify-center bg-slate-950/80 px-4 pt-20 backdrop-blur-md"
+      onClick={() => setOpen(false)}
+    >
           <div
             className="w-full max-w-2xl overflow-hidden rounded-[24px] border border-white/10 bg-gradient-to-br from-slate-900 to-slate-950 shadow-2xl shadow-black/50"
             onClick={(e) => e.stopPropagation()}
@@ -194,8 +183,26 @@ export function SearchDialog() {
               <span>SleepingOnTheEdge</span>
             </div>
           </div>
-        </div>
-      )}
+    </div>
+  );
+
+  return (
+    <>
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        className="flex h-9 w-9 items-center justify-center rounded-full border border-white/10 bg-white/5 text-slate-300 transition-all hover:border-indigo-500/40 hover:bg-indigo-500/10 hover:text-white md:h-auto md:w-auto md:gap-2 md:px-3 md:py-1.5"
+        aria-label="Open search"
+      >
+        <Search size={16} />
+        <span className="hidden text-xs font-medium text-slate-400 md:inline">
+          Search
+        </span>
+        <kbd className="hidden rounded border border-white/10 bg-white/5 px-1.5 py-0.5 font-mono text-[10px] text-slate-500 md:inline">
+          ⌘K
+        </kbd>
+      </button>
+      {mounted && dialog ? createPortal(dialog, document.body) : null}
     </>
   );
 }
