@@ -108,8 +108,12 @@ async function poll(taskId, maxTries = 60) {
 
 const COVERS = [
   [
-    "fitbit-charge-6-review.jpg",
-    "Product photograph of a black slim fitness tracker wristband on a plain dark surface, studio lighting, plain dark background",
+    "loop-quiet-earplugs-review.jpg",
+    "Product photograph of two small white silicone earplugs on a plain dark surface, studio lighting, plain dark background",
+  ],
+  [
+    "purple-mattress-review.jpg",
+    "Product photograph of a white mattress on a simple dark bed frame, studio lighting, plain dark background",
   ],
 ];
 
