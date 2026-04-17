@@ -141,13 +141,18 @@ select:focus-visible {
 
 /* Utility classes for applying animations */
 .animate-fade-up {
-  animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+  opacity: 0;
+  transform: translateY(24px);
+  animation: fadeUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 .animate-fade-down {
-  animation: fadeDown 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+  opacity: 0;
+  transform: translateY(-16px);
+  animation: fadeDown 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 .animate-fade-in {
-  animation: fadeIn 0.6s ease-out both;
+  opacity: 0;
+  animation: fadeIn 0.6s ease-out forwards;
 }
 .animate-orb-drift {
   animation: orbDrift 24s ease-in-out infinite;

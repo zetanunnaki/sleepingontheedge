@@ -115,6 +115,7 @@ export function SearchDialog() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search articles, tools, glossary…"
+                aria-label="Search articles, tools, and glossary"
                 className="flex-1 bg-transparent text-base text-white placeholder-slate-500 outline-none"
               />
               <button

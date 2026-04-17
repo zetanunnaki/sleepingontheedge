@@ -89,7 +89,7 @@ export function Footer() {
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-slate-400">
               {siteConfig.description}
             </p>
-            <p className="mt-5 max-w-sm text-xs leading-relaxed text-slate-500">
+            <p className="mt-5 max-w-sm text-xs leading-relaxed text-slate-400">
               SleepingOnTheEdge is reader-supported. Some links on this site are
               affiliate links — if you click and buy, we may earn a small
               commission at no extra cost to you. Our editorial picks are based
@@ -106,7 +106,7 @@ export function Footer() {
           </div>
           {COLUMNS.map((col) => (
             <div key={col.heading}>
-              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-500">
+              <p className="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400">
                 {col.heading}
               </p>
               <ul className="mt-4 space-y-3 text-sm text-slate-400">
@@ -125,7 +125,7 @@ export function Footer() {
           ))}
         </div>
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center">
-          <span className="text-xs text-slate-500">
+          <span className="text-xs text-slate-400">
             &copy; {year} SleepingOnTheEdge. All rights reserved.
           </span>
           <div className="flex items-center gap-3">

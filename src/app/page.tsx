@@ -123,7 +123,7 @@ export default function HomePage() {
             <p className="font-serif text-3xl text-white sm:text-4xl">
               {roundupCount}
             </p>
-            <p className="mt-1 text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500 sm:text-xs">
+            <p className="mt-1 text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400 sm:text-xs">
               Roundups
             </p>
           </div>
@@ -131,7 +131,7 @@ export default function HomePage() {
             <p className="font-serif text-3xl text-white sm:text-4xl">
               {guideCount}
             </p>
-            <p className="mt-1 text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500 sm:text-xs">
+            <p className="mt-1 text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400 sm:text-xs">
               Guides
             </p>
           </div>
@@ -139,7 +139,7 @@ export default function HomePage() {
             <p className="font-serif text-3xl text-white sm:text-4xl">
               {reviewCount}
             </p>
-            <p className="mt-1 text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500 sm:text-xs">
+            <p className="mt-1 text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400 sm:text-xs">
               Reviews
             </p>
           </div>
@@ -331,7 +331,7 @@ export default function HomePage() {
           </Link>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4">
-          {getProducts(FEATURED_PRODUCT_IDS).map((p) => (
+          {getProducts(FEATURED_PRODUCT_IDS).map((p, index) => (
             <TrackedAffiliateLink
               key={p.id}
               href={p.amazonLink}
@@ -349,6 +349,7 @@ export default function HomePage() {
                     src={p.image}
                     alt={p.name}
                     fill
+                    priority={index < 2}
                     sizes="(min-width: 1024px) 280px, (min-width: 640px) 50vw, 100vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
