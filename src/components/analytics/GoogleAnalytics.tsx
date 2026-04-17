@@ -11,7 +11,7 @@ import Script from "next/script";
  * paste your real ID and every affiliate click on the site will start
  * reporting to your GA4 property automatically — no other code changes needed.
  */
-const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
+const GA_MEASUREMENT_ID = "G-XZCTS0QGYX";
 
 export function GoogleAnalytics() {
   // Don't render the script until a real measurement ID is set.
