@@ -90,11 +90,16 @@ export function Footer() {
               {siteConfig.description}
             </p>
             <p className="mt-5 max-w-sm text-xs leading-relaxed text-slate-400">
-              SleepingOnTheEdge is reader-supported. Some links on this site are
+              <strong className="font-semibold text-slate-300">
+                Affiliate Disclosure.
+              </strong>{" "}
+              SleepingOnTheEdge is reader-supported. As an Amazon Associate we
+              earn from qualifying purchases. Some links on this site are
               affiliate links — if you click and buy, we may earn a small
-              commission at no extra cost to you. Our editorial picks are based
-              on aggregated customer reviews and published research, not paid
-              placement. Read our full{" "}
+              commission at no extra cost to you. We are writers, not clinicians
+              or testers. Our product picks are based on aggregated customer
+              reviews, not paid placement. This site does not provide medical
+              advice. Read our full{" "}
               <Link
                 href="/disclaimer"
                 className="text-slate-400 underline-offset-2 hover:text-white hover:underline"

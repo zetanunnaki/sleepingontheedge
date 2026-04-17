@@ -423,7 +423,7 @@ export const COMPARISONS: ComparisonDetail[] = [
   {
     slug: "swannies-vs-uvex",
     productA: "swanwick-blue-blockers",
-    productB: "wenzel-blue-blockers-budget",
+    productB: "uvex-skyper-blue-blockers",
     question: "Swannies vs. Uvex Skyper",
     tagline:
       "Swannies are the designer pick — comfortable and stylish. Uvex Skyper are safety-glass ugly but cost under $12 with a near-identical amber lens. Choose aesthetics or budget.",
@@ -874,7 +874,7 @@ export const COMPARISONS: ComparisonDetail[] = [
   {
     slug: "bearaby-vs-ynm",
     productA: "bearaby-cotton-napper",
-    productB: "thrive-mood-blanket",
+    productB: "ynm-cooling-bamboo-blanket",
     question: "Bearaby Cotton Napper vs. YnM Cooling Bamboo",
     tagline:
       "Bearaby is chunky knit — most breathable, gentlest weight, premium price. YnM is glass beads with bamboo cover — deeper pressure feel, still cooler than polyester, mid-tier price.",
