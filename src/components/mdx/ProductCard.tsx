@@ -1,6 +1,8 @@
 import Image from "next/image";
-import { Check, X, Award } from "lucide-react";
+import Link from "next/link";
+import { Check, X, Award, ArrowRight } from "lucide-react";
 import { getProduct } from "@/lib/products";
+import { getReviewByProductId } from "@/lib/content";
 import { DualBuyButton } from "./DualBuyButton";
 import { CoverFallback } from "@/components/article/CoverFallback";
 
@@ -11,6 +13,7 @@ interface ProductCardProps {
 
 export function ProductCard({ productId, badge }: ProductCardProps) {
   const product = getProduct(productId);
+  const review = getReviewByProductId(productId);
   if (!product) {
     return (
       <div className="not-prose my-6 rounded-2xl border border-rose-500/30 bg-rose-500/10 p-3 text-sm text-rose-300">
@@ -86,6 +89,14 @@ export function ProductCard({ productId, badge }: ProductCardProps) {
             </div>
           </div>
           <DualBuyButton productId={productId} />
+          {review && (
+            <Link
+              href={review.url}
+              className="mt-4 flex items-center gap-2 text-sm font-medium text-indigo-400 transition-colors hover:text-indigo-300"
+            >
+              Read full review <ArrowRight size={14} />
+            </Link>
+          )}
         </div>
       </div>
     </div>

@@ -186,3 +186,11 @@ export function getContentByTag(slug: string): ContentItem[] {
 export function getTagBySlug(slug: string): TagSummary | null {
   return getAllTags().find((t) => t.slug === slug) ?? null;
 }
+
+export function getReviewByProductId(productId: string): ContentItem | null {
+  return (
+    getAllContent("reviews").find((r) =>
+      r.frontmatter.productIds?.includes(productId),
+    ) ?? null
+  );
+}
