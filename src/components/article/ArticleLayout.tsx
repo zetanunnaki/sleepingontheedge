@@ -4,7 +4,7 @@ import { Calendar, Clock } from "lucide-react";
 import type { ContentItem } from "@/lib/content";
 import { Breadcrumbs, type Crumb } from "./Breadcrumbs";
 import { TableOfContents } from "./TableOfContents";
-import { AuthorBio } from "./AuthorBio";
+
 import { TagChips } from "./TagChips";
 import { CoverFallback } from "./CoverFallback";
 import { ReadingProgress } from "./ReadingProgress";
@@ -122,7 +122,7 @@ export function ArticleLayout({
 
       <ShareButtons title={frontmatter.title} url={item.url} />
 
-      {author && <AuthorBio author={author} />}
+
       <ScrollToTop />
     </article>
   );
