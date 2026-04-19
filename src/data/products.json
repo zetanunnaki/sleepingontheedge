@@ -763,5 +763,141 @@
       "Air-based system not as cold as water-based competitors",
       "Slight fan noise on higher settings"
     ]
+  },
+  "biostrap-evo": {
+    "name": "Biostrap EVO",
+    "brand": "Biostrap",
+    "price": "$174.99",
+    "image": "/images/products/biostrap-evo.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID59?tag=slpedge-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID59?irgwc=1",
+    "pros": [
+      "Clinical-grade PPG sensor with red and infrared light",
+      "Captures raw biometric waveforms, not just summary metrics",
+      "No subscription required for core sleep and recovery data"
+    ],
+    "cons": [
+      "Bulkier than mainstream wrist wearables",
+      "Smaller app ecosystem than Fitbit or Oura"
+    ]
+  },
+  "chilipad-cube": {
+    "name": "ChiliPad Cube Sleep System",
+    "brand": "Sleepme",
+    "price": "$349.00",
+    "image": "/images/products/chilipad-cube.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID60?tag=slpedge-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID60?irgwc=1",
+    "pros": [
+      "Water-based cooling reaches lower temperatures than air systems",
+      "No app or Wi-Fi required — simple plug-and-play with remote",
+      "Fits under existing sheets on any mattress"
+    ],
+    "cons": [
+      "Requires periodic water refills and reservoir cleaning",
+      "Tubing can be felt through thin sheets"
+    ]
+  },
+  "moonbird": {
+    "name": "Moonbird Breathing Device",
+    "brand": "Moonbird",
+    "price": "$179.00",
+    "image": "/images/products/moonbird.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID61?tag=slpedge-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID61?irgwc=1",
+    "pros": [
+      "Tactile expansion guides breathing without screen use",
+      "Built-in biofeedback sensor tracks heart rate variability",
+      "Compact and portable for travel"
+    ],
+    "cons": [
+      "High price for a single-purpose breathing tool",
+      "Requires companion app for guided sessions and data"
+    ]
+  },
+  "ra-optics-twilight": {
+    "name": "Ra Optics Twilight Glasses",
+    "brand": "Ra Optics",
+    "price": "$89.00",
+    "image": "/images/products/ra-optics-twilight.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID62?tag=slpedge-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID62?irgwc=1",
+    "pros": [
+      "Published lens transmission data — blocks 100% of blue and green light below 550nm",
+      "Wraparound frame with side shields for full coverage",
+      "Premium build quality with acetate frames"
+    ],
+    "cons": [
+      "Significantly more expensive than budget blue-blocking options",
+      "Deep red tint heavily distorts color perception"
+    ]
+  },
+  "saatva-classic": {
+    "name": "Saatva Classic Mattress",
+    "brand": "Saatva",
+    "price": "$1,395.00",
+    "image": "/images/products/saatva-classic.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID63?tag=slpedge-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID63?irgwc=1",
+    "pros": [
+      "Dual-coil construction with lumbar support zone",
+      "Three firmness levels and two height options",
+      "Free white-glove delivery and old mattress removal"
+    ],
+    "cons": [
+      "Premium price point",
+      "Heavy — difficult to move without assistance"
+    ]
+  },
+  "saatva-latex-topper": {
+    "name": "Saatva Latex Mattress Topper",
+    "brand": "Saatva",
+    "price": "$395.00",
+    "image": "/images/products/saatva-latex-topper.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID64?tag=slpedge-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID64?irgwc=1",
+    "pros": [
+      "GOTS-certified organic cotton cover and natural Talalay latex",
+      "Breathable open-cell latex sleeps cooler than memory foam",
+      "Adds responsive cushion without sinking feeling"
+    ],
+    "cons": [
+      "Expensive for a topper",
+      "Only available in one firmness level"
+    ]
+  },
+  "sleep-number-dualtemp": {
+    "name": "Sleep Number DualTemp Layer",
+    "brand": "Sleep Number",
+    "price": "$1,099.99",
+    "image": "/images/products/sleep-number-dualtemp.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID65?tag=slpedge-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID65?irgwc=1",
+    "pros": [
+      "Active air technology heats or cools up to 35%",
+      "Individual side control for couples",
+      "Fits on any mattress — not limited to Sleep Number beds"
+    ],
+    "cons": [
+      "Premium price for a mattress layer",
+      "Requires power outlet near the bed"
+    ]
+  },
+  "whoop-4": {
+    "name": "WHOOP 4.0",
+    "brand": "WHOOP",
+    "price": "$30.00/mo",
+    "image": "/images/products/whoop-4.jpg",
+    "amazonLink": "https://amazon.com/dp/YOUR_ID66?tag=slpedge-20",
+    "walmartLink": "https://walmart.com/ip/YOUR_ID66?irgwc=1",
+    "pros": [
+      "Continuous HRV, respiratory rate, and sleep stage tracking",
+      "33% smaller than previous generation with 5-day battery",
+      "Strain and recovery scores validated against peer-reviewed studies"
+    ],
+    "cons": [
+      "Subscription-only model — no one-time purchase option",
+      "No screen — all data accessed through phone app"
+    ]
   }
 }
