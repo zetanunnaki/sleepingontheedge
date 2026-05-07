@@ -3,7 +3,7 @@
     "name": "Hatch Restore 2",
     "brand": "Hatch",
     "price": "$169.99",
-    "image": "/images/products/hatch-restore-2.jpg",
+    "image": "/images/products/hatch-restore-2.webp",
     "amazonLink": "https://amazon.com/dp/B0C5S7K1JK?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID?irgwc=1",
     "pros": [
@@ -20,7 +20,7 @@
     "name": "Yogasleep Dohm Classic",
     "brand": "Yogasleep",
     "price": "$49.99",
-    "image": "/images/products/yogasleep-dohm.jpg",
+    "image": "/images/products/yogasleep-dohm.webp",
     "amazonLink": "https://amazon.com/dp/B00HD0ELFK?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID2?irgwc=1",
     "pros": [
@@ -37,7 +37,7 @@
     "name": "Loftie Clock",
     "brand": "Loftie",
     "price": "$165.00",
-    "image": "/images/products/loftie-clock.jpg",
+    "image": "/images/products/loftie-clock.webp",
     "amazonLink": "https://amazon.com/dp/B09253GT52?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID3?irgwc=1",
     "pros": [
@@ -54,7 +54,7 @@
     "name": "Manta Sleep Mask",
     "brand": "Manta Sleep",
     "price": "$35.00",
-    "image": "/images/products/manta-sleep-mask.jpg",
+    "image": "/images/products/manta-sleep-mask.webp",
     "amazonLink": "https://amazon.com/dp/B07PRG2CQY?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID5?irgwc=1",
     "pros": [
@@ -71,7 +71,7 @@
     "name": "Oura Ring Gen 3",
     "brand": "Oura",
     "price": "$299.00",
-    "image": "/images/products/oura-ring-gen-3.jpg",
+    "image": "/images/products/oura-ring-gen-3.webp",
     "amazonLink": "https://amazon.com/dp/B0CSRK1MPZ?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID7?irgwc=1",
     "pros": [
@@ -88,7 +88,7 @@
     "name": "Swannies Blue Light Blocking Glasses",
     "brand": "Swanwick Sleep",
     "price": "$79.00",
-    "image": "/images/products/swanwick-blue-blockers.jpg",
+    "image": "/images/products/swanwick-blue-blockers.webp",
     "amazonLink": "https://amazon.com/dp/B010B5GUH0?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID9?irgwc=1",
     "pros": [
@@ -105,7 +105,7 @@
     "name": "Bearaby Cotton Napper (15 lb)",
     "brand": "Bearaby",
     "price": "$249.00",
-    "image": "/images/products/bearaby-cotton-napper.jpg",
+    "image": "/images/products/bearaby-cotton-napper.webp",
     "amazonLink": "https://amazon.com/dp/B0C1F55V5D?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID11?irgwc=1",
     "pros": [
@@ -122,7 +122,7 @@
     "name": "Luna Adult Weighted Blanket (15 lb)",
     "brand": "Luna",
     "price": "$54.99",
-    "image": "/images/products/luna-weighted-blanket.jpg",
+    "image": "/images/products/luna-weighted-blanket.webp",
     "amazonLink": "https://amazon.com/dp/B083C5X5MG?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID12?irgwc=1",
     "pros": [
@@ -139,7 +139,7 @@
     "name": "Coop Home Goods Eden Pillow (Queen)",
     "brand": "Coop Home Goods",
     "price": "$96.00",
-    "image": "/images/products/coop-eden-pillow.jpg",
+    "image": "/images/products/coop-eden-pillow.webp",
     "amazonLink": "https://amazon.com/dp/B01LYU7V4S?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID13?irgwc=1",
     "pros": [
@@ -156,7 +156,7 @@
     "name": "Beckham Hotel Collection Bed Pillows (2-Pack)",
     "brand": "Beckham Hotel Collection",
     "price": "$39.99",
-    "image": "/images/products/beckham-hotel-pillow.jpg",
+    "image": "/images/products/beckham-hotel-pillow.webp",
     "amazonLink": "https://amazon.com/dp/B01LYNW421?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID14?irgwc=1",
     "pros": [
@@ -173,7 +173,7 @@
     "name": "Loop Quiet 2 Earplugs",
     "brand": "Loop",
     "price": "$24.95",
-    "image": "/images/products/loop-quiet-earplugs.jpg",
+    "image": "/images/products/loop-quiet-earplugs.webp",
     "amazonLink": "https://amazon.com/dp/B0D3V61JC8?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID15?irgwc=1",
     "pros": [
@@ -190,7 +190,7 @@
     "name": "Mack's Slim Fit Soft Foam Earplugs (50 Pair)",
     "brand": "Mack's",
     "price": "$13.49",
-    "image": "/images/products/macks-slim-fit.jpg",
+    "image": "/images/products/macks-slim-fit.webp",
     "amazonLink": "https://amazon.com/dp/B005YUW7A2?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID16?irgwc=1",
     "pros": [
@@ -207,7 +207,7 @@
     "name": "NICETOWN Blackout Curtains (2 Panels)",
     "brand": "NICETOWN",
     "price": "$28.95",
-    "image": "/images/products/nicetown-blackout-curtains.jpg",
+    "image": "/images/products/nicetown-blackout-curtains.webp",
     "amazonLink": "https://amazon.com/dp/B01CS31NV6?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID19?irgwc=1",
     "pros": [
@@ -224,7 +224,7 @@
     "name": "BGment Blackout Curtains (2 Panels)",
     "brand": "BGment",
     "price": "$22.99",
-    "image": "/images/products/bgment-blackout-curtains.jpg",
+    "image": "/images/products/bgment-blackout-curtains.webp",
     "amazonLink": "https://amazon.com/dp/B07D6HCZTY?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID20?irgwc=1",
     "pros": [
@@ -241,7 +241,7 @@
     "name": "Carex Day-Light Classic Plus",
     "brand": "Carex",
     "price": "$144.95",
-    "image": "/images/products/carex-daylight-classic.jpg",
+    "image": "/images/products/carex-daylight-classic.webp",
     "amazonLink": "https://amazon.com/dp/B00PCN4UVU?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID21?irgwc=1",
     "pros": [
@@ -258,7 +258,7 @@
     "name": "Philips SmartSleep Wake-Up Light HF3520",
     "brand": "Philips",
     "price": "$169.95",
-    "image": "/images/products/philips-smartsleep.jpg",
+    "image": "/images/products/philips-smartsleep.webp",
     "amazonLink": "https://amazon.com/dp/B0093162RM?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID22?irgwc=1",
     "pros": [
@@ -275,7 +275,7 @@
     "name": "PharMeDoc U-Shaped Pregnancy Pillow",
     "brand": "PharMeDoc",
     "price": "$49.99",
-    "image": "/images/products/pharmedoc-pillow.jpg",
+    "image": "/images/products/pharmedoc-pillow.webp",
     "amazonLink": "https://amazon.com/dp/B07JR3T1G6?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID23?irgwc=1",
     "pros": [
@@ -292,7 +292,7 @@
     "name": "Buffy Eucalyptus Sheets (Queen)",
     "brand": "Buffy",
     "price": "$179.00",
-    "image": "/images/products/buffy-eucalyptus-sheets.jpg",
+    "image": "/images/products/buffy-eucalyptus-sheets.webp",
     "amazonLink": "https://amazon.com/dp/B095BPJBBQ?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID24?irgwc=1",
     "pros": [
@@ -309,7 +309,7 @@
     "name": "LectroFan Evo Sound Machine",
     "brand": "Adaptive Sound Technologies",
     "price": "$59.99",
-    "image": "/images/products/lectrofan-evo.jpg",
+    "image": "/images/products/lectrofan-evo.webp",
     "amazonLink": "https://amazon.com/dp/B074FL2HL2?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID27?irgwc=1",
     "pros": [
@@ -326,7 +326,7 @@
     "name": "InteVision Foam Bed Wedge Pillow",
     "brand": "InteVision",
     "price": "$45.99",
-    "image": "/images/products/intevision-wedge.jpg",
+    "image": "/images/products/intevision-wedge.webp",
     "amazonLink": "https://amazon.com/dp/B009HHLBKK?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID28?irgwc=1",
     "pros": [
@@ -343,7 +343,7 @@
     "name": "Philips Hue White Ambiance Bulb (A19)",
     "brand": "Philips",
     "price": "$24.99",
-    "image": "/images/products/philips-hue-bulb.jpg",
+    "image": "/images/products/philips-hue-bulb.webp",
     "amazonLink": "https://amazon.com/dp/B01F6T4R0S?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID29?irgwc=1",
     "pros": [
@@ -360,7 +360,7 @@
     "name": "Tuft & Needle Mint Mattress (Queen)",
     "brand": "Tuft & Needle",
     "price": "$1,195.00",
-    "image": "/images/products/tuft-needle-mint.jpg",
+    "image": "/images/products/tuft-needle-mint.webp",
     "amazonLink": "https://amazon.com/dp/B09XBQJCB3?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID30?irgwc=1",
     "pros": [
@@ -377,7 +377,7 @@
     "name": "Brooklinen Luxe Core Sheet Set (Queen)",
     "brand": "Brooklinen",
     "price": "$169.00",
-    "image": "/images/products/brooklinen-luxe.jpg",
+    "image": "/images/products/brooklinen-luxe.webp",
     "amazonLink": "https://amazon.com/dp/B07D1CQR33?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID31?irgwc=1",
     "pros": [
@@ -394,7 +394,7 @@
     "name": "Yogasleep Rohm Travel White Noise Machine",
     "brand": "Yogasleep",
     "price": "$34.95",
-    "image": "/images/products/marpac-rohm.jpg",
+    "image": "/images/products/marpac-rohm.webp",
     "amazonLink": "https://amazon.com/dp/B01D50RZQI?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID33?irgwc=1",
     "pros": [
@@ -411,7 +411,7 @@
     "name": "Uvex Skyper SCT-Orange Blue Light Blocking Glasses",
     "brand": "Uvex",
     "price": "$11.99",
-    "image": "/images/products/uvex-skyper.jpg",
+    "image": "/images/products/uvex-skyper.webp",
     "amazonLink": "https://amazon.com/dp/B000USRG90?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID34?irgwc=1",
     "pros": [
@@ -428,7 +428,7 @@
     "name": "Withings Sleep Tracking Mat",
     "brand": "Withings",
     "price": "$129.95",
-    "image": "/images/products/withings-sleep-mat.jpg",
+    "image": "/images/products/withings-sleep-mat.webp",
     "amazonLink": "https://amazon.com/dp/B078Z1B34S?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID36?irgwc=1",
     "pros": [
@@ -445,7 +445,7 @@
     "name": "Hatch Rest Baby Sound Machine + Nightlight",
     "brand": "Hatch",
     "price": "$59.99",
-    "image": "/images/products/hatch-rest-baby.jpg",
+    "image": "/images/products/hatch-rest-baby.webp",
     "amazonLink": "https://amazon.com/dp/B08QVG9759?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID37?irgwc=1",
     "pros": [
@@ -462,7 +462,7 @@
     "name": "Purple Mattress (Queen)",
     "brand": "Purple",
     "price": "$1,499.00",
-    "image": "/images/products/purple-mattress.jpg",
+    "image": "/images/products/purple-mattress.webp",
     "amazonLink": "https://amazon.com/dp/B0876HX533?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID38?irgwc=1",
     "pros": [
@@ -479,7 +479,7 @@
     "name": "Casper Original Pillow (Standard)",
     "brand": "Casper",
     "price": "$65.00",
-    "image": "/images/products/casper-pillow.jpg",
+    "image": "/images/products/casper-pillow.webp",
     "amazonLink": "https://amazon.com/dp/B07KRKFLCT?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID39?irgwc=1",
     "pros": [
@@ -496,7 +496,7 @@
     "name": "TEMPUR-Neck Pillow (Medium)",
     "brand": "Tempur-Pedic",
     "price": "$99.00",
-    "image": "/images/products/tempur-neck.jpg",
+    "image": "/images/products/tempur-neck.webp",
     "amazonLink": "https://amazon.com/dp/B07BH8RHTD?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID40?irgwc=1",
     "pros": [
@@ -513,7 +513,7 @@
     "name": "Sun Zero Cyrus Thermal Blackout Curtains (2 Panels)",
     "brand": "Sun Zero",
     "price": "$25.99",
-    "image": "/images/products/sun-zero-curtains.jpg",
+    "image": "/images/products/sun-zero-curtains.webp",
     "amazonLink": "https://amazon.com/dp/B0B5WDBJCY?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID43?irgwc=1",
     "pros": [
@@ -530,7 +530,7 @@
     "name": "YnM Cooling Bamboo Weighted Blanket (15 lb)",
     "brand": "YnM",
     "price": "$69.90",
-    "image": "/images/products/ynm-bamboo.jpg",
+    "image": "/images/products/ynm-bamboo.webp",
     "amazonLink": "https://amazon.com/dp/B09QL34NVS?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID45?irgwc=1",
     "pros": [
@@ -547,7 +547,7 @@
     "name": "SafeRest Premium Mattress Protector (Queen)",
     "brand": "SafeRest",
     "price": "$34.95",
-    "image": "/images/products/saferest-protector.jpg",
+    "image": "/images/products/saferest-protector.webp",
     "amazonLink": "https://amazon.com/dp/B003PWNH4Q?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID46?irgwc=1",
     "pros": [
@@ -564,7 +564,7 @@
     "name": "Fitbit Charge 6",
     "brand": "Fitbit",
     "price": "$159.95",
-    "image": "/images/products/fitbit-charge-6.jpg",
+    "image": "/images/products/fitbit-charge-6.webp",
     "amazonLink": "https://amazon.com/dp/B0CC62ZG1M?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID47?irgwc=1",
     "pros": [
@@ -581,7 +581,7 @@
     "name": "Bedsure Bamboo Sheets (Queen Set)",
     "brand": "Bedsure",
     "price": "$39.99",
-    "image": "/images/products/bedsure-bamboo-sheets.jpg",
+    "image": "/images/products/bedsure-bamboo-sheets.webp",
     "amazonLink": "https://amazon.com/dp/B08CXWHQT2?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID48?irgwc=1",
     "pros": [
@@ -598,7 +598,7 @@
     "name": "Linenspa 3 Inch Gel Memory Foam Mattress Topper (Queen)",
     "brand": "Linenspa",
     "price": "$79.99",
-    "image": "/images/products/linenspa-topper.jpg",
+    "image": "/images/products/linenspa-topper.webp",
     "amazonLink": "https://amazon.com/dp/B07MY34QH7?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID49?irgwc=1",
     "pros": [
@@ -615,7 +615,7 @@
     "name": "Zinus 12 Inch Green Tea Memory Foam Mattress (Queen)",
     "brand": "Zinus",
     "price": "$329.00",
-    "image": "/images/products/zinus-mattress.jpg",
+    "image": "/images/products/zinus-mattress.webp",
     "amazonLink": "https://amazon.com/dp/B00Q7EPSHI?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID50?irgwc=1",
     "pros": [
@@ -632,7 +632,7 @@
     "name": "Mellanni Iconic Collection Microfiber Sheet Set (Queen)",
     "brand": "Mellanni",
     "price": "$28.97",
-    "image": "/images/products/mellanni-sheets.jpg",
+    "image": "/images/products/mellanni-sheets.webp",
     "amazonLink": "https://amazon.com/dp/B00NLLUMOE?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID51?irgwc=1",
     "pros": [
@@ -649,7 +649,7 @@
     "name": "HoMedics SoundSpa White Noise Machine",
     "brand": "HoMedics",
     "price": "$24.99",
-    "image": "/images/products/homedics-soundspa.jpg",
+    "image": "/images/products/homedics-soundspa.webp",
     "amazonLink": "https://amazon.com/dp/B00A2JBMRE?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID52?irgwc=1",
     "pros": [
@@ -666,7 +666,7 @@
     "name": "Vicks Filter-Free Cool Mist Humidifier",
     "brand": "Vicks",
     "price": "$44.99",
-    "image": "/images/products/vicks-humidifier.jpg",
+    "image": "/images/products/vicks-humidifier.webp",
     "amazonLink": "https://amazon.com/dp/B00F8MJXMG?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID53?irgwc=1",
     "pros": [
@@ -683,7 +683,7 @@
     "name": "Conair True Glow Sunrise Alarm Clock",
     "brand": "Conair",
     "price": "$44.99",
-    "image": "/images/products/conair-sunrise.jpg",
+    "image": "/images/products/conair-sunrise.webp",
     "amazonLink": "https://amazon.com/dp/B000OCK9S2?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID54?irgwc=1",
     "pros": [
@@ -700,7 +700,7 @@
     "name": "Vornado 660 Whole Room Air Circulator",
     "brand": "Vornado",
     "price": "$99.99",
-    "image": "/images/products/vornado-660.jpg",
+    "image": "/images/products/vornado-660.webp",
     "amazonLink": "https://amazon.com/dp/B0025QKUE8?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID55?irgwc=1",
     "pros": [
@@ -717,7 +717,7 @@
     "name": "Bedsure Down Alternative Comforter (Queen)",
     "brand": "Bedsure",
     "price": "$54.99",
-    "image": "/images/products/bedsure-comforter.jpg",
+    "image": "/images/products/bedsure-comforter.webp",
     "amazonLink": "https://amazon.com/dp/B07YKLSMFM?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID56?irgwc=1",
     "pros": [
@@ -734,7 +734,7 @@
     "name": "Pure Green 100% Natural Latex Mattress Topper (Queen)",
     "brand": "Sleep On Latex",
     "price": "$179.00",
-    "image": "/images/products/pure-green-latex.jpg",
+    "image": "/images/products/pure-green-latex.webp",
     "amazonLink": "https://amazon.com/dp/B00UYG95T2?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID57?irgwc=1",
     "pros": [
@@ -751,7 +751,7 @@
     "name": "BedJet 3 Climate Comfort System",
     "brand": "BedJet",
     "price": "$499.00",
-    "image": "/images/products/bedjet-3.jpg",
+    "image": "/images/products/bedjet-3.webp",
     "amazonLink": "https://amazon.com/dp/B01BMCWJ7G?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID58?irgwc=1",
     "pros": [
@@ -768,7 +768,7 @@
     "name": "Biostrap EVO",
     "brand": "Biostrap",
     "price": "$174.99",
-    "image": "/images/products/biostrap-evo.jpg",
+    "image": "/images/products/biostrap-evo.webp",
     "amazonLink": "https://shop.biostrap.com/",
     "walmartLink": "https://shop.biostrap.com/",
     "pros": [
@@ -785,7 +785,7 @@
     "name": "ChiliPad Cube Sleep System",
     "brand": "Sleepme",
     "price": "$349.00",
-    "image": "/images/products/chilipad-cube.jpg",
+    "image": "/images/products/chilipad-cube.webp",
     "amazonLink": "https://amazon.com/dp/B07GT9MYRW?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID60?irgwc=1",
     "pros": [
@@ -802,7 +802,7 @@
     "name": "Moonbird Breathing Device",
     "brand": "Moonbird",
     "price": "$179.00",
-    "image": "/images/products/moonbird.jpg",
+    "image": "/images/products/moonbird.webp",
     "amazonLink": "https://amazon.com/dp/B09PC4QV4P?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID61?irgwc=1",
     "pros": [
@@ -819,7 +819,7 @@
     "name": "Ra Optics Twilight Glasses",
     "brand": "Ra Optics",
     "price": "$89.00",
-    "image": "/images/products/ra-optics-twilight.jpg",
+    "image": "/images/products/ra-optics-twilight.webp",
     "amazonLink": "https://amazon.com/dp/B0BNVNL89D?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID62?irgwc=1",
     "pros": [
@@ -836,7 +836,7 @@
     "name": "Saatva Classic Mattress",
     "brand": "Saatva",
     "price": "$1,395.00",
-    "image": "/images/products/saatva-classic.jpg",
+    "image": "/images/products/saatva-classic.webp",
     "amazonLink": "https://amazon.com/dp/B00JWPZDW4?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID63?irgwc=1",
     "pros": [
@@ -853,7 +853,7 @@
     "name": "Saatva Latex Mattress Topper",
     "brand": "Saatva",
     "price": "$395.00",
-    "image": "/images/products/saatva-latex-topper.jpg",
+    "image": "/images/products/saatva-latex-topper.webp",
     "amazonLink": "https://amazon.com/dp/B0CY19SSSH?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID64?irgwc=1",
     "pros": [
@@ -870,7 +870,7 @@
     "name": "Sleep Number DualTemp Layer",
     "brand": "Sleep Number",
     "price": "$1,099.99",
-    "image": "/images/products/sleep-number-dualtemp.jpg",
+    "image": "/images/products/sleep-number-dualtemp.webp",
     "amazonLink": "https://amazon.com/dp/B0CNFX8TLW?tag=sleepingontheedge-20",
     "walmartLink": "https://walmart.com/ip/YOUR_ID65?irgwc=1",
     "pros": [
@@ -887,7 +887,7 @@
     "name": "WHOOP 4.0",
     "brand": "WHOOP",
     "price": "$30.00/mo",
-    "image": "/images/products/whoop-4.jpg",
+    "image": "/images/products/whoop-4.webp",
     "amazonLink": "https://www.whoop.com/us/en/",
     "walmartLink": "https://www.whoop.com/us/en/",
     "pros": [
