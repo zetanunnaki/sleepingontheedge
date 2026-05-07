@@ -1,4 +1,6 @@
 import { ImageResponse } from "next/og";
+import { readFileSync } from "fs";
+import { join } from "path";
 import { siteConfig } from "@/lib/site";
 
 export const dynamic = "force-static";
@@ -7,6 +9,11 @@ export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default function OpengraphImage() {
+  const ogBg = readFileSync(
+    join(process.cwd(), "public/images/hero/og-home.png"),
+  );
+  const ogBgBase64 = `data:image/png;base64,${ogBg.toString("base64")}`;
+
   return new ImageResponse(
     (
       <div
@@ -17,13 +24,48 @@ export default function OpengraphImage() {
           flexDirection: "column",
           justifyContent: "space-between",
           padding: "80px",
-          background:
-            "radial-gradient(circle at 20% 10%, rgba(79,70,229,0.35), transparent 50%), radial-gradient(circle at 90% 90%, rgba(245,158,11,0.15), transparent 50%), #020617",
           color: "#f8fafc",
           fontFamily: "sans-serif",
+          position: "relative",
+          overflow: "hidden",
+          background: "#020617",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+        {/* Background image */}
+        <img
+          src={ogBgBase64}
+          width={1200}
+          height={630}
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            opacity: 0.6,
+          }}
+        />
+        {/* Dark overlay for text readability */}
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            background:
+              "linear-gradient(to right, rgba(2,6,23,0.85) 0%, rgba(2,6,23,0.5) 50%, rgba(2,6,23,0.3) 100%)",
+          }}
+        />
+        <div
+          style={{
+            position: "relative",
+            display: "flex",
+            alignItems: "center",
+            gap: "16px",
+          }}
+        >
           <div
             style={{
               width: "56px",
@@ -53,7 +95,14 @@ export default function OpengraphImage() {
           </div>
         </div>
 
-        <div style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
+        <div
+          style={{
+            position: "relative",
+            display: "flex",
+            flexDirection: "column",
+            gap: "24px",
+          }}
+        >
           <div
             style={{
               fontSize: "28px",
@@ -79,6 +128,7 @@ export default function OpengraphImage() {
 
         <div
           style={{
+            position: "relative",
             fontSize: "28px",
             color: "#94a3b8",
             display: "flex",

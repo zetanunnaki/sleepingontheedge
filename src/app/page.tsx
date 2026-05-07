@@ -88,21 +88,40 @@ export default function HomePage() {
   return (
     <>
       {/* HERO */}
-      <header className="relative z-10 px-5 pb-20 pt-12 text-center sm:px-6 md:pb-32 md:pt-20">
-        <div className="animate-fade-down mb-6 inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-1.5 text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400 sm:mb-8">
+      <header className="relative z-10 overflow-hidden px-5 pb-20 pt-12 text-center sm:px-6 md:pb-32 md:pt-20">
+        {/* Hero background image */}
+        <Image
+          src="/images/hero/home-hero.webp"
+          alt="Serene dark bedroom at blue hour with crescent moon visible through the window and soft indigo ambient lighting"
+          fill
+          priority
+          className="pointer-events-none object-cover object-center opacity-70"
+          sizes="100vw"
+        />
+        {/* Gradient overlays to blend image edges into site background */}
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#020617] via-transparent to-transparent"
+        />
+        <div
+          aria-hidden
+          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_40%,#020617_90%)]"
+        />
+
+        <div className="animate-fade-down relative mb-6 inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-1.5 text-[10px] font-black uppercase tracking-[0.2em] text-indigo-400 sm:mb-8">
           <Activity size={12} /> Cutting-Edge Sleep Science
         </div>
-        <h1 className="animate-fade-up mx-auto mb-6 max-w-5xl font-serif text-[2.5rem] leading-[1.02] sm:text-6xl md:mb-8 md:text-8xl">
+        <h1 className="animate-fade-up relative mx-auto mb-6 max-w-5xl font-serif text-[2.5rem] leading-[1.02] sm:text-6xl md:mb-8 md:text-8xl">
           The sharpest sleep advice{" "}
           <span className="gradient-text-animated italic">
             on the internet.
           </span>
         </h1>
-        <p className="animate-fade-up delay-100 mx-auto mb-8 max-w-2xl text-base leading-relaxed text-slate-400 sm:text-lg md:mb-10 md:text-xl">
+        <p className="animate-fade-up delay-100 relative mx-auto mb-8 max-w-2xl text-base leading-relaxed text-slate-400 sm:text-lg md:mb-10 md:text-xl">
           Honest product breakdowns and practical protocols curated from real
           buyer reviews — so you can skip the noise and actually sleep better.
         </p>
-        <div className="animate-fade-up delay-200 flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4 md:gap-6">
+        <div className="animate-fade-up delay-200 relative flex flex-col items-center justify-center gap-3 sm:flex-row sm:gap-4 md:gap-6">
           <Link
             href="/tools/sleep-edge-quiz"
             className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-indigo-600 px-7 py-3.5 text-sm font-bold shadow-xl shadow-indigo-500/30 transition-all hover:scale-[1.02] hover:bg-indigo-500 sm:w-auto sm:px-8 sm:py-4 sm:text-base md:px-10 md:py-5"
@@ -118,7 +137,7 @@ export default function HomePage() {
         </div>
 
         {/* Stats bar — credibility at a glance */}
-        <div className="animate-fade-up delay-300 mx-auto mt-12 grid max-w-2xl grid-cols-3 gap-4 border-y border-white/10 py-6 sm:mt-16 sm:gap-8">
+        <div className="animate-fade-up delay-300 relative mx-auto mt-12 grid max-w-2xl grid-cols-3 gap-4 border-y border-white/10 py-6 sm:mt-16 sm:gap-8">
           <div className="text-center">
             <p className="font-serif text-3xl text-white sm:text-4xl">
               {roundupCount}
@@ -146,7 +165,7 @@ export default function HomePage() {
         </div>
 
         {/* Trust pillars */}
-        <div className="animate-fade-up delay-400 mx-auto mt-10 grid max-w-3xl gap-3 text-left sm:grid-cols-3">
+        <div className="animate-fade-up delay-400 relative mx-auto mt-10 grid max-w-3xl gap-3 text-left sm:grid-cols-3">
           {TRUST_PILLARS.map((pillar) => (
             <div
               key={pillar.title}
