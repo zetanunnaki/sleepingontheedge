@@ -8,40 +8,38 @@ export const dynamic = "force-static";
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  const staticRoutes: MetadataRoute.Sitemap = [
-    { path: "", priority: 1 },
-    { path: "/best", priority: 0.9 },
-    { path: "/reviews", priority: 0.9 },
-    { path: "/guides", priority: 0.9 },
-    { path: "/tools", priority: 0.8 },
-    { path: "/tools/sleep-cycle-calculator", priority: 0.8 },
-    { path: "/tools/caffeine-cutoff-calculator", priority: 0.8 },
-    { path: "/resources", priority: 0.8 },
-    { path: "/compare", priority: 0.7 },
-    { path: "/terms", priority: 0.3 },
-    { path: "/tools/sleep-edge-quiz", priority: 0.8 },
-    { path: "/tags", priority: 0.6 },
-    { path: "/brands", priority: 0.6 },
-    { path: "/search", priority: 0.4 },
-    { path: "/glossary", priority: 0.7 },
-    { path: "/methodology", priority: 0.7 },
-    { path: "/about", priority: 0.5 },
-    { path: "/sitemap", priority: 0.3 },
-    { path: "/disclaimer", priority: 0.3 },
-    { path: "/privacy-policy", priority: 0.3 },
-  ].map(({ path, priority }) => ({
+  const staticPaths = [
+    "",
+    "/best",
+    "/reviews",
+    "/guides",
+    "/tools",
+    "/tools/sleep-cycle-calculator",
+    "/tools/caffeine-cutoff-calculator",
+    "/resources",
+    "/compare",
+    "/terms",
+    "/tools/sleep-edge-quiz",
+    "/tags",
+    "/brands",
+    // /search excluded — blocked in robots.txt
+    "/glossary",
+    "/methodology",
+    "/about",
+    "/sitemap",
+    "/disclaimer",
+    "/privacy-policy",
+  ];
+
+  const staticRoutes: MetadataRoute.Sitemap = staticPaths.map((path) => ({
     url: `${siteConfig.url}${path}`,
     lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority,
   }));
 
   const articleRoutes: MetadataRoute.Sitemap = getAllContentAcrossTypes().map(
     (item) => ({
       url: `${siteConfig.url}${item.url}`,
       lastModified: new Date(item.frontmatter.updated ?? item.frontmatter.date),
-      changeFrequency: "weekly",
-      priority: 0.8,
     }),
   );
 
@@ -57,8 +55,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     (slug) => ({
       url: `${siteConfig.url}/compare/${slug}`,
       lastModified: latestArticleDate,
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
     }),
   );
 
