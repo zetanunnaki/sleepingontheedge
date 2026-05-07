@@ -68,8 +68,6 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    site: "@sleepingontheedge",
-    creator: "@sleepingontheedge",
     title: `${siteConfig.name} — ${siteConfig.tagline}`,
     description: siteConfig.description,
     images: [`${siteConfig.url}/opengraph-image`],

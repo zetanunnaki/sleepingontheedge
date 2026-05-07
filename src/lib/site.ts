@@ -38,12 +38,9 @@ export const siteConfig = {
     },
   ],
   socials: {
-    twitter: "https://x.com/sleepingontheedge",
-    instagram: "https://instagram.com/sleepingontheedge",
     pinterest: "https://pinterest.com/sleepingontheedge",
-    youtube: "https://youtube.com/@sleepingontheedge",
-    tiktok: "https://tiktok.com/@sleepingontheedge",
     facebook: "https://facebook.com/sleepingontheedge",
+    instagram: "https://instagram.com/sleepingontheedge",
   },
 };
 

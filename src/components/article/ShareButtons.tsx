@@ -30,15 +30,6 @@ export function ShareButtons({ title, url }: ShareButtonsProps) {
         Share
       </span>
       <a
-        href={`https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex h-9 items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-3.5 text-xs font-bold text-slate-300 transition-all hover:border-indigo-500/40 hover:bg-indigo-500/10 hover:text-white"
-        aria-label="Share on X (Twitter)"
-      >
-        𝕏 Post
-      </a>
-      <a
         href={`https://www.reddit.com/submit?url=${encodedUrl}&title=${encodedTitle}`}
         target="_blank"
         rel="noopener noreferrer"

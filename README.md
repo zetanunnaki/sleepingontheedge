@@ -104,7 +104,7 @@ npm run build        # static export to ./out
 
 ## Deployment
 
-Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds with `GITHUB_PAGES=true` (sets the `/sleepstackhq` basePath) and publishes `out/` to GitHub Pages.
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which builds with `GITHUB_PAGES=true` and publishes `out/` to GitHub Pages.
 
 ## SEO
 

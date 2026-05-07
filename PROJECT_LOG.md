@@ -1,12 +1,12 @@
 # SleepingOnTheEdge — Project Log
 
-> **Rebranded from SleepStackHQ in Phase 17.** The project directory still says `SleepStackHQ` and the GitHub repo is still `zetanunnaki/sleepstackhq`, but the brand, domain, and all content now reference SleepingOnTheEdge / sleepingontheedge.com.
+> Fully rebranded to SleepingOnTheEdge / sleepingontheedge.com. Project directory and GitHub repo updated to match.
 
 > Comprehensive reference for everything built on this site, in the order it was built.
 > Use this file to remember what exists, why it exists, and how to extend it.
 
 **Live URL:** https://sleepingontheedge.com
-**Repo:** https://github.com/zetanunnaki/sleepstackhq
+**Repo:** https://github.com/zetanunnaki/sleepingontheedge
 **Hosted on:** Vercel (auto-deploys from `main` branch)
 **Stack:** Next.js 16 (App Router) · Tailwind v4 · MDX · TypeScript · static export
 
@@ -422,7 +422,7 @@ Pushing to `main` triggers Vercel auto-deploy. No workflow file needed — Verce
 - Tasks return immediately with a taskId. Poll record-info every 5s until `successFlag === 1`. Result image URLs expire after 14 days, so download immediately.
 
 ### Vercel
-- **Project:** sleepstackhq
+- **Project:** sleepingontheedge
 - **URL:** https://sleepingontheedge.com
 - **Framework preset:** Next.js (auto-detected)
 - **Build command:** `next build` (default)

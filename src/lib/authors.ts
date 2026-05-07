@@ -4,7 +4,6 @@ export interface Author {
   role: string;
   bio: string;
   credentials: string[];
-  twitter?: string;
 }
 
 const authorsData: Record<string, Author> = {
