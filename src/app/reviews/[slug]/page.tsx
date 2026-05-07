@@ -5,7 +5,12 @@ import { canonical } from "@/lib/site";
 import { ArticleLayout } from "@/components/article/ArticleLayout";
 import { RelatedArticles } from "@/components/article/RelatedArticles";
 import { MDXRenderer } from "@/components/mdx/MDXRenderer";
-import { JsonLd, reviewSchema, productSchema } from "@/components/seo/JsonLd";
+import {
+  JsonLd,
+  reviewSchema,
+  productSchema,
+  articleSchema,
+} from "@/components/seo/JsonLd";
 import { getProduct } from "@/lib/products";
 
 interface PageProps {
@@ -67,6 +72,7 @@ export default async function ReviewPage({ params }: PageProps) {
 
   return (
     <>
+      <JsonLd data={articleSchema(item)} />
       {review && <JsonLd data={review} />}
       {productLd && <JsonLd data={productLd} />}
       <ArticleLayout
