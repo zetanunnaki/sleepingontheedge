@@ -15,6 +15,7 @@ export function MDXRenderer({ source }: MDXRendererProps) {
         mdxOptions: {
           rehypePlugins: [rehypeSlug],
         },
+        blockJS: false,
       }}
     />
   );
