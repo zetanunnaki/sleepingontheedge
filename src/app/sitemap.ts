@@ -1,8 +1,6 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site";
-import { getAllContentAcrossTypes, getAllTags } from "@/lib/content";
-import { getAllAuthors } from "@/lib/authors";
-import { getAllBrands } from "@/lib/products";
+import { getAllContentAcrossTypes } from "@/lib/content";
 import { getAllComparisonSlugs } from "@/lib/comparisons";
 
 export const dynamic = "force-static";
@@ -41,37 +39,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const articleRoutes: MetadataRoute.Sitemap = getAllContentAcrossTypes().map(
     (item) => ({
       url: `${siteConfig.url}${item.url}`,
-      lastModified: new Date(item.frontmatter.date),
+      lastModified: new Date(item.frontmatter.updated ?? item.frontmatter.date),
       changeFrequency: "weekly",
       priority: 0.8,
     }),
   );
 
-  const tagRoutes: MetadataRoute.Sitemap = getAllTags().map((tag) => ({
-    url: `${siteConfig.url}/tags/${tag.slug}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.5,
-  }));
-
-  const authorRoutes: MetadataRoute.Sitemap = getAllAuthors().map((author) => ({
-    url: `${siteConfig.url}/authors/${author.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.4,
-  }));
-
-  const brandRoutes: MetadataRoute.Sitemap = getAllBrands().map((brand) => ({
-    url: `${siteConfig.url}/brands/${brand.slug}`,
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: 0.4,
-  }));
+  const latestArticleDate =
+    articleRoutes.length > 0
+      ? articleRoutes.reduce((latest, r) => {
+          const d = r.lastModified as Date;
+          return d > latest ? d : latest;
+        }, new Date(0))
+      : now;
 
   const compareRoutes: MetadataRoute.Sitemap = getAllComparisonSlugs().map(
     (slug) => ({
       url: `${siteConfig.url}/compare/${slug}`,
-      lastModified: now,
+      lastModified: latestArticleDate,
       changeFrequency: "monthly" as const,
       priority: 0.7,
     }),
@@ -80,9 +65,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticRoutes,
     ...articleRoutes,
-    ...tagRoutes,
-    ...authorRoutes,
-    ...brandRoutes,
     ...compareRoutes,
   ];
 }

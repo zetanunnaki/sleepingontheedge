@@ -21,8 +21,13 @@ export function DualBuyButton({
     );
   }
 
+  const showWalmart =
+    product.walmartLink &&
+    !product.walmartLink.includes("YOUR_ID") &&
+    product.walmartLink.startsWith("https://walmart.com");
+
   return (
-    <div className="not-prose my-6 grid gap-3 sm:grid-cols-2">
+    <div className={`not-prose my-6 grid gap-3 ${showWalmart ? "sm:grid-cols-2" : ""}`}>
       <TrackedAffiliateLink
         href={product.amazonLink}
         productId={productId}
@@ -35,18 +40,20 @@ export function DualBuyButton({
       >
         Check Price on Amazon <ExternalLink size={16} />
       </TrackedAffiliateLink>
-      <TrackedAffiliateLink
-        href={product.walmartLink}
-        productId={productId}
-        productName={product.name}
-        brand={product.brand}
-        price={product.price}
-        retailer="walmart"
-        location={location}
-        className="flex items-center justify-center gap-2 rounded-2xl bg-blue-600 px-5 py-4 text-center text-sm font-bold text-white shadow-lg shadow-blue-500/20 transition hover:scale-[1.02] hover:bg-blue-500"
-      >
-        Check Price on Walmart <ExternalLink size={16} />
-      </TrackedAffiliateLink>
+      {showWalmart && (
+        <TrackedAffiliateLink
+          href={product.walmartLink}
+          productId={productId}
+          productName={product.name}
+          brand={product.brand}
+          price={product.price}
+          retailer="walmart"
+          location={location}
+          className="flex items-center justify-center gap-2 rounded-2xl bg-blue-600 px-5 py-4 text-center text-sm font-bold text-white shadow-lg shadow-blue-500/20 transition hover:scale-[1.02] hover:bg-blue-500"
+        >
+          Check Price on Walmart <ExternalLink size={16} />
+        </TrackedAffiliateLink>
+      )}
     </div>
   );
 }

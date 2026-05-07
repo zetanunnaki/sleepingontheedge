@@ -1,0 +1,33 @@
+# SleepingOnTheEdge
+
+> Cutting-edge sleep science, honest product breakdowns, and the edge you need to actually sleep better. Independent, research-backed, no BS.
+
+SleepingOnTheEdge is an independent sleep optimization resource. We curate product recommendations from aggregated customer reviews across Amazon, Walmart, and sleep communities, and write research-backed guides on sleep science topics.
+
+## Content Types
+
+- **Roundups** (/best/): Curated product picks ranked by aggregated buyer reviews
+- **Reviews** (/reviews/): In-depth single-product breakdowns based on verified buyer feedback
+- **Guides** (/guides/): Research-backed articles on sleep science, habits, and optimization
+- **Tools** (/tools/): Free interactive calculators (sleep cycle, caffeine cutoff, sleep quiz)
+- **Comparisons** (/compare/): Head-to-head product matchups
+- **Glossary** (/glossary/): Plain-English definitions of sleep science terms
+
+## Key Topics
+
+Sleep optimization, circadian rhythm, sleep trackers, sound machines, weighted blankets, blue light blocking, mattresses, bedding, sleep supplements, sleep disorders, sleep hygiene, bedroom environment optimization
+
+## Product Coverage
+
+53 sleep products across categories: sleep tech, bedding, light management, sound machines, sleep trackers, mattresses, pillows, cooling systems, earplugs, and more.
+
+## Editorial Standards
+
+- Product picks based on aggregated customer reviews, not paid placement
+- Health/medical content includes disclaimers and cites peer-reviewed research
+- Affiliate-supported (Amazon Associates) — commissions never influence rankings
+- Sources include: Journal of Behavioral Medicine, Sports Medicine, Sleep, Advances in Preventive Medicine, American Academy of Sleep Medicine guidelines
+
+## Contact
+
+hello@sleepingontheedge.com

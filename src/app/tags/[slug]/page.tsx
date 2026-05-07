@@ -22,6 +22,7 @@ export async function generateMetadata({
     title: `${tag.name} — Sleep Articles & Research`,
     description: `Browse ${tag.count} research-backed articles about ${tag.name.toLowerCase()} on SleepingOnTheEdge — edge picks, lab reports, and protocols curated from published studies and verified reviews.`,
     alternates: { canonical: canonical(`/tags/${slug}`) },
+    robots: { index: false, follow: true },
   };
 }
 

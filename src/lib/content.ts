@@ -14,6 +14,7 @@ export interface Frontmatter {
   featuredImage?: string;
   productIds?: string[];
   tags?: string[];
+  rating?: string;
 }
 
 export interface TocHeading {

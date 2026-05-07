@@ -160,6 +160,12 @@ export function reviewSchema(item: ContentItem, productId: string) {
       name: siteConfig.name,
       url: siteConfig.url,
     },
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: item.frontmatter.rating ?? "4",
+      bestRating: "5",
+      worstRating: "1",
+    },
     name: item.frontmatter.title,
     description: item.frontmatter.description,
   };

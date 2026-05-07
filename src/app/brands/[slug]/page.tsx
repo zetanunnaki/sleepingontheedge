@@ -25,6 +25,7 @@ export async function generateMetadata({
     title: brand.name,
     description: `Every ${brand.name} sleep product tested and reviewed on SleepingOnTheEdge.`,
     alternates: { canonical: canonical("/brands/" + slug) },
+    robots: { index: false, follow: true },
   };
 }
 
