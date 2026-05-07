@@ -679,21 +679,21 @@
       "Doesn't work with hard tap water — distilled recommended"
     ]
   },
-  "conair-true-glow-sunrise": {
-    "name": "Conair True Glow Sunrise Alarm Clock",
-    "brand": "Conair",
-    "price": "$44.99",
-    "image": "/images/products/conair-sunrise.webp",
-    "amazonLink": "https://amazon.com/dp/B000OCK9S2?tag=sleepingontheedge-20",
-    "walmartLink": "https://walmart.com/ip/YOUR_ID54?irgwc=1",
+  "jall-sunrise-alarm": {
+    "name": "JALL Wake Up Light Sunrise Alarm Clock",
+    "brand": "JALL",
+    "price": "$34.99",
+    "image": "/images/products/jall-sunrise.webp",
+    "amazonLink": "https://amazon.com/dp/B0BJPYVMLJ?tag=sleepingontheedge-20",
+    "walmartLink": "",
     "pros": [
-      "30-minute gradual sunrise simulation at a budget price",
-      "Five wake-up sounds plus FM radio",
-      "Doubles as a bedside lamp with 20 brightness levels"
+      "Full-screen LED panel with 20 brightness levels rivals lights costing 2-3x more",
+      "Adjustable 10-to-60-minute sunrise simulation with dual alarm presets",
+      "25 built-in sounds plus Bluetooth speaker and FM radio"
     ],
     "cons": [
-      "Less polished build than the Philips SmartSleep",
-      "Display can be slightly bright at lowest setting"
+      "12 side buttons and many settings create a learning curve",
+      "No smartphone app or voice assistant integration"
     ]
   },
   "vornado-660-fan": {
