@@ -6,7 +6,7 @@ import { canonical, siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description:
-    "The terms under which you use SleepingOnTheEdge. We are an affiliate content site — here's what that means for how you use our content and links.",
+    "The terms under which you use SleepingOnTheEdge — what it means for how you use our content and links.",
   alternates: { canonical: canonical("/terms") },
 };
 
