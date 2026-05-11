@@ -105,10 +105,6 @@ export function ArticleLayout({
 
       <TableOfContents items={item.toc} />
 
-      {(item.type === "reviews" || item.type === "roundups") && (
-        <AffiliateDisclaimer />
-      )}
-
       <div
         className="animate-fade-up delay-150 prose prose-invert prose-base mt-10 max-w-none sm:prose-lg sm:mt-12
           prose-headings:font-serif prose-headings:font-normal prose-headings:text-white
@@ -127,6 +123,9 @@ export function ArticleLayout({
 
       <ShareButtons title={frontmatter.title} url={item.url} />
 
+      {(item.type === "reviews" || item.type === "roundups") && (
+        <AffiliateDisclaimer />
+      )}
 
       <ScrollToTop />
     </article>
