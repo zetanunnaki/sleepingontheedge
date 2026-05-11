@@ -200,7 +200,7 @@ export const COMPARISONS: ComparisonDetail[] = [
     tagline:
       "Dohm is a real fan (never loops). LectroFan is electronic with 22 sound options. Choose natural texture or variety.",
     intro:
-      "Both lead aggregated sound machine reviews, but they represent two fundamentally different approaches to masking noise. The **Yogasleep Dohm** is a mechanical device: a real fan inside an acoustic housing that generates broadband white noise by physically moving air. Because there's no audio loop, the sound is genuinely continuous and never repeats. The **LectroFan EVO** is an electronic device that generates (not plays back) 22 different sounds — 10 fan-type, 10 nature, plus ocean and rain — with precise volume control and a sleep timer. Tinnitus sufferers and purists prefer the Dohm; variety-seekers and severe-noise maskers prefer the EVO.",
+      "Both lead sound machine reviews, but they represent two fundamentally different approaches to masking noise. The **Yogasleep Dohm** is a mechanical device: a real fan inside an acoustic housing that generates broadband white noise by physically moving air. Because there's no audio loop, the sound is genuinely continuous and never repeats. The **LectroFan EVO** is an electronic device that generates (not plays back) 22 different sounds — 10 fan-type, 10 nature, plus ocean and rain — with precise volume control and a sleep timer. Tinnitus sufferers and purists prefer the Dohm; variety-seekers and severe-noise maskers prefer the EVO.",
     roundupHref: "/best/best-sound-machines",
     roundupTitle: "Best sound machines",
     chooseA: [
@@ -428,7 +428,7 @@ export const COMPARISONS: ComparisonDetail[] = [
     tagline:
       "Swannies are the designer pick — comfortable and stylish. Uvex Skyper are safety-glass ugly but cost under $12 with a near-identical amber lens. Choose aesthetics or budget.",
     intro:
-      "These are the two most-recommended blue light blocking glasses in aggregated reviews — and they're at opposite ends of the price and design spectrum. **Swannies** are designed to look like everyday glasses you'd actually wear in front of guests: clean frames, comfortable temples, multiple style options. **Uvex Skyper** are industrial safety glasses that happen to have an amber lens with the same blue-blocking spectrum as much more expensive alternatives. The lens science is essentially identical; the difference is whether you care about looking weird in your own house at 10 PM.",
+      "These are the two most-recommended blue light blocking glasses in verified buyer reviews — and they're at opposite ends of the price and design spectrum. **Swannies** are designed to look like everyday glasses you'd actually wear in front of guests: clean frames, comfortable temples, multiple style options. **Uvex Skyper** are industrial safety glasses that happen to have an amber lens with the same blue-blocking spectrum as much more expensive alternatives. The lens science is essentially identical; the difference is whether you care about looking weird in your own house at 10 PM.",
     roundupHref: "/best/best-blue-light-blocking-glasses",
     roundupTitle: "Best blue light blocking glasses",
     chooseA: [
@@ -803,7 +803,7 @@ export const COMPARISONS: ComparisonDetail[] = [
     tagline:
       "Loop Quiet is reusable silicone — flush fit for side sleepers, 24 dB NRR. Mack's Slim Fit is disposable foam with 29 dB NRR — more sound blocking but less comfortable long-term.",
     intro:
-      "These are the two most-recommended sleep earplugs in aggregated reviews, and they target opposite priorities. **Loop Quiet 2** is a reusable silicone earplug with a flush fit that doesn't protrude from the ear — critical for side sleepers pressing their ear against a pillow. The trade-off is lower noise reduction (24 dB NRR) compared to foam alternatives. **Mack's Slim Fit** is a disposable foam earplug with 29 dB NRR — the highest attenuation in the consumer category. The trade-off is comfort: foam plugs stick out of the ear and become uncomfortable for side sleepers over a full night.",
+      "These are the two most-recommended sleep earplugs in verified buyer reviews, and they target opposite priorities. **Loop Quiet 2** is a reusable silicone earplug with a flush fit that doesn't protrude from the ear — critical for side sleepers pressing their ear against a pillow. The trade-off is lower noise reduction (24 dB NRR) compared to foam alternatives. **Mack's Slim Fit** is a disposable foam earplug with 29 dB NRR — the highest attenuation in the consumer category. The trade-off is comfort: foam plugs stick out of the ear and become uncomfortable for side sleepers over a full night.",
     roundupHref: "/best/best-earplugs-for-sleeping",
     roundupTitle: "Best earplugs for sleeping",
     chooseA: [

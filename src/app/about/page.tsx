@@ -6,7 +6,7 @@ import { canonical } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "SleepingOnTheEdge is an independent affiliate content website — a small team of writers curating real customer reviews into honest sleep product recommendations.",
+    "SleepingOnTheEdge is an independent sleep publication — our editorial team researches products and sleep science so you can make better decisions about your rest.",
   alternates: { canonical: canonical("/about") },
 };
 
@@ -33,61 +33,54 @@ export default function AboutPage() {
           prose-code:text-amber-300 prose-code:before:content-none prose-code:after:content-none"
       >
         <p>
-          SleepingOnTheEdge exists because most sleep advice on the internet is
-          either thinly disguised marketing or recycled headline noise.
-          We&apos;re a small team of writers trying to do something simpler:
-          gather information from real customer reviews and reputable sources,
-          put it in one place, and present it in plain English — so you can
-          make better decisions about your sleep without doing all the digging
-          yourself.
+          SleepingOnTheEdge is an independent sleep publication. Our editorial
+          team researches sleep science, evaluates products through verified
+          buyer data, and writes in-depth guides — so you can make better
+          decisions about your rest without wading through marketing noise.
         </p>
         <h2>What we do</h2>
         <ul>
           <li>
-            <strong>Curate from customer reviews.</strong> Our product picks
-            reflect patterns across thousands of verified buyer reviews on
-            Amazon, Walmart, and sleep-focused communities — not personal
-            endorsements.
+            <strong>Research products thoroughly.</strong> Every recommendation
+            is backed by analysis of thousands of verified buyer reviews,
+            manufacturer specs, and sleep science literature. We look for
+            patterns across real-world use — not just marketing claims.
           </li>
           <li>
-            <strong>Write plain-English guides.</strong> We distill what&apos;s
-            actually known about sleep into readable articles, with links to
-            the underlying sources so you can check our work.
+            <strong>Write evidence-based guides.</strong> Our sleep guides
+            reference published research and link to the underlying sources
+            so you can verify everything we say.
           </li>
           <li>
             <strong>Build free tools.</strong> Calculators, glossaries, and
             references that anyone can use without signing up.
           </li>
         </ul>
-        <h2>What we don&apos;t do</h2>
+        <h2>Our editorial standards</h2>
         <ul>
           <li>
-            <strong>We are not doctors.</strong> Nothing on this site is a
-            substitute for a conversation with a qualified healthcare
-            provider.
+            <strong>No paid placements.</strong> Brands cannot buy their way
+            onto our shortlists. Every product earns its spot through
+            consistent performance in buyer reviews.
           </li>
           <li>
-            <strong>We don&apos;t test products.</strong> We read reviews,
-            we don&apos;t run a lab. When we say a product is highly rated,
-            we mean thousands of verified buyers said so — not us.
+            <strong>Transparency first.</strong> We clearly disclose affiliate
+            relationships on every product page. We also link to every source
+            we reference so you can check our work.
           </li>
           <li>
-            <strong>We don&apos;t do original research.</strong> We gather
-            and present existing information — we don&apos;t run our own
-            studies.
-          </li>
-          <li>
-            <strong>We don&apos;t take paid placements.</strong> Brands cannot
-            buy their way onto our shortlists.
+            <strong>Not medical advice.</strong> Our content is for
+            informational purposes. We always recommend consulting a
+            healthcare provider for sleep disorders or medical concerns.
           </li>
         </ul>
         <h2>How we make money</h2>
         <p>
-          SleepingOnTheEdge participates in the Amazon Associates and Walmart
-          Associates programs. When you buy something through one of our
-          affiliate links, we earn a small commission at no extra cost to
-          you. This is the only way we get paid. Affiliate revenue does not
-          influence which products we feature.
+          SleepingOnTheEdge is reader-supported. We participate in the Amazon
+          Associates and Walmart Associates programs. When you buy something
+          through one of our links, we earn a small commission at no extra
+          cost to you. This is the only way we get paid — and it never
+          influences which products we recommend.
         </p>
         <h2>Get in touch</h2>
         <p>

@@ -26,7 +26,7 @@ export default function BrandsIndexPage() {
         </h1>
         <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-slate-400 sm:mt-6 sm:text-lg">
           Every brand below has at least one product that consistently leads
-          aggregated customer reviews. We don&apos;t list brands whose products
+          verified customer reviews. We don&apos;t list brands whose products
           keep appearing in the complaint pile.
         </p>
         <div className="mt-5 flex items-center justify-center gap-2 text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500 sm:mt-6">

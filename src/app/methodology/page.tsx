@@ -21,8 +21,8 @@ export const metadata: Metadata = {
 const PILLARS = [
   {
     icon: Users,
-    title: "We curate from customer reviews",
-    body: "Our product picks are based on aggregated buyer feedback from Amazon, Walmart, manufacturer sites, and sleep-focused communities. We read thousands of reviews so you don't have to — and surface the patterns that keep showing up across real owners.",
+    title: "We research from verified buyer reviews",
+    body: "Our product picks are based on extensive analysis of verified buyer feedback from Amazon, Walmart, manufacturer sites, and sleep-focused communities. We read thousands of reviews so you don't have to — and surface the patterns that keep showing up across real owners.",
   },
   {
     icon: Library,

@@ -10,7 +10,7 @@ import { COMPARISONS } from "@/lib/comparisons";
 export const metadata: Metadata = {
   title: "Compare Products",
   description:
-    "Head-to-head comparisons of the top sleep products — based on aggregated reviews, specs, and who each one is actually built for.",
+    "Head-to-head comparisons of the top sleep products — based on verified reviews, specs, and who each one is actually built for.",
   alternates: { canonical: canonical("/compare") },
 };
 
@@ -58,7 +58,7 @@ export default function ComparePage() {
           Product <span className="italic text-indigo-300">comparisons.</span>
         </h1>
         <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-slate-400 sm:mt-6 sm:text-lg">
-          The questions people search most — answered with aggregated data, not
+          The questions people search most — answered with real-world data, not
           opinions. Each comparison has a full head-to-head breakdown.
         </p>
         <div className="mt-5 flex items-center justify-center gap-2 text-[10px] font-bold uppercase tracking-[0.15em] text-slate-500 sm:mt-6">

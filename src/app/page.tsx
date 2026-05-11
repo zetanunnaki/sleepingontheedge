@@ -338,8 +338,8 @@ export default function HomePage() {
               Top sleep <span className="italic text-indigo-300">picks.</span>
             </h2>
             <p className="mt-4 max-w-2xl text-sm leading-relaxed text-slate-400 sm:text-base">
-              Highly-rated sleep products curated from aggregated buyer
-              reviews. Click through to Amazon or Walmart.
+              Highly-rated sleep products based on verified buyer reviews
+              and editorial research. Click through to Amazon or Walmart.
             </p>
           </div>
           <Link

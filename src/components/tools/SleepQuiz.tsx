@@ -116,7 +116,7 @@ function getRecommendations(answers: Partial<Record<QuestionId, string>>): Recom
   if (answers.morningGrogginess === "hard") {
     recs.push({
       title: "Try a sunrise alarm",
-      body: "Gradual light wake-ups consistently outperform buzzer alarms in aggregated reviews — especially in winter or for heavy sleepers.",
+      body: "Gradual light wake-ups consistently outperform buzzer alarms in buyer reviews — especially in winter or for heavy sleepers.",
       href: "/reviews/hatch-restore-2-review",
       ctaLabel: "Read the Hatch review",
     });

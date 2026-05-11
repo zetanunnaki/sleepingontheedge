@@ -11,10 +11,10 @@ const authorsData: Record<string, Author> = {
     slug: "sleep-team",
     name: "Sleep Team",
     role: "Editorial",
-    bio: "SleepingOnTheEdge is written by a small team of writers who curate sleep product recommendations based on aggregated customer reviews from Amazon, Walmart, and sleep communities — then put what real buyers are saying in plain English. We are writers, not clinicians. We do not test products and we do not conduct research.",
+    bio: "SleepingOnTheEdge is an independent sleep publication. Our editorial team researches sleep products by analyzing thousands of verified buyer reviews from Amazon, Walmart, and sleep communities — then puts what real owners are saying in plain English.",
     credentials: [
-      "Independent writer team — no paid placement",
-      "Product picks based on aggregated customer reviews",
+      "Independent editorial team — no paid placement",
+      "Recommendations based on verified buyer reviews and sleep science",
       "Not medical advice — always consult a qualified provider",
     ],
   },

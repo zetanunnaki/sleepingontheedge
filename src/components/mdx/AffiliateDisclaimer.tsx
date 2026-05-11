@@ -14,9 +14,10 @@ export function AffiliateDisclaimer() {
         SleepingOnTheEdge is reader-supported. As an Amazon Associate we
         earn from qualifying purchases. Some links in this article are
         affiliate links — if you click and buy we may receive a small
-        commission at no extra cost to you. We are writers, not clinicians
-        or testers. Our product picks are based on aggregated customer
-        reviews, not paid placement. This article is not medical advice.
+        commission at no extra cost to you. Our recommendations are based
+        on extensive research across verified buyer reviews, sleep science
+        literature, and editorial judgment — never paid placement. This
+        article is for informational purposes and is not medical advice.
       </p>
     </aside>
   );

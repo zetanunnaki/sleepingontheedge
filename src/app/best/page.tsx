@@ -6,7 +6,7 @@ import { canonical } from "@/lib/site";
 export const metadata: Metadata = {
   title: "The Edge",
   description:
-    "Cutting-edge gear roundups for every side of sleep — supplements, hardware, bedding, and environment. The sharpest picks, based on aggregated buyer reviews.",
+    "Cutting-edge gear roundups for every side of sleep — supplements, hardware, bedding, and environment. The sharpest picks, based on verified buyer reviews and editorial research.",
   alternates: { canonical: canonical("/best") },
 };
 

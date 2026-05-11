@@ -57,14 +57,13 @@ export default function DisclaimerPage() {
         <h2>We are writers, not testers or clinicians</h2>
         <p>
           SleepingOnTheEdge is an independent affiliate website operated by a
-          small team of <strong>writers</strong>. We are not doctors, nurses,
-          sleep coaches, clinicians, or licensed medical professionals of any
-          kind. We do not operate a lab. We do not test products ourselves.
-          We do not conduct original research.
+          small team of <strong>writers and researchers</strong>. We are not
+          doctors, nurses, sleep coaches, clinicians, or licensed medical
+          professionals of any kind.
         </p>
         <p>
-          Everything on this site is written by curating publicly available
-          information — primarily aggregated customer reviews from Amazon,
+          Everything on this site is written by researching publicly available
+          information — primarily verified customer reviews from Amazon,
           Walmart, and manufacturer sites, supplemented by publicly
           available clinical references where relevant. When we say a product
           is &quot;highly rated&quot; or &quot;best for&quot; a use case, we
@@ -104,8 +103,8 @@ export default function DisclaimerPage() {
           purchases. When you click a link on this site and purchase a
           product, we may receive a commission at no additional cost to
           you. These affiliate relationships do not influence our
-          recommendations, which are based on aggregated customer review
-          patterns and not on commission rates.
+          recommendations, which are based on verified customer review
+          patterns and editorial judgment — not on commission rates.
         </p>
 
         <h2>External links</h2>

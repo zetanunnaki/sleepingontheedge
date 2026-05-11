@@ -10,6 +10,7 @@ import { CoverFallback } from "./CoverFallback";
 import { ReadingProgress } from "./ReadingProgress";
 import { ShareButtons } from "./ShareButtons";
 import { ScrollToTop } from "./ScrollToTop";
+import { AffiliateDisclaimer } from "../mdx/AffiliateDisclaimer";
 import { getAuthor } from "@/lib/authors";
 
 interface ArticleLayoutProps {
@@ -103,6 +104,10 @@ export function ArticleLayout({
       </div>
 
       <TableOfContents items={item.toc} />
+
+      {(item.type === "reviews" || item.type === "roundups") && (
+        <AffiliateDisclaimer />
+      )}
 
       <div
         className="animate-fade-up delay-150 prose prose-invert prose-base mt-10 max-w-none sm:prose-lg sm:mt-12
