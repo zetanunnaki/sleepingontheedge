@@ -6,7 +6,7 @@ import { canonical } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Lab Reports",
   description:
-    "Aggregated product reviews based on thousands of verified buyer reports and published specs — no paid placement.",
+    "Detailed product reviews based on thousands of verified buyer reports and published specs — no paid placement.",
   alternates: { canonical: canonical("/reviews") },
 };
 
@@ -20,7 +20,7 @@ export default function LabReportsIndexPage() {
           Lab <span className="italic text-indigo-300">reports.</span>
         </>
       }
-      description="Aggregated product reviews based on thousands of verified buyer reports and published specs — no paid placement."
+      description="Detailed product reviews based on thousands of verified buyer reports and published specs — no paid placement."
       items={items}
       featuredEyebrow="Lab Report"
     />

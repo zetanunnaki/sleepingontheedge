@@ -26,6 +26,7 @@ export async function generateMetadata({
     title: author.name,
     description: `Articles and credentials for ${author.name} on SleepingOnTheEdge.`,
     alternates: { canonical: canonical("/authors/" + slug) },
+    robots: { index: false, follow: true },
   };
 }
 

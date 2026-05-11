@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description:
     "Every sleep brand we've curated from customer reviews on SleepingOnTheEdge.",
   alternates: { canonical: canonical("/brands") },
+  robots: { index: false, follow: true },
 };
 
 export default function BrandsIndexPage() {

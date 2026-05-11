@@ -114,7 +114,7 @@ export default function MethodologyPage() {
               of Sleep Medicine, NIH, and equivalent bodies.
             </li>
             <li>
-              <strong>Aggregated verified-buyer reviews</strong> from major
+              <strong>Verified buyer reviews</strong> from major
               retailers, manufacturer sites, and active sleep-focused
               communities (e.g. r/Biohackers, r/Sleep).
             </li>

@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   description:
     "Browse every article on SleepingOnTheEdge by topic — from circadian science and supplements to sleep tech and environment optimization.",
   alternates: { canonical: canonical("/tags") },
+  robots: { index: false, follow: true },
 };
 
 export default function TagsIndexPage() {

@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   description:
     "Every page on SleepingOnTheEdge — articles, tools, brands, tags, and references.",
   alternates: { canonical: canonical("/sitemap") },
+  robots: { index: false, follow: true },
 };
 
 interface SectionProps {

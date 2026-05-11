@@ -17,7 +17,7 @@
 These rules apply to ALL content. They were set by the user to reduce legal/YMYL risk:
 
 - **Never claim "we tested" / "we tried" / "we used for X nights"** — the site does not test products
-- Frame product picks as **"based on aggregated buyer reviews"** or **"consistently top-rated in verified reviews"**
+- Frame product picks as **"based on verified buyer reviews"** or **"consistently top-rated in verified reviews"**
 - Frame health claims around what published research **"suggests"** or what **"may"** be true — soften with "for many people"
 - Always include `<MedicalDisclaimer />` on health/supplement/sleep-disorder content
 - Never describe the team as "researchers" or say "we research" — use "gather," "curate," "present," "summarize"

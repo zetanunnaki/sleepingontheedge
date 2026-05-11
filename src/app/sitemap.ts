@@ -16,17 +16,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/tools",
     "/tools/sleep-cycle-calculator",
     "/tools/caffeine-cutoff-calculator",
-    "/resources",
     "/compare",
     "/terms",
     "/tools/sleep-edge-quiz",
-    "/tags",
-    "/brands",
     // /search excluded — blocked in robots.txt
+    // /tags, /brands, /sitemap, /resources excluded — noindexed navigational pages
     "/glossary",
     "/methodology",
     "/about",
-    "/sitemap",
     "/disclaimer",
     "/privacy-policy",
   ];

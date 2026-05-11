@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   description:
     "Every tool, guide, glossary term, and reference on SleepingOnTheEdge — organized by what you're trying to accomplish.",
   alternates: { canonical: canonical("/resources") },
+  robots: { index: false, follow: true },
 };
 
 interface ResourceCardProps {
@@ -151,7 +152,7 @@ export default function ResourcesPage() {
             <ResourceCard
               icon={FileText}
               title="Lab Reports"
-              description="Aggregated product reviews based on buyer feedback."
+              description="Detailed product reviews based on verified buyer feedback."
               href="/reviews"
               count={reviewsCount}
             />
